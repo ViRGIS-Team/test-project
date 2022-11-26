@@ -1,0 +1,2762 @@
+{
+  "build": "h7fe4343_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "blosc >=1.21.1,<2.0a0",
+    "cfitsio >=4.1.0,<4.1.1.0a0",
+    "expat >=2.5.0,<3.0a0",
+    "freexl >=1.0.6,<2.0a0",
+    "geos >=3.11.1,<3.11.2.0a0",
+    "geotiff >=1.7.1,<1.8.0a0",
+    "hdf4 >=4.2.15,<4.2.16.0a0",
+    "hdf5 >=1.12.2,<1.12.3.0a0",
+    "icu >=70.1,<71.0a0",
+    "jpeg >=9e,<10a",
+    "kealib >=1.4.15,<1.5.0a0",
+    "libkml >=1.3.0,<1.4.0a0",
+    "libnetcdf >=4.8.1,<4.8.2.0a0",
+    "libpng >=1.6.38,<1.7.0a0",
+    "libpq >=14.5,<15.0a0",
+    "libspatialite >=5.0.1,<5.1.0a0",
+    "libsqlite >=3.39.4,<4.0a0",
+    "libtiff >=4.4.0,<5.0a0",
+    "libwebp-base >=1.2.4,<2.0a0",
+    "libxml2 >=2.10.3,<2.11.0a0",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "openjpeg >=2.5.0,<3.0a0",
+    "openssl >=3.0.7,<4.0a0",
+    "pcre >=8.45,<9.0a0",
+    "poppler >=22.11.0,<22.12.0a0",
+    "postgresql",
+    "proj >=9.1.0,<9.1.1.0a0",
+    "tiledb >=2.11.3,<2.12.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vs2015_runtime >=14.29.30139",
+    "xerces-c >=3.2.4,<3.3.0a0",
+    "xz >=5.2.6,<6.0a0",
+    "zstd >=1.5.2,<1.6.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\runes\\anaconda3\\pkgs\\libgdal-3.6.0-h7fe4343_2",
+  "features": "",
+  "files": [
+    "Library/bin/gdal-config",
+    "Library/bin/gdal.dll",
+    "Library/bin/gdal_contour.exe",
+    "Library/bin/gdal_create.exe",
+    "Library/bin/gdal_grid.exe",
+    "Library/bin/gdal_rasterize.exe",
+    "Library/bin/gdal_translate.exe",
+    "Library/bin/gdal_viewshed.exe",
+    "Library/bin/gdaladdo.exe",
+    "Library/bin/gdalbuildvrt.exe",
+    "Library/bin/gdaldem.exe",
+    "Library/bin/gdalenhance.exe",
+    "Library/bin/gdalinfo.exe",
+    "Library/bin/gdallocationinfo.exe",
+    "Library/bin/gdalmanage.exe",
+    "Library/bin/gdalmdiminfo.exe",
+    "Library/bin/gdalmdimtranslate.exe",
+    "Library/bin/gdalsrsinfo.exe",
+    "Library/bin/gdaltindex.exe",
+    "Library/bin/gdaltransform.exe",
+    "Library/bin/gdalwarp.exe",
+    "Library/bin/gnmanalyse.exe",
+    "Library/bin/gnmmanage.exe",
+    "Library/bin/nearblack.exe",
+    "Library/bin/ogr2ogr.exe",
+    "Library/bin/ogrinfo.exe",
+    "Library/bin/ogrlineref.exe",
+    "Library/bin/ogrtindex.exe",
+    "Library/include/cpl_atomic_ops.h",
+    "Library/include/cpl_auto_close.h",
+    "Library/include/cpl_compressor.h",
+    "Library/include/cpl_config.h",
+    "Library/include/cpl_config_extras.h",
+    "Library/include/cpl_conv.h",
+    "Library/include/cpl_csv.h",
+    "Library/include/cpl_error.h",
+    "Library/include/cpl_hash_set.h",
+    "Library/include/cpl_http.h",
+    "Library/include/cpl_json.h",
+    "Library/include/cpl_list.h",
+    "Library/include/cpl_minixml.h",
+    "Library/include/cpl_minizip_ioapi.h",
+    "Library/include/cpl_minizip_unzip.h",
+    "Library/include/cpl_minizip_zip.h",
+    "Library/include/cpl_multiproc.h",
+    "Library/include/cpl_odbc.h",
+    "Library/include/cpl_port.h",
+    "Library/include/cpl_progress.h",
+    "Library/include/cpl_quad_tree.h",
+    "Library/include/cpl_spawn.h",
+    "Library/include/cpl_string.h",
+    "Library/include/cpl_time.h",
+    "Library/include/cpl_virtualmem.h",
+    "Library/include/cpl_vsi.h",
+    "Library/include/cpl_vsi_error.h",
+    "Library/include/cpl_vsi_virtual.h",
+    "Library/include/cplkeywordparser.h",
+    "Library/include/gdal.h",
+    "Library/include/gdal_alg.h",
+    "Library/include/gdal_alg_priv.h",
+    "Library/include/gdal_csv.h",
+    "Library/include/gdal_frmts.h",
+    "Library/include/gdal_mdreader.h",
+    "Library/include/gdal_pam.h",
+    "Library/include/gdal_priv.h",
+    "Library/include/gdal_proxy.h",
+    "Library/include/gdal_rat.h",
+    "Library/include/gdal_simplesurf.h",
+    "Library/include/gdal_utils.h",
+    "Library/include/gdal_version.h",
+    "Library/include/gdal_vrt.h",
+    "Library/include/gdalcachedpixelaccessor.h",
+    "Library/include/gdalgeorefpamdataset.h",
+    "Library/include/gdalgrid.h",
+    "Library/include/gdalgrid_priv.h",
+    "Library/include/gdaljp2abstractdataset.h",
+    "Library/include/gdaljp2metadata.h",
+    "Library/include/gdalpansharpen.h",
+    "Library/include/gdalwarper.h",
+    "Library/include/gnm.h",
+    "Library/include/gnm_api.h",
+    "Library/include/gnmgraph.h",
+    "Library/include/memdataset.h",
+    "Library/include/ogr_api.h",
+    "Library/include/ogr_core.h",
+    "Library/include/ogr_feature.h",
+    "Library/include/ogr_featurestyle.h",
+    "Library/include/ogr_geocoding.h",
+    "Library/include/ogr_geometry.h",
+    "Library/include/ogr_p.h",
+    "Library/include/ogr_recordbatch.h",
+    "Library/include/ogr_spatialref.h",
+    "Library/include/ogr_srs_api.h",
+    "Library/include/ogr_swq.h",
+    "Library/include/ogrsf_frmts.h",
+    "Library/include/rawdataset.h",
+    "Library/include/vrtdataset.h",
+    "Library/lib/cmake/gdal/GDAL-targets-release.cmake",
+    "Library/lib/cmake/gdal/GDAL-targets.cmake",
+    "Library/lib/cmake/gdal/GDALConfig.cmake",
+    "Library/lib/cmake/gdal/GDALConfigVersion.cmake",
+    "Library/lib/gdal.lib",
+    "Library/lib/gdalplugins/drivers.ini",
+    "Library/lib/pkgconfig/gdal.pc",
+    "Library/share/bash-completion/completions/gdal-config",
+    "Library/share/bash-completion/completions/gdal2tiles.py",
+    "Library/share/bash-completion/completions/gdal2xyz.py",
+    "Library/share/bash-completion/completions/gdal_calc.py",
+    "Library/share/bash-completion/completions/gdal_contour",
+    "Library/share/bash-completion/completions/gdal_create",
+    "Library/share/bash-completion/completions/gdal_edit.py",
+    "Library/share/bash-completion/completions/gdal_fillnodata.py",
+    "Library/share/bash-completion/completions/gdal_grid",
+    "Library/share/bash-completion/completions/gdal_merge.py",
+    "Library/share/bash-completion/completions/gdal_polygonize.py",
+    "Library/share/bash-completion/completions/gdal_proximity.py",
+    "Library/share/bash-completion/completions/gdal_rasterize",
+    "Library/share/bash-completion/completions/gdal_retile.py",
+    "Library/share/bash-completion/completions/gdal_sieve.py",
+    "Library/share/bash-completion/completions/gdal_translate",
+    "Library/share/bash-completion/completions/gdal_viewshed",
+    "Library/share/bash-completion/completions/gdaladdo",
+    "Library/share/bash-completion/completions/gdalbuildvrt",
+    "Library/share/bash-completion/completions/gdalchksum.py",
+    "Library/share/bash-completion/completions/gdalcompare.py",
+    "Library/share/bash-completion/completions/gdaldem",
+    "Library/share/bash-completion/completions/gdalenhance",
+    "Library/share/bash-completion/completions/gdalident.py",
+    "Library/share/bash-completion/completions/gdalimport.py",
+    "Library/share/bash-completion/completions/gdalinfo",
+    "Library/share/bash-completion/completions/gdallocationinfo",
+    "Library/share/bash-completion/completions/gdalmanage",
+    "Library/share/bash-completion/completions/gdalmove.py",
+    "Library/share/bash-completion/completions/gdalsrsinfo",
+    "Library/share/bash-completion/completions/gdaltindex",
+    "Library/share/bash-completion/completions/gdaltransform",
+    "Library/share/bash-completion/completions/gdalwarp",
+    "Library/share/bash-completion/completions/ogr2ogr",
+    "Library/share/bash-completion/completions/ogrinfo",
+    "Library/share/bash-completion/completions/ogrlineref",
+    "Library/share/bash-completion/completions/ogrmerge.py",
+    "Library/share/bash-completion/completions/ogrtindex",
+    "Library/share/gdal/GDALLogoBW.svg",
+    "Library/share/gdal/GDALLogoColor.svg",
+    "Library/share/gdal/GDALLogoGS.svg",
+    "Library/share/gdal/LICENSE.TXT",
+    "Library/share/gdal/bag_template.xml",
+    "Library/share/gdal/cubewerx_extra.wkt",
+    "Library/share/gdal/default.rsc",
+    "Library/share/gdal/ecw_cs.wkt",
+    "Library/share/gdal/eedaconf.json",
+    "Library/share/gdal/epsg.wkt",
+    "Library/share/gdal/esri_StatePlane_extra.wkt",
+    "Library/share/gdal/gdalicon.png",
+    "Library/share/gdal/gdalmdiminfo_output.schema.json",
+    "Library/share/gdal/gdalvrt.xsd",
+    "Library/share/gdal/gml_registry.xml",
+    "Library/share/gdal/gmlasconf.xml",
+    "Library/share/gdal/gmlasconf.xsd",
+    "Library/share/gdal/grib2_center.csv",
+    "Library/share/gdal/grib2_process.csv",
+    "Library/share/gdal/grib2_subcenter.csv",
+    "Library/share/gdal/grib2_table_4_2_0_0.csv",
+    "Library/share/gdal/grib2_table_4_2_0_1.csv",
+    "Library/share/gdal/grib2_table_4_2_0_13.csv",
+    "Library/share/gdal/grib2_table_4_2_0_14.csv",
+    "Library/share/gdal/grib2_table_4_2_0_15.csv",
+    "Library/share/gdal/grib2_table_4_2_0_16.csv",
+    "Library/share/gdal/grib2_table_4_2_0_17.csv",
+    "Library/share/gdal/grib2_table_4_2_0_18.csv",
+    "Library/share/gdal/grib2_table_4_2_0_19.csv",
+    "Library/share/gdal/grib2_table_4_2_0_190.csv",
+    "Library/share/gdal/grib2_table_4_2_0_191.csv",
+    "Library/share/gdal/grib2_table_4_2_0_2.csv",
+    "Library/share/gdal/grib2_table_4_2_0_20.csv",
+    "Library/share/gdal/grib2_table_4_2_0_3.csv",
+    "Library/share/gdal/grib2_table_4_2_0_4.csv",
+    "Library/share/gdal/grib2_table_4_2_0_5.csv",
+    "Library/share/gdal/grib2_table_4_2_0_6.csv",
+    "Library/share/gdal/grib2_table_4_2_0_7.csv",
+    "Library/share/gdal/grib2_table_4_2_10_0.csv",
+    "Library/share/gdal/grib2_table_4_2_10_1.csv",
+    "Library/share/gdal/grib2_table_4_2_10_191.csv",
+    "Library/share/gdal/grib2_table_4_2_10_2.csv",
+    "Library/share/gdal/grib2_table_4_2_10_3.csv",
+    "Library/share/gdal/grib2_table_4_2_10_4.csv",
+    "Library/share/gdal/grib2_table_4_2_1_0.csv",
+    "Library/share/gdal/grib2_table_4_2_1_1.csv",
+    "Library/share/gdal/grib2_table_4_2_1_2.csv",
+    "Library/share/gdal/grib2_table_4_2_20_0.csv",
+    "Library/share/gdal/grib2_table_4_2_20_1.csv",
+    "Library/share/gdal/grib2_table_4_2_20_2.csv",
+    "Library/share/gdal/grib2_table_4_2_2_0.csv",
+    "Library/share/gdal/grib2_table_4_2_2_3.csv",
+    "Library/share/gdal/grib2_table_4_2_2_4.csv",
+    "Library/share/gdal/grib2_table_4_2_2_5.csv",
+    "Library/share/gdal/grib2_table_4_2_3_0.csv",
+    "Library/share/gdal/grib2_table_4_2_3_1.csv",
+    "Library/share/gdal/grib2_table_4_2_3_2.csv",
+    "Library/share/gdal/grib2_table_4_2_3_3.csv",
+    "Library/share/gdal/grib2_table_4_2_3_4.csv",
+    "Library/share/gdal/grib2_table_4_2_3_5.csv",
+    "Library/share/gdal/grib2_table_4_2_3_6.csv",
+    "Library/share/gdal/grib2_table_4_2_4_0.csv",
+    "Library/share/gdal/grib2_table_4_2_4_1.csv",
+    "Library/share/gdal/grib2_table_4_2_4_10.csv",
+    "Library/share/gdal/grib2_table_4_2_4_2.csv",
+    "Library/share/gdal/grib2_table_4_2_4_3.csv",
+    "Library/share/gdal/grib2_table_4_2_4_4.csv",
+    "Library/share/gdal/grib2_table_4_2_4_5.csv",
+    "Library/share/gdal/grib2_table_4_2_4_6.csv",
+    "Library/share/gdal/grib2_table_4_2_4_7.csv",
+    "Library/share/gdal/grib2_table_4_2_4_8.csv",
+    "Library/share/gdal/grib2_table_4_2_4_9.csv",
+    "Library/share/gdal/grib2_table_4_2_local_Canada.csv",
+    "Library/share/gdal/grib2_table_4_2_local_HPC.csv",
+    "Library/share/gdal/grib2_table_4_2_local_MRMS.csv",
+    "Library/share/gdal/grib2_table_4_2_local_NCEP.csv",
+    "Library/share/gdal/grib2_table_4_2_local_NDFD.csv",
+    "Library/share/gdal/grib2_table_4_2_local_index.csv",
+    "Library/share/gdal/grib2_table_4_5.csv",
+    "Library/share/gdal/grib2_table_versions.csv",
+    "Library/share/gdal/gt_datum.csv",
+    "Library/share/gdal/gt_ellips.csv",
+    "Library/share/gdal/header.dxf",
+    "Library/share/gdal/inspire_cp_BasicPropertyUnit.gfs",
+    "Library/share/gdal/inspire_cp_CadastralBoundary.gfs",
+    "Library/share/gdal/inspire_cp_CadastralParcel.gfs",
+    "Library/share/gdal/inspire_cp_CadastralZoning.gfs",
+    "Library/share/gdal/jpfgdgml_AdmArea.gfs",
+    "Library/share/gdal/jpfgdgml_AdmBdry.gfs",
+    "Library/share/gdal/jpfgdgml_AdmPt.gfs",
+    "Library/share/gdal/jpfgdgml_BldA.gfs",
+    "Library/share/gdal/jpfgdgml_BldL.gfs",
+    "Library/share/gdal/jpfgdgml_Cntr.gfs",
+    "Library/share/gdal/jpfgdgml_CommBdry.gfs",
+    "Library/share/gdal/jpfgdgml_CommPt.gfs",
+    "Library/share/gdal/jpfgdgml_Cstline.gfs",
+    "Library/share/gdal/jpfgdgml_ElevPt.gfs",
+    "Library/share/gdal/jpfgdgml_GCP.gfs",
+    "Library/share/gdal/jpfgdgml_LeveeEdge.gfs",
+    "Library/share/gdal/jpfgdgml_RailCL.gfs",
+    "Library/share/gdal/jpfgdgml_RdASL.gfs",
+    "Library/share/gdal/jpfgdgml_RdArea.gfs",
+    "Library/share/gdal/jpfgdgml_RdCompt.gfs",
+    "Library/share/gdal/jpfgdgml_RdEdg.gfs",
+    "Library/share/gdal/jpfgdgml_RdMgtBdry.gfs",
+    "Library/share/gdal/jpfgdgml_RdSgmtA.gfs",
+    "Library/share/gdal/jpfgdgml_RvrMgtBdry.gfs",
+    "Library/share/gdal/jpfgdgml_SBAPt.gfs",
+    "Library/share/gdal/jpfgdgml_SBArea.gfs",
+    "Library/share/gdal/jpfgdgml_SBBdry.gfs",
+    "Library/share/gdal/jpfgdgml_WA.gfs",
+    "Library/share/gdal/jpfgdgml_WL.gfs",
+    "Library/share/gdal/jpfgdgml_WStrA.gfs",
+    "Library/share/gdal/jpfgdgml_WStrL.gfs",
+    "Library/share/gdal/netcdf_config.xsd",
+    "Library/share/gdal/nitf_spec.xml",
+    "Library/share/gdal/nitf_spec.xsd",
+    "Library/share/gdal/ogrvrt.xsd",
+    "Library/share/gdal/osmconf.ini",
+    "Library/share/gdal/ozi_datum.csv",
+    "Library/share/gdal/ozi_ellips.csv",
+    "Library/share/gdal/pci_datum.txt",
+    "Library/share/gdal/pci_ellips.txt",
+    "Library/share/gdal/pdfcomposition.xsd",
+    "Library/share/gdal/pds4_template.xml",
+    "Library/share/gdal/plscenesconf.json",
+    "Library/share/gdal/ruian_vf_ob_v1.gfs",
+    "Library/share/gdal/ruian_vf_st_uvoh_v1.gfs",
+    "Library/share/gdal/ruian_vf_st_v1.gfs",
+    "Library/share/gdal/ruian_vf_v1.gfs",
+    "Library/share/gdal/s57agencies.csv",
+    "Library/share/gdal/s57attributes.csv",
+    "Library/share/gdal/s57expectedinput.csv",
+    "Library/share/gdal/s57objectclasses.csv",
+    "Library/share/gdal/seed_2d.dgn",
+    "Library/share/gdal/seed_3d.dgn",
+    "Library/share/gdal/stateplane.csv",
+    "Library/share/gdal/template_tiles.mapml",
+    "Library/share/gdal/tms_LINZAntarticaMapTileGrid.json",
+    "Library/share/gdal/tms_MapML_APSTILE.json",
+    "Library/share/gdal/tms_MapML_CBMTILE.json",
+    "Library/share/gdal/tms_NZTM2000.json",
+    "Library/share/gdal/trailer.dxf",
+    "Library/share/gdal/vdv452.xml",
+    "Library/share/gdal/vdv452.xsd",
+    "Library/share/gdal/vicar.json",
+    "Library/share/man/man1/gdal-config.1",
+    "Library/share/man/man1/gdal2tiles.1",
+    "Library/share/man/man1/gdal_calc.1",
+    "Library/share/man/man1/gdal_contour.1",
+    "Library/share/man/man1/gdal_create.1",
+    "Library/share/man/man1/gdal_edit.1",
+    "Library/share/man/man1/gdal_fillnodata.1",
+    "Library/share/man/man1/gdal_grid.1",
+    "Library/share/man/man1/gdal_merge.1",
+    "Library/share/man/man1/gdal_pansharpen.1",
+    "Library/share/man/man1/gdal_polygonize.1",
+    "Library/share/man/man1/gdal_proximity.1",
+    "Library/share/man/man1/gdal_rasterize.1",
+    "Library/share/man/man1/gdal_retile.1",
+    "Library/share/man/man1/gdal_sieve.1",
+    "Library/share/man/man1/gdal_translate.1",
+    "Library/share/man/man1/gdal_viewshed.1",
+    "Library/share/man/man1/gdaladdo.1",
+    "Library/share/man/man1/gdalbuildvrt.1",
+    "Library/share/man/man1/gdalcompare.1",
+    "Library/share/man/man1/gdaldem.1",
+    "Library/share/man/man1/gdalinfo.1",
+    "Library/share/man/man1/gdallocationinfo.1",
+    "Library/share/man/man1/gdalmanage.1",
+    "Library/share/man/man1/gdalmdiminfo.1",
+    "Library/share/man/man1/gdalmdimtranslate.1",
+    "Library/share/man/man1/gdalmove.1",
+    "Library/share/man/man1/gdalsrsinfo.1",
+    "Library/share/man/man1/gdaltindex.1",
+    "Library/share/man/man1/gdaltransform.1",
+    "Library/share/man/man1/gdalwarp.1",
+    "Library/share/man/man1/gnmanalyse.1",
+    "Library/share/man/man1/gnmmanage.1",
+    "Library/share/man/man1/nearblack.1",
+    "Library/share/man/man1/ogr2ogr.1",
+    "Library/share/man/man1/ogr_layer_algebra.1",
+    "Library/share/man/man1/ogrinfo.1",
+    "Library/share/man/man1/ogrlineref.1",
+    "Library/share/man/man1/ogrmerge.1",
+    "Library/share/man/man1/ogrtindex.1",
+    "Library/share/man/man1/pct2rgb.1",
+    "Library/share/man/man1/rgb2pct.1",
+    "etc/conda/activate.d/gdal-activate.bat",
+    "etc/conda/activate.d/gdal-activate.ps1",
+    "etc/conda/activate.d/gdal-activate.sh",
+    "etc/conda/deactivate.d/gdal-deactivate.bat",
+    "etc/conda/deactivate.d/gdal-deactivate.ps1",
+    "etc/conda/deactivate.d/gdal-deactivate.sh"
+  ],
+  "fn": "libgdal-3.6.0-h7fe4343_2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\runes\\anaconda3\\pkgs\\libgdal-3.6.0-h7fe4343_2",
+    "type": 3
+  },
+  "md5": "5fae98f4f60a91b58e7fc122985ef79f",
+  "name": "libgdal",
+  "package_tarball_full_path": "C:\\Users\\runes\\anaconda3\\pkgs\\libgdal-3.6.0-h7fe4343_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/gdal-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/gdal-split_1668644951035/_h_env",
+        "sha256": "72f011cdf33a0b3673c8dc272f80a91de210381f3adb51eefa7c272f466f440f",
+        "sha256_in_prefix": "7f296e10579d99ab545c3ee1474d04afb6a29b504d6aa116aca2285741e375b2",
+        "size_in_bytes": 5064
+      },
+      {
+        "_path": "Library/bin/gdal.dll",
+        "path_type": "hardlink",
+        "sha256": "42ed22681f239fc185a44ce97eb0a79292c0248e69e281c2fe54d550012fc5f4",
+        "sha256_in_prefix": "42ed22681f239fc185a44ce97eb0a79292c0248e69e281c2fe54d550012fc5f4",
+        "size_in_bytes": 19465216
+      },
+      {
+        "_path": "Library/bin/gdal_contour.exe",
+        "path_type": "hardlink",
+        "sha256": "5b4da7aa43e1a4067e86aa48a633c4cba57f0bf10fde4bf45bc62defd3872d00",
+        "sha256_in_prefix": "5b4da7aa43e1a4067e86aa48a633c4cba57f0bf10fde4bf45bc62defd3872d00",
+        "size_in_bytes": 29696
+      },
+      {
+        "_path": "Library/bin/gdal_create.exe",
+        "path_type": "hardlink",
+        "sha256": "44a97662b4221ce3fd902fe96efffc2d546b6c307eb69ffd772abcdbe5e18653",
+        "sha256_in_prefix": "44a97662b4221ce3fd902fe96efffc2d546b6c307eb69ffd772abcdbe5e18653",
+        "size_in_bytes": 134656
+      },
+      {
+        "_path": "Library/bin/gdal_grid.exe",
+        "path_type": "hardlink",
+        "sha256": "c51802eb1953aadfe73b4dc82a1c750e3b786ecdef969363e3aa8455a3824c5d",
+        "sha256_in_prefix": "c51802eb1953aadfe73b4dc82a1c750e3b786ecdef969363e3aa8455a3824c5d",
+        "size_in_bytes": 19968
+      },
+      {
+        "_path": "Library/bin/gdal_rasterize.exe",
+        "path_type": "hardlink",
+        "sha256": "b7322331006de38222e9daa565af139942b94fe688b17aec57a5321d0795e93c",
+        "sha256_in_prefix": "b7322331006de38222e9daa565af139942b94fe688b17aec57a5321d0795e93c",
+        "size_in_bytes": 129024
+      },
+      {
+        "_path": "Library/bin/gdal_translate.exe",
+        "path_type": "hardlink",
+        "sha256": "9d07e051e490ef6e511ff2f2ab6e666dfa065af60c6c7bff362d19b3c1162660",
+        "sha256_in_prefix": "9d07e051e490ef6e511ff2f2ab6e666dfa065af60c6c7bff362d19b3c1162660",
+        "size_in_bytes": 132608
+      },
+      {
+        "_path": "Library/bin/gdal_viewshed.exe",
+        "path_type": "hardlink",
+        "sha256": "04475d8e5ce3884936eecd4ccccf2e716111d1d08ec995bd82b370a9a254efe5",
+        "sha256_in_prefix": "04475d8e5ce3884936eecd4ccccf2e716111d1d08ec995bd82b370a9a254efe5",
+        "size_in_bytes": 131072
+      },
+      {
+        "_path": "Library/bin/gdaladdo.exe",
+        "path_type": "hardlink",
+        "sha256": "103cd5768eb8bd4ece97384ecdf12fda8383db36afe034bf7dd45af39b452d34",
+        "sha256_in_prefix": "103cd5768eb8bd4ece97384ecdf12fda8383db36afe034bf7dd45af39b452d34",
+        "size_in_bytes": 133120
+      },
+      {
+        "_path": "Library/bin/gdalbuildvrt.exe",
+        "path_type": "hardlink",
+        "sha256": "1a1b76e35c476e504983b8e8b7a97fa70c242e5f5b23fa226457425e79d61b98",
+        "sha256_in_prefix": "1a1b76e35c476e504983b8e8b7a97fa70c242e5f5b23fa226457425e79d61b98",
+        "size_in_bytes": 21504
+      },
+      {
+        "_path": "Library/bin/gdaldem.exe",
+        "path_type": "hardlink",
+        "sha256": "6452f06d64259fdcddcc2aca1635f0b8cb298e04858a39fdb435953af7a42b35",
+        "sha256_in_prefix": "6452f06d64259fdcddcc2aca1635f0b8cb298e04858a39fdb435953af7a42b35",
+        "size_in_bytes": 130048
+      },
+      {
+        "_path": "Library/bin/gdalenhance.exe",
+        "path_type": "hardlink",
+        "sha256": "7f58b6eaeb09296187c08d821f0224ecfe0946afd3cbafbe2d053b98e7410408",
+        "sha256_in_prefix": "7f58b6eaeb09296187c08d821f0224ecfe0946afd3cbafbe2d053b98e7410408",
+        "size_in_bytes": 148992
+      },
+      {
+        "_path": "Library/bin/gdalinfo.exe",
+        "path_type": "hardlink",
+        "sha256": "18256d56fcee093aa52bb202c9b83a717dab3095b076458f87a3847f5acb671b",
+        "sha256_in_prefix": "18256d56fcee093aa52bb202c9b83a717dab3095b076458f87a3847f5acb671b",
+        "size_in_bytes": 21504
+      },
+      {
+        "_path": "Library/bin/gdallocationinfo.exe",
+        "path_type": "hardlink",
+        "sha256": "fe152e9637c575d5596e0c0e2831680e7c0c9f2ea8f7d606e552504c735c1f40",
+        "sha256_in_prefix": "fe152e9637c575d5596e0c0e2831680e7c0c9f2ea8f7d606e552504c735c1f40",
+        "size_in_bytes": 33280
+      },
+      {
+        "_path": "Library/bin/gdalmanage.exe",
+        "path_type": "hardlink",
+        "sha256": "ced4f1307e570473a88494f1c2b87559a55da308325f95cd565d9052a08a0592",
+        "sha256_in_prefix": "ced4f1307e570473a88494f1c2b87559a55da308325f95cd565d9052a08a0592",
+        "size_in_bytes": 24064
+      },
+      {
+        "_path": "Library/bin/gdalmdiminfo.exe",
+        "path_type": "hardlink",
+        "sha256": "7730e1df9c709471a5d968fcf6dbd2485dce4d456d0fef35c61e45d4008a216c",
+        "sha256_in_prefix": "7730e1df9c709471a5d968fcf6dbd2485dce4d456d0fef35c61e45d4008a216c",
+        "size_in_bytes": 19968
+      },
+      {
+        "_path": "Library/bin/gdalmdimtranslate.exe",
+        "path_type": "hardlink",
+        "sha256": "065458b4b00f7595aaef6c71cbecab251eac75c37f9a8fa6e3d7ada93479df2d",
+        "sha256_in_prefix": "065458b4b00f7595aaef6c71cbecab251eac75c37f9a8fa6e3d7ada93479df2d",
+        "size_in_bytes": 128512
+      },
+      {
+        "_path": "Library/bin/gdalsrsinfo.exe",
+        "path_type": "hardlink",
+        "sha256": "8f251a2fc71549da237d52dcbf455127d08b5da670bbf5319bb28aa7ae5ea2bc",
+        "sha256_in_prefix": "8f251a2fc71549da237d52dcbf455127d08b5da670bbf5319bb28aa7ae5ea2bc",
+        "size_in_bytes": 137728
+      },
+      {
+        "_path": "Library/bin/gdaltindex.exe",
+        "path_type": "hardlink",
+        "sha256": "ebd96353e6f691656e43d62a7cb4e5ccf443839dcfb2bdeb3002a295e956bd16",
+        "sha256_in_prefix": "ebd96353e6f691656e43d62a7cb4e5ccf443839dcfb2bdeb3002a295e956bd16",
+        "size_in_bytes": 32256
+      },
+      {
+        "_path": "Library/bin/gdaltransform.exe",
+        "path_type": "hardlink",
+        "sha256": "4e9cdccc6227b20cd6d92780c7c249e603a989712437affaaa854a7b2afd16fe",
+        "sha256_in_prefix": "4e9cdccc6227b20cd6d92780c7c249e603a989712437affaaa854a7b2afd16fe",
+        "size_in_bytes": 27648
+      },
+      {
+        "_path": "Library/bin/gdalwarp.exe",
+        "path_type": "hardlink",
+        "sha256": "1599c672d1886e6cca9a7af3f3b714588b2ac4d2f4c5ac4b308c7ba983a810d4",
+        "sha256_in_prefix": "1599c672d1886e6cca9a7af3f3b714588b2ac4d2f4c5ac4b308c7ba983a810d4",
+        "size_in_bytes": 29184
+      },
+      {
+        "_path": "Library/bin/gnmanalyse.exe",
+        "path_type": "hardlink",
+        "sha256": "4c21e3fac1f2dbcbca127d3cb03499453251fad59080f5248f8a6c4aada06d31",
+        "sha256_in_prefix": "4c21e3fac1f2dbcbca127d3cb03499453251fad59080f5248f8a6c4aada06d31",
+        "size_in_bytes": 142336
+      },
+      {
+        "_path": "Library/bin/gnmmanage.exe",
+        "path_type": "hardlink",
+        "sha256": "d230ef35f728a02b7fbba042a65078fd923290d49d21350f28236da9fb6207cc",
+        "sha256_in_prefix": "d230ef35f728a02b7fbba042a65078fd923290d49d21350f28236da9fb6207cc",
+        "size_in_bytes": 147456
+      },
+      {
+        "_path": "Library/bin/nearblack.exe",
+        "path_type": "hardlink",
+        "sha256": "ceac5b502e09c5d23f65c834925621df8466fd2d2dbc0f8975770a32862896e4",
+        "sha256_in_prefix": "ceac5b502e09c5d23f65c834925621df8466fd2d2dbc0f8975770a32862896e4",
+        "size_in_bytes": 18432
+      },
+      {
+        "_path": "Library/bin/ogr2ogr.exe",
+        "path_type": "hardlink",
+        "sha256": "de233057c7d1f97db9166113e9d6b95d14ff9e067087172237dcca2141ecafab",
+        "sha256_in_prefix": "de233057c7d1f97db9166113e9d6b95d14ff9e067087172237dcca2141ecafab",
+        "size_in_bytes": 142848
+      },
+      {
+        "_path": "Library/bin/ogrinfo.exe",
+        "path_type": "hardlink",
+        "sha256": "b352b1decb6a89eb3989caca910792b6e72ca9d072bd1dd055bca3c61ff2ae9c",
+        "sha256_in_prefix": "b352b1decb6a89eb3989caca910792b6e72ca9d072bd1dd055bca3c61ff2ae9c",
+        "size_in_bytes": 151040
+      },
+      {
+        "_path": "Library/bin/ogrlineref.exe",
+        "path_type": "hardlink",
+        "sha256": "9d1c7ed6091089e20973e0192144bfd4d49fbb71050f4d7e2add8aa02a34c0b6",
+        "sha256_in_prefix": "9d1c7ed6091089e20973e0192144bfd4d49fbb71050f4d7e2add8aa02a34c0b6",
+        "size_in_bytes": 161280
+      },
+      {
+        "_path": "Library/bin/ogrtindex.exe",
+        "path_type": "hardlink",
+        "sha256": "5a9f2a0caebedc9ed07a029e9f2ef80262f254cdab1718c17a7300caebbb7929",
+        "sha256_in_prefix": "5a9f2a0caebedc9ed07a029e9f2ef80262f254cdab1718c17a7300caebbb7929",
+        "size_in_bytes": 141312
+      },
+      {
+        "_path": "Library/include/cpl_atomic_ops.h",
+        "path_type": "hardlink",
+        "sha256": "3636db019a751ee4430e97630ded356f0e55b97ef564d11b7d51b058ce17e3a8",
+        "sha256_in_prefix": "3636db019a751ee4430e97630ded356f0e55b97ef564d11b7d51b058ce17e3a8",
+        "size_in_bytes": 4557
+      },
+      {
+        "_path": "Library/include/cpl_auto_close.h",
+        "path_type": "hardlink",
+        "sha256": "faccd50da1dd48f4deb8e618f51db74f06bc6873f7f17427b2faf44bd02df90a",
+        "sha256_in_prefix": "faccd50da1dd48f4deb8e618f51db74f06bc6873f7f17427b2faf44bd02df90a",
+        "size_in_bytes": 3257
+      },
+      {
+        "_path": "Library/include/cpl_compressor.h",
+        "path_type": "hardlink",
+        "sha256": "afcf1f172ba282fa8b8d0166369f0d1085d3513687561dbb404f91197627285a",
+        "sha256_in_prefix": "afcf1f172ba282fa8b8d0166369f0d1085d3513687561dbb404f91197627285a",
+        "size_in_bytes": 5086
+      },
+      {
+        "_path": "Library/include/cpl_config.h",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/gdal-split_1668644951035/_h_env",
+        "sha256": "d67eeeaee64be32c755fc367f5ad655788f5a53c149aaeeb46cd5dd4ff70b174",
+        "sha256_in_prefix": "d3c0b9715179b564d2f094e30f9e3310d29c41ec67c2a9fd45903ae39a38753c",
+        "size_in_bytes": 5541
+      },
+      {
+        "_path": "Library/include/cpl_config_extras.h",
+        "path_type": "hardlink",
+        "sha256": "76c2386e3f6013be2043b10d25920b38769285f83a7cf942b512854118bdfe5d",
+        "sha256_in_prefix": "76c2386e3f6013be2043b10d25920b38769285f83a7cf942b512854118bdfe5d",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "Library/include/cpl_conv.h",
+        "path_type": "hardlink",
+        "sha256": "00586b93658336692f7ad34042e960907c50748f3f40bbc0c9ffc6c1fc0c5ac5",
+        "sha256_in_prefix": "00586b93658336692f7ad34042e960907c50748f3f40bbc0c9ffc6c1fc0c5ac5",
+        "size_in_bytes": 18404
+      },
+      {
+        "_path": "Library/include/cpl_csv.h",
+        "path_type": "hardlink",
+        "sha256": "7b8d58e480b52765bdf9dcf4be83ea3baaa357e864613a4e093118664c5204bb",
+        "sha256_in_prefix": "7b8d58e480b52765bdf9dcf4be83ea3baaa357e864613a4e093118664c5204bb",
+        "size_in_bytes": 3593
+      },
+      {
+        "_path": "Library/include/cpl_error.h",
+        "path_type": "hardlink",
+        "sha256": "083e7278b959f1d250b5793767dc38d6e009337caaa8c42c5c7a774928e26478",
+        "sha256_in_prefix": "083e7278b959f1d250b5793767dc38d6e009337caaa8c42c5c7a774928e26478",
+        "size_in_bytes": 9551
+      },
+      {
+        "_path": "Library/include/cpl_hash_set.h",
+        "path_type": "hardlink",
+        "sha256": "54f308ac87d35b130006f33bfa4774cd3559ad16b0868b7dcadc2c0dc430ae59",
+        "sha256_in_prefix": "54f308ac87d35b130006f33bfa4774cd3559ad16b0868b7dcadc2c0dc430ae59",
+        "size_in_bytes": 3687
+      },
+      {
+        "_path": "Library/include/cpl_http.h",
+        "path_type": "hardlink",
+        "sha256": "f3b2c5fd0f63848e3d253b15ff35cba1ea59af69c666523a917120a9c63e3ca0",
+        "sha256_in_prefix": "f3b2c5fd0f63848e3d253b15ff35cba1ea59af69c666523a917120a9c63e3ca0",
+        "size_in_bytes": 10167
+      },
+      {
+        "_path": "Library/include/cpl_json.h",
+        "path_type": "hardlink",
+        "sha256": "be624cf5df709069434f12aabbed4de823df5c937758c65cac107af1221bf1fb",
+        "sha256_in_prefix": "be624cf5df709069434f12aabbed4de823df5c937758c65cac107af1221bf1fb",
+        "size_in_bytes": 8562
+      },
+      {
+        "_path": "Library/include/cpl_list.h",
+        "path_type": "hardlink",
+        "sha256": "16db579901f25521269a6167bfa9782ead9ad59ee0d4a922e40b56d3bb7a0f54",
+        "sha256_in_prefix": "16db579901f25521269a6167bfa9782ead9ad59ee0d4a922e40b56d3bb7a0f54",
+        "size_in_bytes": 2835
+      },
+      {
+        "_path": "Library/include/cpl_minixml.h",
+        "path_type": "hardlink",
+        "sha256": "5e7d44b836cd2d4a8024788dd8779782a0eb9fb75f1699cc6607f7408bc19262",
+        "sha256_in_prefix": "5e7d44b836cd2d4a8024788dd8779782a0eb9fb75f1699cc6607f7408bc19262",
+        "size_in_bytes": 8445
+      },
+      {
+        "_path": "Library/include/cpl_minizip_ioapi.h",
+        "path_type": "hardlink",
+        "sha256": "a206f8e1ef8a5c32854f3766ba75780a7cf51270309ed086fa2165522d2953cd",
+        "sha256_in_prefix": "a206f8e1ef8a5c32854f3766ba75780a7cf51270309ed086fa2165522d2953cd",
+        "size_in_bytes": 3119
+      },
+      {
+        "_path": "Library/include/cpl_minizip_unzip.h",
+        "path_type": "hardlink",
+        "sha256": "2d4103ba6bcfe4ef701121e878f93914a2c6253a1159ec4d1ae60785ad93a143",
+        "sha256_in_prefix": "2d4103ba6bcfe4ef701121e878f93914a2c6253a1159ec4d1ae60785ad93a143",
+        "size_in_bytes": 14079
+      },
+      {
+        "_path": "Library/include/cpl_minizip_zip.h",
+        "path_type": "hardlink",
+        "sha256": "f5e76a00b55d6f5927e79d7076b77debeeff1cdab6e405ab39620edede74d1d2",
+        "sha256_in_prefix": "f5e76a00b55d6f5927e79d7076b77debeeff1cdab6e405ab39620edede74d1d2",
+        "size_in_bytes": 10078
+      },
+      {
+        "_path": "Library/include/cpl_multiproc.h",
+        "path_type": "hardlink",
+        "sha256": "ba8b546196bc1b1683141b96515f89fcad244323521c6c94ef9c674efc1303e8",
+        "sha256_in_prefix": "ba8b546196bc1b1683141b96515f89fcad244323521c6c94ef9c674efc1303e8",
+        "size_in_bytes": 10260
+      },
+      {
+        "_path": "Library/include/cpl_odbc.h",
+        "path_type": "hardlink",
+        "sha256": "c1986a610178c399e8a095750c0aca6baad0a92e7059fcc48c34f5e1833074eb",
+        "sha256_in_prefix": "c1986a610178c399e8a095750c0aca6baad0a92e7059fcc48c34f5e1833074eb",
+        "size_in_bytes": 11516
+      },
+      {
+        "_path": "Library/include/cpl_port.h",
+        "path_type": "hardlink",
+        "sha256": "c495c59fdda782cce62b3beb0c2bf79de60147ece7bc1db1d22365e9eb6ff6cd",
+        "sha256_in_prefix": "c495c59fdda782cce62b3beb0c2bf79de60147ece7bc1db1d22365e9eb6ff6cd",
+        "size_in_bytes": 39517
+      },
+      {
+        "_path": "Library/include/cpl_progress.h",
+        "path_type": "hardlink",
+        "sha256": "912efd8d54a8749e8bf130aa2858e372584952c015b7343894e33243add2d5c4",
+        "sha256_in_prefix": "912efd8d54a8749e8bf130aa2858e372584952c015b7343894e33243add2d5c4",
+        "size_in_bytes": 2212
+      },
+      {
+        "_path": "Library/include/cpl_quad_tree.h",
+        "path_type": "hardlink",
+        "sha256": "6fdbb13c68c58b85450e3a25036d2383a6e844b75582d0664043f3e148e9fd7d",
+        "sha256_in_prefix": "6fdbb13c68c58b85450e3a25036d2383a6e844b75582d0664043f3e148e9fd7d",
+        "size_in_bytes": 5341
+      },
+      {
+        "_path": "Library/include/cpl_spawn.h",
+        "path_type": "hardlink",
+        "sha256": "f9065d2e085584d90de7cfb0c80bee482f089dc56619b78e7ba849c47edd73fa",
+        "sha256_in_prefix": "f9065d2e085584d90de7cfb0c80bee482f089dc56619b78e7ba849c47edd73fa",
+        "size_in_bytes": 3506
+      },
+      {
+        "_path": "Library/include/cpl_string.h",
+        "path_type": "hardlink",
+        "sha256": "7da2f65d999ac82af3f45896c2445cc42a30bd5e0de5d4da912cd389cf051d2b",
+        "sha256_in_prefix": "7da2f65d999ac82af3f45896c2445cc42a30bd5e0de5d4da912cd389cf051d2b",
+        "size_in_bytes": 22825
+      },
+      {
+        "_path": "Library/include/cpl_time.h",
+        "path_type": "hardlink",
+        "sha256": "dd6489b17d8e34c3958e553484ef7b46eeff1a887b87ba4e395fc7674e4aad72",
+        "sha256_in_prefix": "dd6489b17d8e34c3958e553484ef7b46eeff1a887b87ba4e395fc7674e4aad72",
+        "size_in_bytes": 2294
+      },
+      {
+        "_path": "Library/include/cpl_virtualmem.h",
+        "path_type": "hardlink",
+        "sha256": "36f0ad45f51656d8b385e74f16d63b93039f06f35180d1ffd900288b5f9d351a",
+        "sha256_in_prefix": "36f0ad45f51656d8b385e74f16d63b93039f06f35180d1ffd900288b5f9d351a",
+        "size_in_bytes": 16201
+      },
+      {
+        "_path": "Library/include/cpl_vsi.h",
+        "path_type": "hardlink",
+        "sha256": "dcf144be771fbd19af29bb7f47c5b3e04370c34bda5b83aae69dc551e32d9606",
+        "sha256_in_prefix": "dcf144be771fbd19af29bb7f47c5b3e04370c34bda5b83aae69dc551e32d9606",
+        "size_in_bytes": 29492
+      },
+      {
+        "_path": "Library/include/cpl_vsi_error.h",
+        "path_type": "hardlink",
+        "sha256": "69972eb5a58d51ac073475e9b5db5db9bd379e56bc9f89546473f3bbe6c20838",
+        "sha256_in_prefix": "69972eb5a58d51ac073475e9b5db5db9bd379e56bc9f89546473f3bbe6c20838",
+        "size_in_bytes": 2897
+      },
+      {
+        "_path": "Library/include/cpl_vsi_virtual.h",
+        "path_type": "hardlink",
+        "sha256": "642b529d1427517cda696630b631caadb9f407af3f4d8319e40c96de902cf3d6",
+        "sha256_in_prefix": "642b529d1427517cda696630b631caadb9f407af3f4d8319e40c96de902cf3d6",
+        "size_in_bytes": 13126
+      },
+      {
+        "_path": "Library/include/cplkeywordparser.h",
+        "path_type": "hardlink",
+        "sha256": "e1179c0044d4f93a16e149dc4d5b669639e62cbc411f6f8f1241b35c93fccd0e",
+        "sha256_in_prefix": "e1179c0044d4f93a16e149dc4d5b669639e62cbc411f6f8f1241b35c93fccd0e",
+        "size_in_bytes": 2914
+      },
+      {
+        "_path": "Library/include/gdal.h",
+        "path_type": "hardlink",
+        "sha256": "430209e37b88e998bf8f29247c5e791055ae355b6698e00d200616a494508877",
+        "sha256_in_prefix": "430209e37b88e998bf8f29247c5e791055ae355b6698e00d200616a494508877",
+        "size_in_bytes": 98255
+      },
+      {
+        "_path": "Library/include/gdal_alg.h",
+        "path_type": "hardlink",
+        "sha256": "de67e155ff26a5b45e93324b5e507df64bef7d4e216afde8b859fcf9ea521a5d",
+        "sha256_in_prefix": "de67e155ff26a5b45e93324b5e507df64bef7d4e216afde8b859fcf9ea521a5d",
+        "size_in_bytes": 31977
+      },
+      {
+        "_path": "Library/include/gdal_alg_priv.h",
+        "path_type": "hardlink",
+        "sha256": "cbdffdd3fe1b12f4cee7999110267d0a9d9c624b74578cc4446d69716511af08",
+        "sha256_in_prefix": "cbdffdd3fe1b12f4cee7999110267d0a9d9c624b74578cc4446d69716511af08",
+        "size_in_bytes": 12839
+      },
+      {
+        "_path": "Library/include/gdal_csv.h",
+        "path_type": "hardlink",
+        "sha256": "745809709b4550b2f27fefc495386d070ce3a4625a161496829b42d9a27bdb54",
+        "sha256_in_prefix": "745809709b4550b2f27fefc495386d070ce3a4625a161496829b42d9a27bdb54",
+        "size_in_bytes": 1837
+      },
+      {
+        "_path": "Library/include/gdal_frmts.h",
+        "path_type": "hardlink",
+        "sha256": "92a85167dfc7a9c783b4b9b9affa5eb15fae45ac1e578b25a7d4aeeb7524c37d",
+        "sha256_in_prefix": "92a85167dfc7a9c783b4b9b9affa5eb15fae45ac1e578b25a7d4aeeb7524c37d",
+        "size_in_bytes": 8333
+      },
+      {
+        "_path": "Library/include/gdal_mdreader.h",
+        "path_type": "hardlink",
+        "sha256": "4f25d16fd71b228d325ae0d2ca43536138e2270f3cb53d78a52c6670c67f47fe",
+        "sha256_in_prefix": "4f25d16fd71b228d325ae0d2ca43536138e2270f3cb53d78a52c6670c67f47fe",
+        "size_in_bytes": 10149
+      },
+      {
+        "_path": "Library/include/gdal_pam.h",
+        "path_type": "hardlink",
+        "sha256": "0256585d2d91dd16f5a64284f5e3a06afd6c678ec43ee600463171a25f152840",
+        "sha256_in_prefix": "0256585d2d91dd16f5a64284f5e3a06afd6c678ec43ee600463171a25f152840",
+        "size_in_bytes": 17067
+      },
+      {
+        "_path": "Library/include/gdal_priv.h",
+        "path_type": "hardlink",
+        "sha256": "629f3c8c14e587030f2d8b7eef2eb9e5cb33ed59a6b19457c3c45db7053e1c67",
+        "sha256_in_prefix": "629f3c8c14e587030f2d8b7eef2eb9e5cb33ed59a6b19457c3c45db7053e1c67",
+        "size_in_bytes": 128474
+      },
+      {
+        "_path": "Library/include/gdal_proxy.h",
+        "path_type": "hardlink",
+        "sha256": "ea3cd2369e9f44df8def28bbd307f05d5bce6a312f0a8a0a74fd2581be1468db",
+        "sha256_in_prefix": "ea3cd2369e9f44df8def28bbd307f05d5bce6a312f0a8a0a74fd2581be1468db",
+        "size_in_bytes": 19375
+      },
+      {
+        "_path": "Library/include/gdal_rat.h",
+        "path_type": "hardlink",
+        "sha256": "dabc08b5be4be54fe52665b32baa6942f6aba46a4604fee6e71e4810cc5bb766",
+        "sha256_in_prefix": "dabc08b5be4be54fe52665b32baa6942f6aba46a4604fee6e71e4810cc5bb766",
+        "size_in_bytes": 14762
+      },
+      {
+        "_path": "Library/include/gdal_simplesurf.h",
+        "path_type": "hardlink",
+        "sha256": "5d832b38478fc0cca982241f394454bcc4d56689e87da3f41facdab2375d87f4",
+        "sha256_in_prefix": "5d832b38478fc0cca982241f394454bcc4d56689e87da3f41facdab2375d87f4",
+        "size_in_bytes": 18147
+      },
+      {
+        "_path": "Library/include/gdal_utils.h",
+        "path_type": "hardlink",
+        "sha256": "a951ec8d4da1daace5d32091c3a747094c1fa1629da912ae0b46ce5515991243",
+        "sha256_in_prefix": "a951ec8d4da1daace5d32091c3a747094c1fa1629da912ae0b46ce5515991243",
+        "size_in_bytes": 11831
+      },
+      {
+        "_path": "Library/include/gdal_version.h",
+        "path_type": "hardlink",
+        "sha256": "2b090e4099c768c86edf488b2796f749a08751387c80898cb531b1fb2aac4320",
+        "sha256_in_prefix": "2b090e4099c768c86edf488b2796f749a08751387c80898cb531b1fb2aac4320",
+        "size_in_bytes": 1200
+      },
+      {
+        "_path": "Library/include/gdal_vrt.h",
+        "path_type": "hardlink",
+        "sha256": "1b7ade1b4eed0653587c4aca62cbc62b7fb876bc0a9b48ec9c7052739f48dc00",
+        "sha256_in_prefix": "1b7ade1b4eed0653587c4aca62cbc62b7fb876bc0a9b48ec9c7052739f48dc00",
+        "size_in_bytes": 4724
+      },
+      {
+        "_path": "Library/include/gdalcachedpixelaccessor.h",
+        "path_type": "hardlink",
+        "sha256": "8a8f5c3c27f6ee4ace6b0158fd0c946788ac689529dd9624c8452c1b13f30df3",
+        "sha256_in_prefix": "8a8f5c3c27f6ee4ace6b0158fd0c946788ac689529dd9624c8452c1b13f30df3",
+        "size_in_bytes": 16560
+      },
+      {
+        "_path": "Library/include/gdalgeorefpamdataset.h",
+        "path_type": "hardlink",
+        "sha256": "fc1369aeeb5b7656a8bf850ddac5a2fde7aef663b490fa277957f0c75a9bdaa1",
+        "sha256_in_prefix": "fc1369aeeb5b7656a8bf850ddac5a2fde7aef663b490fa277957f0c75a9bdaa1",
+        "size_in_bytes": 3504
+      },
+      {
+        "_path": "Library/include/gdalgrid.h",
+        "path_type": "hardlink",
+        "sha256": "ce4722e407b58469940d153e69167ef7dead536f030e72bb2925c25796d013df",
+        "sha256_in_prefix": "ce4722e407b58469940d153e69167ef7dead536f030e72bb2925c25796d013df",
+        "size_in_bytes": 5952
+      },
+      {
+        "_path": "Library/include/gdalgrid_priv.h",
+        "path_type": "hardlink",
+        "sha256": "7e9862fdb389958906ed39dd639cc423ee1faf423ae06da0f7bfa05a9539eac5",
+        "sha256_in_prefix": "7e9862fdb389958906ed39dd639cc423ee1faf423ae06da0f7bfa05a9539eac5",
+        "size_in_bytes": 3639
+      },
+      {
+        "_path": "Library/include/gdaljp2abstractdataset.h",
+        "path_type": "hardlink",
+        "sha256": "4524750325f8a9e0e83d8caa45263ccc39bce0677aa4e4a9ad0301c682f0e795",
+        "sha256_in_prefix": "4524750325f8a9e0e83d8caa45263ccc39bce0677aa4e4a9ad0301c682f0e795",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "Library/include/gdaljp2metadata.h",
+        "path_type": "hardlink",
+        "sha256": "4957b8395a0e934cf770c67c3a2cd8e6886adb1c5d91d8f8152b89edaab56233",
+        "sha256_in_prefix": "4957b8395a0e934cf770c67c3a2cd8e6886adb1c5d91d8f8152b89edaab56233",
+        "size_in_bytes": 8681
+      },
+      {
+        "_path": "Library/include/gdalpansharpen.h",
+        "path_type": "hardlink",
+        "sha256": "47d24d22f2a30dd85a7956c975c7759ff78113a34409c9111b5468f0f6496ffe",
+        "sha256_in_prefix": "47d24d22f2a30dd85a7956c975c7759ff78113a34409c9111b5468f0f6496ffe",
+        "size_in_bytes": 12624
+      },
+      {
+        "_path": "Library/include/gdalwarper.h",
+        "path_type": "hardlink",
+        "sha256": "0ad5ac7e8f00b1a04b9a318161107a9c09dbe3d86e290e45a0f062df77e8acf8",
+        "sha256_in_prefix": "0ad5ac7e8f00b1a04b9a318161107a9c09dbe3d86e290e45a0f062df77e8acf8",
+        "size_in_bytes": 25001
+      },
+      {
+        "_path": "Library/include/gnm.h",
+        "path_type": "hardlink",
+        "sha256": "76de58db959cc95a14642447606e5a8aaace7fe0f7bbfd3e034bdd11c4c215cb",
+        "sha256_in_prefix": "76de58db959cc95a14642447606e5a8aaace7fe0f7bbfd3e034bdd11c4c215cb",
+        "size_in_bytes": 29189
+      },
+      {
+        "_path": "Library/include/gnm_api.h",
+        "path_type": "hardlink",
+        "sha256": "0e75d2dd3cf04bf755faa6befb6c907e63346254c18fedada6aa97e9dbde7f08",
+        "sha256_in_prefix": "0e75d2dd3cf04bf755faa6befb6c907e63346254c18fedada6aa97e9dbde7f08",
+        "size_in_bytes": 4644
+      },
+      {
+        "_path": "Library/include/gnmgraph.h",
+        "path_type": "hardlink",
+        "sha256": "76d3beab81606af5bb316d3d051910156f98243a233213fd5b110627f76a514d",
+        "sha256_in_prefix": "76d3beab81606af5bb316d3d051910156f98243a233213fd5b110627f76a514d",
+        "size_in_bytes": 9746
+      },
+      {
+        "_path": "Library/include/memdataset.h",
+        "path_type": "hardlink",
+        "sha256": "00a4b0204b20a50d7338ee80034bf8ba36ebdcbc50d785f3a5e3e2130b9fe715",
+        "sha256_in_prefix": "00a4b0204b20a50d7338ee80034bf8ba36ebdcbc50d785f3a5e3e2130b9fe715",
+        "size_in_bytes": 7825
+      },
+      {
+        "_path": "Library/include/ogr_api.h",
+        "path_type": "hardlink",
+        "sha256": "a4f50837300813923e275906d23204794d8a718a56ad52d83daa7e5f7a67810b",
+        "sha256_in_prefix": "a4f50837300813923e275906d23204794d8a718a56ad52d83daa7e5f7a67810b",
+        "size_in_bytes": 45254
+      },
+      {
+        "_path": "Library/include/ogr_core.h",
+        "path_type": "hardlink",
+        "sha256": "92d5aa90b798dfc54e16140ab497523bb28f12e5da5e31e5067d9297a7885f3e",
+        "sha256_in_prefix": "92d5aa90b798dfc54e16140ab497523bb28f12e5da5e31e5067d9297a7885f3e",
+        "size_in_bytes": 44666
+      },
+      {
+        "_path": "Library/include/ogr_feature.h",
+        "path_type": "hardlink",
+        "sha256": "b4139b36e90d01db4754b563a44f11427dc159140b7d22f371517403bb28d001",
+        "sha256_in_prefix": "b4139b36e90d01db4754b563a44f11427dc159140b7d22f371517403bb28d001",
+        "size_in_bytes": 51719
+      },
+      {
+        "_path": "Library/include/ogr_featurestyle.h",
+        "path_type": "hardlink",
+        "sha256": "9177c1a0c22e3d752d724f835f565898276fa4787adfd47bb5dacb9530d075d6",
+        "sha256_in_prefix": "9177c1a0c22e3d752d724f835f565898276fa4787adfd47bb5dacb9530d075d6",
+        "size_in_bytes": 19857
+      },
+      {
+        "_path": "Library/include/ogr_geocoding.h",
+        "path_type": "hardlink",
+        "sha256": "252d60db19c2789cda75ad46d2ba6add332d87d2e2bd38ad1673ea9a69337a61",
+        "sha256_in_prefix": "252d60db19c2789cda75ad46d2ba6add332d87d2e2bd38ad1673ea9a69337a61",
+        "size_in_bytes": 2523
+      },
+      {
+        "_path": "Library/include/ogr_geometry.h",
+        "path_type": "hardlink",
+        "sha256": "e804af07c537c3ab986ddc3b603edec005539ad5e9d068a9b924d28652baa5d7",
+        "sha256_in_prefix": "e804af07c537c3ab986ddc3b603edec005539ad5e9d068a9b924d28652baa5d7",
+        "size_in_bytes": 132495
+      },
+      {
+        "_path": "Library/include/ogr_p.h",
+        "path_type": "hardlink",
+        "sha256": "11bc31220f5ca12c74dbe57a04ade2339f69539b985bec3a8f0cff1716867332",
+        "sha256_in_prefix": "11bc31220f5ca12c74dbe57a04ade2339f69539b985bec3a8f0cff1716867332",
+        "size_in_bytes": 9480
+      },
+      {
+        "_path": "Library/include/ogr_recordbatch.h",
+        "path_type": "hardlink",
+        "sha256": "9109bfe2ec050023f482f454d7b9656de20dfaeeb966c5b979864705fa67d53d",
+        "sha256_in_prefix": "9109bfe2ec050023f482f454d7b9656de20dfaeeb966c5b979864705fa67d53d",
+        "size_in_bytes": 3391
+      },
+      {
+        "_path": "Library/include/ogr_spatialref.h",
+        "path_type": "hardlink",
+        "sha256": "6f63e4369aa67fcabd2ab111a4f9cb8fe1fbfac99d0596a3486942110725054c",
+        "sha256_in_prefix": "6f63e4369aa67fcabd2ab111a4f9cb8fe1fbfac99d0596a3486942110725054c",
+        "size_in_bytes": 41623
+      },
+      {
+        "_path": "Library/include/ogr_srs_api.h",
+        "path_type": "hardlink",
+        "sha256": "8f60e30805afa628431531511c454249917714120fca2496bb530dc6c08deab9",
+        "sha256_in_prefix": "8f60e30805afa628431531511c454249917714120fca2496bb530dc6c08deab9",
+        "size_in_bytes": 53202
+      },
+      {
+        "_path": "Library/include/ogr_swq.h",
+        "path_type": "hardlink",
+        "sha256": "291f68236b1b99c72a6d285eb4971d29366f3865cebb28f614b49ace3b3f6487",
+        "sha256_in_prefix": "291f68236b1b99c72a6d285eb4971d29366f3865cebb28f614b49ace3b3f6487",
+        "size_in_bytes": 13985
+      },
+      {
+        "_path": "Library/include/ogrsf_frmts.h",
+        "path_type": "hardlink",
+        "sha256": "dd39fe94c0dc204ab38c4f72d706683b4d8dce630f8e561947efe882e070061d",
+        "sha256_in_prefix": "dd39fe94c0dc204ab38c4f72d706683b4d8dce630f8e561947efe882e070061d",
+        "size_in_bytes": 23636
+      },
+      {
+        "_path": "Library/include/rawdataset.h",
+        "path_type": "hardlink",
+        "sha256": "0705811db5ba2c186f89664398123f42d8c142ab36f4854a5a4dd88a072bbb42",
+        "sha256_in_prefix": "0705811db5ba2c186f89664398123f42d8c142ab36f4854a5a4dd88a072bbb42",
+        "size_in_bytes": 9003
+      },
+      {
+        "_path": "Library/include/vrtdataset.h",
+        "path_type": "hardlink",
+        "sha256": "d4f646cd12e23f3a16df6d6975f9038a2442ce0662f7bf48c3ec42c2daa2d2c6",
+        "sha256_in_prefix": "d4f646cd12e23f3a16df6d6975f9038a2442ce0662f7bf48c3ec42c2daa2d2c6",
+        "size_in_bytes": 75701
+      },
+      {
+        "_path": "Library/lib/cmake/gdal/GDAL-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "ac1f5f9983230e734a7866ad9b8ce87f17cd227c06c33e94f4d0ab68d50b2f7f",
+        "sha256_in_prefix": "ac1f5f9983230e734a7866ad9b8ce87f17cd227c06c33e94f4d0ab68d50b2f7f",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "Library/lib/cmake/gdal/GDAL-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "1c228ebb16655d56863f5fb36eaeb09a38f3bedfded4c4890f252b7ffc51ba73",
+        "sha256_in_prefix": "1c228ebb16655d56863f5fb36eaeb09a38f3bedfded4c4890f252b7ffc51ba73",
+        "size_in_bytes": 3983
+      },
+      {
+        "_path": "Library/lib/cmake/gdal/GDALConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "6434ba3d48b3c4568744e6fba420a26c79bc46f5df7281743eb707d8da4aca3b",
+        "sha256_in_prefix": "6434ba3d48b3c4568744e6fba420a26c79bc46f5df7281743eb707d8da4aca3b",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "Library/lib/cmake/gdal/GDALConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "9fef0737c3aa51aeec470fb59d87d6b37518e9bd0948a4aafcff3b699c8ed24d",
+        "sha256_in_prefix": "9fef0737c3aa51aeec470fb59d87d6b37518e9bd0948a4aafcff3b699c8ed24d",
+        "size_in_bytes": 3881
+      },
+      {
+        "_path": "Library/lib/gdal.lib",
+        "path_type": "hardlink",
+        "sha256": "ce6c7b4cfaaeeac2c4561378a7520a88d1c4f97e84fc92469c375f09eadac894",
+        "sha256_in_prefix": "ce6c7b4cfaaeeac2c4561378a7520a88d1c4f97e84fc92469c375f09eadac894",
+        "size_in_bytes": 2249160
+      },
+      {
+        "_path": "Library/lib/gdalplugins/drivers.ini",
+        "path_type": "hardlink",
+        "sha256": "cacb8c7b2b737a6335fb6f2cc36c3390c1a79e527eb48e52c0e5e3cc607a79a3",
+        "sha256_in_prefix": "cacb8c7b2b737a6335fb6f2cc36c3390c1a79e527eb48e52c0e5e3cc607a79a3",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "Library/lib/pkgconfig/gdal.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/gdal-split_1668644951035/_h_env",
+        "sha256": "2132b50a9c9e9b886c9d5d53655bac3b18b8aeb4e34cb5605bdcf6744ccf313d",
+        "sha256_in_prefix": "ed35da9e766f337177f04ee823f7e42bc5f91abceaff5f4b636e168d3bbed1d9",
+        "size_in_bytes": 3665
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal-config",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal2tiles.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal2xyz.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_calc.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_contour",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_create",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_edit.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_fillnodata.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_grid",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_merge.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_polygonize.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_proximity.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_rasterize",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_retile.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_sieve.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_translate",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdal_viewshed",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdaladdo",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalbuildvrt",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalchksum.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalcompare.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdaldem",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalenhance",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalident.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalimport.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalinfo",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdallocationinfo",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalmanage",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalmove.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalsrsinfo",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdaltindex",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdaltransform",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/gdalwarp",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/ogr2ogr",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/ogrinfo",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/ogrlineref",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/ogrmerge.py",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/bash-completion/completions/ogrtindex",
+        "path_type": "hardlink",
+        "sha256": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "sha256_in_prefix": "e3ff1f1f593e7b5e11d2e893044c6ba3cd35f90b02cb21aa0704c23b0c2329c9",
+        "size_in_bytes": 25134
+      },
+      {
+        "_path": "Library/share/gdal/GDALLogoBW.svg",
+        "path_type": "hardlink",
+        "sha256": "aac9dab33d479e0b832b8bd7c9e5510dcbef34a7c6cc9aea96bbe2aab5161c53",
+        "sha256_in_prefix": "aac9dab33d479e0b832b8bd7c9e5510dcbef34a7c6cc9aea96bbe2aab5161c53",
+        "size_in_bytes": 13022
+      },
+      {
+        "_path": "Library/share/gdal/GDALLogoColor.svg",
+        "path_type": "hardlink",
+        "sha256": "2c102a31c6e9116aa9b98787d8bf5cf648dbcc2b930aee653cd35df65ed118d0",
+        "sha256_in_prefix": "2c102a31c6e9116aa9b98787d8bf5cf648dbcc2b930aee653cd35df65ed118d0",
+        "size_in_bytes": 12305
+      },
+      {
+        "_path": "Library/share/gdal/GDALLogoGS.svg",
+        "path_type": "hardlink",
+        "sha256": "1ae6e2d92e6b0439f3baee0cb55dad8b97abfb4fcc58c9189b23b63c818aeeca",
+        "sha256_in_prefix": "1ae6e2d92e6b0439f3baee0cb55dad8b97abfb4fcc58c9189b23b63c818aeeca",
+        "size_in_bytes": 12305
+      },
+      {
+        "_path": "Library/share/gdal/LICENSE.TXT",
+        "path_type": "hardlink",
+        "sha256": "1dae3468e81d00da56e2936f74d33b8b3ad09d726437f19ce209a5dabea41f77",
+        "sha256_in_prefix": "1dae3468e81d00da56e2936f74d33b8b3ad09d726437f19ce209a5dabea41f77",
+        "size_in_bytes": 21841
+      },
+      {
+        "_path": "Library/share/gdal/bag_template.xml",
+        "path_type": "hardlink",
+        "sha256": "daf7816f686c35b51ec66c90fc6aedbf12dbef97f28f9fae9731392f92afb733",
+        "sha256_in_prefix": "daf7816f686c35b51ec66c90fc6aedbf12dbef97f28f9fae9731392f92afb733",
+        "size_in_bytes": 9020
+      },
+      {
+        "_path": "Library/share/gdal/cubewerx_extra.wkt",
+        "path_type": "hardlink",
+        "sha256": "1cca3fa3e249f4cc7d1bf0ffb0a71a1a2afadd10afdf7ed0aa292dbc5e4f0768",
+        "sha256_in_prefix": "1cca3fa3e249f4cc7d1bf0ffb0a71a1a2afadd10afdf7ed0aa292dbc5e4f0768",
+        "size_in_bytes": 11977
+      },
+      {
+        "_path": "Library/share/gdal/default.rsc",
+        "path_type": "hardlink",
+        "sha256": "9e1c9d7081d52775e750d4155d49255252b04ca81fef27cb2997675d3cd9626b",
+        "sha256_in_prefix": "9e1c9d7081d52775e750d4155d49255252b04ca81fef27cb2997675d3cd9626b",
+        "size_in_bytes": 463632
+      },
+      {
+        "_path": "Library/share/gdal/ecw_cs.wkt",
+        "path_type": "hardlink",
+        "sha256": "8e6354a762e8cd82e4c8da1117503e17f487f7b4585ac2cef2d811103e241ac6",
+        "sha256_in_prefix": "8e6354a762e8cd82e4c8da1117503e17f487f7b4585ac2cef2d811103e241ac6",
+        "size_in_bytes": 363717
+      },
+      {
+        "_path": "Library/share/gdal/eedaconf.json",
+        "path_type": "hardlink",
+        "sha256": "13cd9d27fca19dc9e3103ee7f78286310a4bdb2b2d83d916391d7b316d8e2d35",
+        "sha256_in_prefix": "13cd9d27fca19dc9e3103ee7f78286310a4bdb2b2d83d916391d7b316d8e2d35",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "Library/share/gdal/epsg.wkt",
+        "path_type": "hardlink",
+        "sha256": "e50895e9061aba6dd1588f06a088872aa562a8d98716588bc1a420189dcb254c",
+        "sha256_in_prefix": "e50895e9061aba6dd1588f06a088872aa562a8d98716588bc1a420189dcb254c",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "Library/share/gdal/esri_StatePlane_extra.wkt",
+        "path_type": "hardlink",
+        "sha256": "682df1b231cb6f1287685d4c64bf1b2611c0af43c30483473bbb366ce1bd8d33",
+        "sha256_in_prefix": "682df1b231cb6f1287685d4c64bf1b2611c0af43c30483473bbb366ce1bd8d33",
+        "size_in_bytes": 332546
+      },
+      {
+        "_path": "Library/share/gdal/gdalicon.png",
+        "path_type": "hardlink",
+        "sha256": "d90f50a8f74c325086c867bf006a92266c259a270d9166b2f41f586b67755729",
+        "sha256_in_prefix": "d90f50a8f74c325086c867bf006a92266c259a270d9166b2f41f586b67755729",
+        "size_in_bytes": 2021
+      },
+      {
+        "_path": "Library/share/gdal/gdalmdiminfo_output.schema.json",
+        "path_type": "hardlink",
+        "sha256": "f2bb1ccdff298786560c7e9afea5f041260966fc85e8a813666211b2d6eb3ed2",
+        "sha256_in_prefix": "f2bb1ccdff298786560c7e9afea5f041260966fc85e8a813666211b2d6eb3ed2",
+        "size_in_bytes": 5461
+      },
+      {
+        "_path": "Library/share/gdal/gdalvrt.xsd",
+        "path_type": "hardlink",
+        "sha256": "971e759ba5a3074bfc6f34be35b0e9c29a846f832309b8493c885d037a956113",
+        "sha256_in_prefix": "971e759ba5a3074bfc6f34be35b0e9c29a846f832309b8493c885d037a956113",
+        "size_in_bytes": 27571
+      },
+      {
+        "_path": "Library/share/gdal/gml_registry.xml",
+        "path_type": "hardlink",
+        "sha256": "dab571b2a74e4b6de27a0fde62d34887141ca456d11caacdd75a166b2de5a743",
+        "sha256_in_prefix": "dab571b2a74e4b6de27a0fde62d34887141ca456d11caacdd75a166b2de5a743",
+        "size_in_bytes": 6643
+      },
+      {
+        "_path": "Library/share/gdal/gmlasconf.xml",
+        "path_type": "hardlink",
+        "sha256": "200939d2ef87de4df80e6ebf30908c60e9654e0bfc6b79c7ae4ea8a9447db76e",
+        "sha256_in_prefix": "200939d2ef87de4df80e6ebf30908c60e9654e0bfc6b79c7ae4ea8a9447db76e",
+        "size_in_bytes": 7432
+      },
+      {
+        "_path": "Library/share/gdal/gmlasconf.xsd",
+        "path_type": "hardlink",
+        "sha256": "921bfa8d138791a3ac337508e2642c0192430de756180eec24b876451670fe36",
+        "sha256_in_prefix": "921bfa8d138791a3ac337508e2642c0192430de756180eec24b876451670fe36",
+        "size_in_bytes": 48654
+      },
+      {
+        "_path": "Library/share/gdal/grib2_center.csv",
+        "path_type": "hardlink",
+        "sha256": "f6ac1b6785bc9bcfba7591ba2c5b2471adeb0a0978d9b30b7f3834c9023f4233",
+        "sha256_in_prefix": "f6ac1b6785bc9bcfba7591ba2c5b2471adeb0a0978d9b30b7f3834c9023f4233",
+        "size_in_bytes": 4171
+      },
+      {
+        "_path": "Library/share/gdal/grib2_process.csv",
+        "path_type": "hardlink",
+        "sha256": "e6deb8aaa12ecf8df9fd541f2a3ea366b3e98bd19424f2fe5d2df657d5440a0f",
+        "sha256_in_prefix": "e6deb8aaa12ecf8df9fd541f2a3ea366b3e98bd19424f2fe5d2df657d5440a0f",
+        "size_in_bytes": 4926
+      },
+      {
+        "_path": "Library/share/gdal/grib2_subcenter.csv",
+        "path_type": "hardlink",
+        "sha256": "1f53670bb3eeb074d46d2ddc1537e7c05c87b24aaf76024d029775143502945b",
+        "sha256_in_prefix": "1f53670bb3eeb074d46d2ddc1537e7c05c87b24aaf76024d029775143502945b",
+        "size_in_bytes": 2328
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_0.csv",
+        "path_type": "hardlink",
+        "sha256": "4dd0d02d8da0cd48bbcf94139fe9f434c1c77139ca11547a1397a3f21804a473",
+        "sha256_in_prefix": "4dd0d02d8da0cd48bbcf94139fe9f434c1c77139ca11547a1397a3f21804a473",
+        "size_in_bytes": 10363
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_1.csv",
+        "path_type": "hardlink",
+        "sha256": "8f92e0bff0d98f31b64d4839fb0cc036dbe46b2dafc8a57b6c69953998fcbd26",
+        "sha256_in_prefix": "8f92e0bff0d98f31b64d4839fb0cc036dbe46b2dafc8a57b6c69953998fcbd26",
+        "size_in_bytes": 15737
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_13.csv",
+        "path_type": "hardlink",
+        "sha256": "b6f67927da12601f9c313741275c7ef7651212e0bc65a89b9985e0346ef0fc68",
+        "sha256_in_prefix": "b6f67927da12601f9c313741275c7ef7651212e0bc65a89b9985e0346ef0fc68",
+        "size_in_bytes": 9596
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_14.csv",
+        "path_type": "hardlink",
+        "sha256": "efe313c3272a24111ee6de39455c3866f9cb1407b46a99da8c202c2b83ba5358",
+        "sha256_in_prefix": "efe313c3272a24111ee6de39455c3866f9cb1407b46a99da8c202c2b83ba5358",
+        "size_in_bytes": 9551
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_15.csv",
+        "path_type": "hardlink",
+        "sha256": "80699c3f7d352f2c1bdcb69e8e90a529f889372cf98b362a6f0aa7309daf4a67",
+        "sha256_in_prefix": "80699c3f7d352f2c1bdcb69e8e90a529f889372cf98b362a6f0aa7309daf4a67",
+        "size_in_bytes": 9846
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_16.csv",
+        "path_type": "hardlink",
+        "sha256": "7570e2be1827f9ad2f41a20125478d2408e0e093604ae3010f3695f568e6a102",
+        "sha256_in_prefix": "7570e2be1827f9ad2f41a20125478d2408e0e093604ae3010f3695f568e6a102",
+        "size_in_bytes": 9671
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_17.csv",
+        "path_type": "hardlink",
+        "sha256": "c85345ed349bde005e993af7cec128d1557155970a1bde4b40f0fedbe0caa742",
+        "sha256_in_prefix": "c85345ed349bde005e993af7cec128d1557155970a1bde4b40f0fedbe0caa742",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_18.csv",
+        "path_type": "hardlink",
+        "sha256": "1f2afe981fdcfb1382d98ea162604e554c4d943c5ee431292e31eecf4c27dde6",
+        "sha256_in_prefix": "1f2afe981fdcfb1382d98ea162604e554c4d943c5ee431292e31eecf4c27dde6",
+        "size_in_bytes": 10224
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_19.csv",
+        "path_type": "hardlink",
+        "sha256": "918369dd11562e090a18098a30e92c16645725af07ac210cedc67aea5515b0f0",
+        "sha256_in_prefix": "918369dd11562e090a18098a30e92c16645725af07ac210cedc67aea5515b0f0",
+        "size_in_bytes": 11874
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_190.csv",
+        "path_type": "hardlink",
+        "sha256": "b35b09c92809731970e0ff77815e6fdae651b1eca09828be5f21528df2e7548b",
+        "sha256_in_prefix": "b35b09c92809731970e0ff77815e6fdae651b1eca09828be5f21528df2e7548b",
+        "size_in_bytes": 9507
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_191.csv",
+        "path_type": "hardlink",
+        "sha256": "d26a1c9eb6077bd656fdaf73a9e51d3a9954da162ac0e1a1beb74eabe517841f",
+        "sha256_in_prefix": "d26a1c9eb6077bd656fdaf73a9e51d3a9954da162ac0e1a1beb74eabe517841f",
+        "size_in_bytes": 9620
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_2.csv",
+        "path_type": "hardlink",
+        "sha256": "2d59aaf0d8fb226b64a0a88435a2a746690b656891765a9ead6849c548dc287e",
+        "sha256_in_prefix": "2d59aaf0d8fb226b64a0a88435a2a746690b656891765a9ead6849c548dc287e",
+        "size_in_bytes": 10803
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_20.csv",
+        "path_type": "hardlink",
+        "sha256": "b88a080c43ab7a5bbed5a6c835034417727ff030bfb150fec655814f21a10e4a",
+        "sha256_in_prefix": "b88a080c43ab7a5bbed5a6c835034417727ff030bfb150fec655814f21a10e4a",
+        "size_in_bytes": 12126
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_3.csv",
+        "path_type": "hardlink",
+        "sha256": "5819e5838071baf15e837727e3a423fa42a8f870b46e6b715cb58ab9f683798c",
+        "sha256_in_prefix": "5819e5838071baf15e837727e3a423fa42a8f870b46e6b715cb58ab9f683798c",
+        "size_in_bytes": 10334
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_4.csv",
+        "path_type": "hardlink",
+        "sha256": "b600c5a85a7f69698c39e24cdf5a1014cc0b54ff6655eecc717dd2f381f9fc88",
+        "sha256_in_prefix": "b600c5a85a7f69698c39e24cdf5a1014cc0b54ff6655eecc717dd2f381f9fc88",
+        "size_in_bytes": 10311
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_5.csv",
+        "path_type": "hardlink",
+        "sha256": "312f54465eb864635b36af08025caa0680a3065ef2b32d1fab75a710cb1c66d1",
+        "sha256_in_prefix": "312f54465eb864635b36af08025caa0680a3065ef2b32d1fab75a710cb1c66d1",
+        "size_in_bytes": 9826
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_6.csv",
+        "path_type": "hardlink",
+        "sha256": "299d2a1be7c10178e61649200989aa0526f7f8407d60d9fb609cf0ff1772d79c",
+        "sha256_in_prefix": "299d2a1be7c10178e61649200989aa0526f7f8407d60d9fb609cf0ff1772d79c",
+        "size_in_bytes": 11642
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_0_7.csv",
+        "path_type": "hardlink",
+        "sha256": "6747f5f51fcc053771044b53d56666b71874ac5b0feb7d896c82127ab4fb763b",
+        "sha256_in_prefix": "6747f5f51fcc053771044b53d56666b71874ac5b0feb7d896c82127ab4fb763b",
+        "size_in_bytes": 10491
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_10_0.csv",
+        "path_type": "hardlink",
+        "sha256": "62fd1acdf0a5f773e287c2d26033bba7bc3aaa2902e091653a60ec9ff6ad1ab3",
+        "sha256_in_prefix": "62fd1acdf0a5f773e287c2d26033bba7bc3aaa2902e091653a60ec9ff6ad1ab3",
+        "size_in_bytes": 11773
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_10_1.csv",
+        "path_type": "hardlink",
+        "sha256": "de3e621e1820298f4ede0cd9a0b5983aa928242c86494a28975043bf9ab2d5d0",
+        "sha256_in_prefix": "de3e621e1820298f4ede0cd9a0b5983aa928242c86494a28975043bf9ab2d5d0",
+        "size_in_bytes": 9598
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_10_191.csv",
+        "path_type": "hardlink",
+        "sha256": "f0517f0d0454ede595d94b5955dcf20f0f241943ece4c05a1e43a0ae4c80269e",
+        "sha256_in_prefix": "f0517f0d0454ede595d94b5955dcf20f0f241943ece4c05a1e43a0ae4c80269e",
+        "size_in_bytes": 9634
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_10_2.csv",
+        "path_type": "hardlink",
+        "sha256": "a66d81ff6c2d2e4018d56cfaf46e3a1bf8b63efc9e92a58ce31561ed1a5e002d",
+        "sha256_in_prefix": "a66d81ff6c2d2e4018d56cfaf46e3a1bf8b63efc9e92a58ce31561ed1a5e002d",
+        "size_in_bytes": 9880
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_10_3.csv",
+        "path_type": "hardlink",
+        "sha256": "6f0fa05ec465f7b0a37472a9af76d352d8f4fd3f74788f43fc860135e5dad207",
+        "sha256_in_prefix": "6f0fa05ec465f7b0a37472a9af76d352d8f4fd3f74788f43fc860135e5dad207",
+        "size_in_bytes": 9776
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_10_4.csv",
+        "path_type": "hardlink",
+        "sha256": "c2e31080b0fe3226bdfac3c443611b099d201a28e19783c22388e08a4a280ed2",
+        "sha256_in_prefix": "c2e31080b0fe3226bdfac3c443611b099d201a28e19783c22388e08a4a280ed2",
+        "size_in_bytes": 10193
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_1_0.csv",
+        "path_type": "hardlink",
+        "sha256": "cc0b34785106867ee6d891bfbc8106d2270825a392b3cc72475997d31854fd55",
+        "sha256_in_prefix": "cc0b34785106867ee6d891bfbc8106d2270825a392b3cc72475997d31854fd55",
+        "size_in_bytes": 10142
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_1_1.csv",
+        "path_type": "hardlink",
+        "sha256": "21c308d1d9b078eb13701e804015170642f01e07f2d77f1421c49782764ee47b",
+        "sha256_in_prefix": "21c308d1d9b078eb13701e804015170642f01e07f2d77f1421c49782764ee47b",
+        "size_in_bytes": 9655
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_1_2.csv",
+        "path_type": "hardlink",
+        "sha256": "9e9fb30628e6fe4f3cc8a8dcabfadab3d73f98a66fc892738662c870030c7190",
+        "sha256_in_prefix": "9e9fb30628e6fe4f3cc8a8dcabfadab3d73f98a66fc892738662c870030c7190",
+        "size_in_bytes": 9798
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_20_0.csv",
+        "path_type": "hardlink",
+        "sha256": "9cbd8f8f7e69b856c10f99602ebc9ed9d8afbb4a71308950f8441f579c80901c",
+        "sha256_in_prefix": "9cbd8f8f7e69b856c10f99602ebc9ed9d8afbb4a71308950f8441f579c80901c",
+        "size_in_bytes": 9546
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_20_1.csv",
+        "path_type": "hardlink",
+        "sha256": "e1b2915d0ca9c82e0dbc8c43dd0ed4abbca4565cd0761ba8da3000bbefacc24c",
+        "sha256_in_prefix": "e1b2915d0ca9c82e0dbc8c43dd0ed4abbca4565cd0761ba8da3000bbefacc24c",
+        "size_in_bytes": 9854
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_20_2.csv",
+        "path_type": "hardlink",
+        "sha256": "c8bc02b0658ab73ac0d6c50cbe531e7b65babdb12032ea84ee7e82c58f6af494",
+        "sha256_in_prefix": "c8bc02b0658ab73ac0d6c50cbe531e7b65babdb12032ea84ee7e82c58f6af494",
+        "size_in_bytes": 9506
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_2_0.csv",
+        "path_type": "hardlink",
+        "sha256": "7434972e92c948fb47a7e0c5c3c7ca5a36c84d4a5ea26f8eafab7a68a9214e04",
+        "sha256_in_prefix": "7434972e92c948fb47a7e0c5c3c7ca5a36c84d4a5ea26f8eafab7a68a9214e04",
+        "size_in_bytes": 12201
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_2_3.csv",
+        "path_type": "hardlink",
+        "sha256": "1e5a7078fa9a4da0b3146552ab347abc4ae32173712a022231261a4b1d127f66",
+        "sha256_in_prefix": "1e5a7078fa9a4da0b3146552ab347abc4ae32173712a022231261a4b1d127f66",
+        "size_in_bytes": 10634
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_2_4.csv",
+        "path_type": "hardlink",
+        "sha256": "cb871a2acf97a8717404f4428eccac4544b5d8e9f8e124a326dbee70edf8c96f",
+        "sha256_in_prefix": "cb871a2acf97a8717404f4428eccac4544b5d8e9f8e124a326dbee70edf8c96f",
+        "size_in_bytes": 11228
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_2_5.csv",
+        "path_type": "hardlink",
+        "sha256": "a1af2813214cbcacd197e8e8645b2ad226733703ca5d3c23d0ecdd64cc9cceef",
+        "sha256_in_prefix": "a1af2813214cbcacd197e8e8645b2ad226733703ca5d3c23d0ecdd64cc9cceef",
+        "size_in_bytes": 9513
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_3_0.csv",
+        "path_type": "hardlink",
+        "sha256": "775d62cd025944330596a7681c9a829cf46775ac5dbff42604c403741bb3de9a",
+        "sha256_in_prefix": "775d62cd025944330596a7681c9a829cf46775ac5dbff42604c403741bb3de9a",
+        "size_in_bytes": 10951
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_3_1.csv",
+        "path_type": "hardlink",
+        "sha256": "67fe7bc63c2b0ba75ad0e8cfc0105d548cf39b139abf5abc438e290354638bd4",
+        "sha256_in_prefix": "67fe7bc63c2b0ba75ad0e8cfc0105d548cf39b139abf5abc438e290354638bd4",
+        "size_in_bytes": 10663
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_3_2.csv",
+        "path_type": "hardlink",
+        "sha256": "7cc01320653c90dfd9bb152df5fd6890385fd65a9fe0e4775790fc642c7024bf",
+        "sha256_in_prefix": "7cc01320653c90dfd9bb152df5fd6890385fd65a9fe0e4775790fc642c7024bf",
+        "size_in_bytes": 3833
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_3_3.csv",
+        "path_type": "hardlink",
+        "sha256": "aa0b300a37f2227713d4f94a1c8c04ae4eb3a030035e59dfa7bc0c353047c53c",
+        "sha256_in_prefix": "aa0b300a37f2227713d4f94a1c8c04ae4eb3a030035e59dfa7bc0c353047c53c",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_3_4.csv",
+        "path_type": "hardlink",
+        "sha256": "e48af89b7c3dd3e2758b8638419ecc2cdbd26474c33c85716a8b90ad459ec056",
+        "sha256_in_prefix": "e48af89b7c3dd3e2758b8638419ecc2cdbd26474c33c85716a8b90ad459ec056",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_3_5.csv",
+        "path_type": "hardlink",
+        "sha256": "cb0f3e0c31c53f7d2cf2b71e54568219ac88569f089999f2f7d27dc627621c2f",
+        "sha256_in_prefix": "cb0f3e0c31c53f7d2cf2b71e54568219ac88569f089999f2f7d27dc627621c2f",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_3_6.csv",
+        "path_type": "hardlink",
+        "sha256": "e85d7548e03d9ca0a9320f37a502c24b59b8c5f33a7085443a7e7e126abcc302",
+        "sha256_in_prefix": "e85d7548e03d9ca0a9320f37a502c24b59b8c5f33a7085443a7e7e126abcc302",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_0.csv",
+        "path_type": "hardlink",
+        "sha256": "770f587546a2387ab1ecfb424e27e77d4a8466c171ea371b652ff254b75b3881",
+        "sha256_in_prefix": "770f587546a2387ab1ecfb424e27e77d4a8466c171ea371b652ff254b75b3881",
+        "size_in_bytes": 9553
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_1.csv",
+        "path_type": "hardlink",
+        "sha256": "66dd7828a412250941804b96262cfabaf98f966e67a07c4d48c21a5c0d922e9a",
+        "sha256_in_prefix": "66dd7828a412250941804b96262cfabaf98f966e67a07c4d48c21a5c0d922e9a",
+        "size_in_bytes": 9686
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_10.csv",
+        "path_type": "hardlink",
+        "sha256": "bc2736226fb30c9432212460b8716c7cebb7ce5fb9217ba7b838d94f4b171cad",
+        "sha256_in_prefix": "bc2736226fb30c9432212460b8716c7cebb7ce5fb9217ba7b838d94f4b171cad",
+        "size_in_bytes": 9701
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_2.csv",
+        "path_type": "hardlink",
+        "sha256": "756da0c2decf0a44041d4b50c3a268880c53e5c5b200bd4584a1356c72b5e72d",
+        "sha256_in_prefix": "756da0c2decf0a44041d4b50c3a268880c53e5c5b200bd4584a1356c72b5e72d",
+        "size_in_bytes": 9660
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_3.csv",
+        "path_type": "hardlink",
+        "sha256": "c02a06ab4f08852fce82ae8d4f828090de0dee3b64d37e290532446e74ac0a68",
+        "sha256_in_prefix": "c02a06ab4f08852fce82ae8d4f828090de0dee3b64d37e290532446e74ac0a68",
+        "size_in_bytes": 9722
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_4.csv",
+        "path_type": "hardlink",
+        "sha256": "87b935435f9224a3ee62aa2c22eda92c6868c59262a60bf465d8a96cb270a6e5",
+        "sha256_in_prefix": "87b935435f9224a3ee62aa2c22eda92c6868c59262a60bf465d8a96cb270a6e5",
+        "size_in_bytes": 9689
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_5.csv",
+        "path_type": "hardlink",
+        "sha256": "042e59970034e8e9ac19e9d47359e3eccbdb65746fdf2b90b3329e6726c6fb91",
+        "sha256_in_prefix": "042e59970034e8e9ac19e9d47359e3eccbdb65746fdf2b90b3329e6726c6fb91",
+        "size_in_bytes": 9496
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_6.csv",
+        "path_type": "hardlink",
+        "sha256": "f118298d050ec058370d97b34fcfa10e38848602fdd8cf357208682a1dc0a20e",
+        "sha256_in_prefix": "f118298d050ec058370d97b34fcfa10e38848602fdd8cf357208682a1dc0a20e",
+        "size_in_bytes": 9634
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_7.csv",
+        "path_type": "hardlink",
+        "sha256": "5536fa02b8135bb6787b1a262f9eaa59eced81d66f8c4a217cafbe8000949ab2",
+        "sha256_in_prefix": "5536fa02b8135bb6787b1a262f9eaa59eced81d66f8c4a217cafbe8000949ab2",
+        "size_in_bytes": 9556
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_8.csv",
+        "path_type": "hardlink",
+        "sha256": "0776ac186dbc33e0ccd9d271bb88380b23d49403afc6cace51a0ba741616e4d8",
+        "sha256_in_prefix": "0776ac186dbc33e0ccd9d271bb88380b23d49403afc6cace51a0ba741616e4d8",
+        "size_in_bytes": 9686
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_4_9.csv",
+        "path_type": "hardlink",
+        "sha256": "bb2a2f89ee730577ccbc66037aadf2e40eac9a7e7ce909d9216f9c8dde1da342",
+        "sha256_in_prefix": "bb2a2f89ee730577ccbc66037aadf2e40eac9a7e7ce909d9216f9c8dde1da342",
+        "size_in_bytes": 9536
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_local_Canada.csv",
+        "path_type": "hardlink",
+        "sha256": "9bc191c5bca974f42fbdd488037f074ee1cabba80efe2da50b8fd254c0dcbff5",
+        "sha256_in_prefix": "9bc191c5bca974f42fbdd488037f074ee1cabba80efe2da50b8fd254c0dcbff5",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_local_HPC.csv",
+        "path_type": "hardlink",
+        "sha256": "b89d17cbfcb8e9bf2ea92d17d8fd555293233db57ce6a87e3977bf487779a3fe",
+        "sha256_in_prefix": "b89d17cbfcb8e9bf2ea92d17d8fd555293233db57ce6a87e3977bf487779a3fe",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_local_MRMS.csv",
+        "path_type": "hardlink",
+        "sha256": "1ffbbd585d7424d50b66bae0edf1380f4abeb451b4053dbc67cc37ba6a550e53",
+        "sha256_in_prefix": "1ffbbd585d7424d50b66bae0edf1380f4abeb451b4053dbc67cc37ba6a550e53",
+        "size_in_bytes": 15587
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_local_NCEP.csv",
+        "path_type": "hardlink",
+        "sha256": "deee78ecb6f0625ab5cc2e3c38520eaa9219987b686df914b5981df8ce93447b",
+        "sha256_in_prefix": "deee78ecb6f0625ab5cc2e3c38520eaa9219987b686df914b5981df8ce93447b",
+        "size_in_bytes": 27977
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_local_NDFD.csv",
+        "path_type": "hardlink",
+        "sha256": "f9ac7d3c6bcbdb448a9c1b66ff2794897895fcde82471d4f4ffd42fe228386c6",
+        "sha256_in_prefix": "f9ac7d3c6bcbdb448a9c1b66ff2794897895fcde82471d4f4ffd42fe228386c6",
+        "size_in_bytes": 2659
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_2_local_index.csv",
+        "path_type": "hardlink",
+        "sha256": "88bed40dbb0d0df72b432792ba3214bfddcba29013b19a5dfcff677811a337b7",
+        "sha256_in_prefix": "88bed40dbb0d0df72b432792ba3214bfddcba29013b19a5dfcff677811a337b7",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_4_5.csv",
+        "path_type": "hardlink",
+        "sha256": "94b2f509cdebafa0b35e9a02586e83aa472516a532b89d991825d9a56233e969",
+        "sha256_in_prefix": "94b2f509cdebafa0b35e9a02586e83aa472516a532b89d991825d9a56233e969",
+        "size_in_bytes": 10013
+      },
+      {
+        "_path": "Library/share/gdal/grib2_table_versions.csv",
+        "path_type": "hardlink",
+        "sha256": "758dc23cd1180c091c424cc27b3b85b7bd1bd6c976ef359406fb91f695bc913d",
+        "sha256_in_prefix": "758dc23cd1180c091c424cc27b3b85b7bd1bd6c976ef359406fb91f695bc913d",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "Library/share/gdal/gt_datum.csv",
+        "path_type": "hardlink",
+        "sha256": "dd0722e59b04d5da58409bceaec4436ec726306446bd6477ecbaa819c58f056d",
+        "sha256_in_prefix": "dd0722e59b04d5da58409bceaec4436ec726306446bd6477ecbaa819c58f056d",
+        "size_in_bytes": 15804
+      },
+      {
+        "_path": "Library/share/gdal/gt_ellips.csv",
+        "path_type": "hardlink",
+        "sha256": "c10676c298140d70248045e0c22d73e34c5cf85db359167374367d493ffa7cf4",
+        "sha256_in_prefix": "c10676c298140d70248045e0c22d73e34c5cf85db359167374367d493ffa7cf4",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "Library/share/gdal/header.dxf",
+        "path_type": "hardlink",
+        "sha256": "f46a443f493e43707bc7985b9f2844562c24fea576d71570ff2afe91317449de",
+        "sha256_in_prefix": "f46a443f493e43707bc7985b9f2844562c24fea576d71570ff2afe91317449de",
+        "size_in_bytes": 6572
+      },
+      {
+        "_path": "Library/share/gdal/inspire_cp_BasicPropertyUnit.gfs",
+        "path_type": "hardlink",
+        "sha256": "286d7b67c2fa3a5c321d439f83193bc06e0c6a0a6536838e79f151678ab5471c",
+        "sha256_in_prefix": "286d7b67c2fa3a5c321d439f83193bc06e0c6a0a6536838e79f151678ab5471c",
+        "size_in_bytes": 1740
+      },
+      {
+        "_path": "Library/share/gdal/inspire_cp_CadastralBoundary.gfs",
+        "path_type": "hardlink",
+        "sha256": "55963c9317f76508f5b64729e6057a230f1f5fc9473851f1031f99c50b1aeb86",
+        "sha256_in_prefix": "55963c9317f76508f5b64729e6057a230f1f5fc9473851f1031f99c50b1aeb86",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "Library/share/gdal/inspire_cp_CadastralParcel.gfs",
+        "path_type": "hardlink",
+        "sha256": "6f14b49b1694abfe191f1d45c84c6e62678866e3941dc53f095e0ec6cfa30e24",
+        "sha256_in_prefix": "6f14b49b1694abfe191f1d45c84c6e62678866e3941dc53f095e0ec6cfa30e24",
+        "size_in_bytes": 2450
+      },
+      {
+        "_path": "Library/share/gdal/inspire_cp_CadastralZoning.gfs",
+        "path_type": "hardlink",
+        "sha256": "7b5182fbca4b8d9ea073e398d085037792cbd9444d1dc6b3596fa2ed030b4cfa",
+        "sha256_in_prefix": "7b5182fbca4b8d9ea073e398d085037792cbd9444d1dc6b3596fa2ed030b4cfa",
+        "size_in_bytes": 4812
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_AdmArea.gfs",
+        "path_type": "hardlink",
+        "sha256": "13ee375bb8bc98152d97284f645b61bd135530c64f418b38587b9eb1eef90770",
+        "sha256_in_prefix": "13ee375bb8bc98152d97284f645b61bd135530c64f418b38587b9eb1eef90770",
+        "size_in_bytes": 1640
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_AdmBdry.gfs",
+        "path_type": "hardlink",
+        "sha256": "68bec4b06bfc5b49ae5e92b307e37769881cfb579dd4c2cad668d800b0b15d87",
+        "sha256_in_prefix": "68bec4b06bfc5b49ae5e92b307e37769881cfb579dd4c2cad668d800b0b15d87",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_AdmPt.gfs",
+        "path_type": "hardlink",
+        "sha256": "fd4198972d31a3446526e76511aa77cb5609c5da27fdfe21e0da100e047b0010",
+        "sha256_in_prefix": "fd4198972d31a3446526e76511aa77cb5609c5da27fdfe21e0da100e047b0010",
+        "size_in_bytes": 1633
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_BldA.gfs",
+        "path_type": "hardlink",
+        "sha256": "afe1e3130edb8c3e1f42ef83c0f14ae218b7eeda9526147d8fd242d503134fa9",
+        "sha256_in_prefix": "afe1e3130edb8c3e1f42ef83c0f14ae218b7eeda9526147d8fd242d503134fa9",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_BldL.gfs",
+        "path_type": "hardlink",
+        "sha256": "13dd6c1acdc89548f738d22e8786aa0408cba7c041f4b334fc04b4e44295169f",
+        "sha256_in_prefix": "13dd6c1acdc89548f738d22e8786aa0408cba7c041f4b334fc04b4e44295169f",
+        "size_in_bytes": 1503
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_Cntr.gfs",
+        "path_type": "hardlink",
+        "sha256": "f53dc458d87b3d972604d31d2092e43a5a86807cfde7d7f48db09e33b2bac24e",
+        "sha256_in_prefix": "f53dc458d87b3d972604d31d2092e43a5a86807cfde7d7f48db09e33b2bac24e",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_CommBdry.gfs",
+        "path_type": "hardlink",
+        "sha256": "19f9b465633c3debea19875e73387b970331b329cb97efc29f2e44d701bad255",
+        "sha256_in_prefix": "19f9b465633c3debea19875e73387b970331b329cb97efc29f2e44d701bad255",
+        "size_in_bytes": 1384
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_CommPt.gfs",
+        "path_type": "hardlink",
+        "sha256": "038d64f0e24aad6ab0e8df823efc9d949d0a134ecf8eb491f0308e3eb9ae61b3",
+        "sha256_in_prefix": "038d64f0e24aad6ab0e8df823efc9d949d0a134ecf8eb491f0308e3eb9ae61b3",
+        "size_in_bytes": 1635
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_Cstline.gfs",
+        "path_type": "hardlink",
+        "sha256": "59d7cc2fb9cf3f8cbe5232a81661aa101bc2d7b0c56cb71886bb5b59514f849e",
+        "sha256_in_prefix": "59d7cc2fb9cf3f8cbe5232a81661aa101bc2d7b0c56cb71886bb5b59514f849e",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_ElevPt.gfs",
+        "path_type": "hardlink",
+        "sha256": "b2a0bd2c6881fb6198d78864f1444975ec2cd0b4a0b0a5621fc838f9ace4ef00",
+        "sha256_in_prefix": "b2a0bd2c6881fb6198d78864f1444975ec2cd0b4a0b0a5621fc838f9ace4ef00",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_GCP.gfs",
+        "path_type": "hardlink",
+        "sha256": "9bfdfc0e4387170f01c24d786eb06066476f2e36d7d4bcf050c48166ad5d3247",
+        "sha256_in_prefix": "9bfdfc0e4387170f01c24d786eb06066476f2e36d7d4bcf050c48166ad5d3247",
+        "size_in_bytes": 2523
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_LeveeEdge.gfs",
+        "path_type": "hardlink",
+        "sha256": "a7a918dc798713623937bd86a42d08c79cb40fc6adfb81a9eb212e96c991d891",
+        "sha256_in_prefix": "a7a918dc798713623937bd86a42d08c79cb40fc6adfb81a9eb212e96c991d891",
+        "size_in_bytes": 1386
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_RailCL.gfs",
+        "path_type": "hardlink",
+        "sha256": "4ce8cb56a3418192ceb1bf26f2760d1c7340015bac32f58c58658669f326540c",
+        "sha256_in_prefix": "4ce8cb56a3418192ceb1bf26f2760d1c7340015bac32f58c58658669f326540c",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_RdASL.gfs",
+        "path_type": "hardlink",
+        "sha256": "94cb6c9cbf96647c63deb52bb0fd4be3d9afe0c619b20b7dfba75e752e1356b3",
+        "sha256_in_prefix": "94cb6c9cbf96647c63deb52bb0fd4be3d9afe0c619b20b7dfba75e752e1356b3",
+        "size_in_bytes": 1251
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_RdArea.gfs",
+        "path_type": "hardlink",
+        "sha256": "de901847ae59461232c05f253360fc7c9b6c2cd2f445b6d4832b7f78f1acc5ec",
+        "sha256_in_prefix": "de901847ae59461232c05f253360fc7c9b6c2cd2f445b6d4832b7f78f1acc5ec",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_RdCompt.gfs",
+        "path_type": "hardlink",
+        "sha256": "a0d80f94966d4e36800db214d34e6aaffd7b8aa9e6a42ec90431d2acf7e44c08",
+        "sha256_in_prefix": "a0d80f94966d4e36800db214d34e6aaffd7b8aa9e6a42ec90431d2acf7e44c08",
+        "size_in_bytes": 1646
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_RdEdg.gfs",
+        "path_type": "hardlink",
+        "sha256": "f3f434940cf62093de6a6fc0cf87f38b9afc3310cbacc5bbefd1f66c52acd1bd",
+        "sha256_in_prefix": "f3f434940cf62093de6a6fc0cf87f38b9afc3310cbacc5bbefd1f66c52acd1bd",
+        "size_in_bytes": 1642
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_RdMgtBdry.gfs",
+        "path_type": "hardlink",
+        "sha256": "fc3d9286cfbda69902a04726544bb9a48b2180cb4dda817a44f6204e899602fc",
+        "sha256_in_prefix": "fc3d9286cfbda69902a04726544bb9a48b2180cb4dda817a44f6204e899602fc",
+        "size_in_bytes": 1386
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_RdSgmtA.gfs",
+        "path_type": "hardlink",
+        "sha256": "73d937c106234c43bb9073b8c8b6cbe0175de921cb5588262a687adee51795b7",
+        "sha256_in_prefix": "73d937c106234c43bb9073b8c8b6cbe0175de921cb5588262a687adee51795b7",
+        "size_in_bytes": 1644
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_RvrMgtBdry.gfs",
+        "path_type": "hardlink",
+        "sha256": "77f6caad076a3eab3bc7ef8464808954ac8ad518d7f910711daabe45fc43f6bf",
+        "sha256_in_prefix": "77f6caad076a3eab3bc7ef8464808954ac8ad518d7f910711daabe45fc43f6bf",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_SBAPt.gfs",
+        "path_type": "hardlink",
+        "sha256": "a5eb7f357c7bc9921fd3ed7f576c5b1efa4f3fa716834364b48b860bfb7dd45d",
+        "sha256_in_prefix": "a5eb7f357c7bc9921fd3ed7f576c5b1efa4f3fa716834364b48b860bfb7dd45d",
+        "size_in_bytes": 1375
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_SBArea.gfs",
+        "path_type": "hardlink",
+        "sha256": "8732f2b86ab3f84f37bd5c87a99e735492e596c4aa92f2ac8debd511c4b2ac11",
+        "sha256_in_prefix": "8732f2b86ab3f84f37bd5c87a99e735492e596c4aa92f2ac8debd511c4b2ac11",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_SBBdry.gfs",
+        "path_type": "hardlink",
+        "sha256": "2abc491f475c05604593c34a5a7667de99d44e1cc437e67b582919bfe693b932",
+        "sha256_in_prefix": "2abc491f475c05604593c34a5a7667de99d44e1cc437e67b582919bfe693b932",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_WA.gfs",
+        "path_type": "hardlink",
+        "sha256": "3f899da9b40ecbdc5c150f3d26daf2b696f04f019ecc13a7505fba77313412ba",
+        "sha256_in_prefix": "3f899da9b40ecbdc5c150f3d26daf2b696f04f019ecc13a7505fba77313412ba",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_WL.gfs",
+        "path_type": "hardlink",
+        "sha256": "aeeb1dec07388bfa85cf7f1a1f838f53a81e677999b62f8a4f80422f341d72ec",
+        "sha256_in_prefix": "aeeb1dec07388bfa85cf7f1a1f838f53a81e677999b62f8a4f80422f341d72ec",
+        "size_in_bytes": 1499
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_WStrA.gfs",
+        "path_type": "hardlink",
+        "sha256": "8a5e7065f0290f1b740cab53cf4c45d1b0e88dea3a68612a82392828ab1823cb",
+        "sha256_in_prefix": "8a5e7065f0290f1b740cab53cf4c45d1b0e88dea3a68612a82392828ab1823cb",
+        "size_in_bytes": 1503
+      },
+      {
+        "_path": "Library/share/gdal/jpfgdgml_WStrL.gfs",
+        "path_type": "hardlink",
+        "sha256": "83b6c508bc3b3eb8f23eebdf48c6a36b34b26be8d720a3a99f060e3409185689",
+        "sha256_in_prefix": "83b6c508bc3b3eb8f23eebdf48c6a36b34b26be8d720a3a99f060e3409185689",
+        "size_in_bytes": 1505
+      },
+      {
+        "_path": "Library/share/gdal/netcdf_config.xsd",
+        "path_type": "hardlink",
+        "sha256": "3b5788126952c77cbb37584832d7dbe46cc3fc5ee1ba741d94a235a57a62defe",
+        "sha256_in_prefix": "3b5788126952c77cbb37584832d7dbe46cc3fc5ee1ba741d94a235a57a62defe",
+        "size_in_bytes": 7491
+      },
+      {
+        "_path": "Library/share/gdal/nitf_spec.xml",
+        "path_type": "hardlink",
+        "sha256": "e40502c629a1a5bd75ddd341fa6e7fbc50b028fffa4b138fd905fd9f09285483",
+        "sha256_in_prefix": "e40502c629a1a5bd75ddd341fa6e7fbc50b028fffa4b138fd905fd9f09285483",
+        "size_in_bytes": 148854
+      },
+      {
+        "_path": "Library/share/gdal/nitf_spec.xsd",
+        "path_type": "hardlink",
+        "sha256": "84f78eccb12c87e2ffb5210b84974c66d5d58d88b1113e6b9af6601c611d550b",
+        "sha256_in_prefix": "84f78eccb12c87e2ffb5210b84974c66d5d58d88b1113e6b9af6601c611d550b",
+        "size_in_bytes": 7687
+      },
+      {
+        "_path": "Library/share/gdal/ogrvrt.xsd",
+        "path_type": "hardlink",
+        "sha256": "57ca8b9421cabd91778f812954a1751800072b953bf2c9c5dcc63e491f23c295",
+        "sha256_in_prefix": "57ca8b9421cabd91778f812954a1751800072b953bf2c9c5dcc63e491f23c295",
+        "size_in_bytes": 25749
+      },
+      {
+        "_path": "Library/share/gdal/osmconf.ini",
+        "path_type": "hardlink",
+        "sha256": "a2d2eebc2e63db1a2f4533f43091e935e6a6fff20844648b2197cbdeb636e937",
+        "sha256_in_prefix": "a2d2eebc2e63db1a2f4533f43091e935e6a6fff20844648b2197cbdeb636e937",
+        "size_in_bytes": 5195
+      },
+      {
+        "_path": "Library/share/gdal/ozi_datum.csv",
+        "path_type": "hardlink",
+        "sha256": "e3678e3f144084aeb3488c2e1ae2247f07a841f501a89e7225ae9dd9bfb19868",
+        "sha256_in_prefix": "e3678e3f144084aeb3488c2e1ae2247f07a841f501a89e7225ae9dd9bfb19868",
+        "size_in_bytes": 8482
+      },
+      {
+        "_path": "Library/share/gdal/ozi_ellips.csv",
+        "path_type": "hardlink",
+        "sha256": "0c8363bfdedc1787d53463d705e2e1ce8fbdfcd49d1e3c778f5d4282980d75c6",
+        "sha256_in_prefix": "0c8363bfdedc1787d53463d705e2e1ce8fbdfcd49d1e3c778f5d4282980d75c6",
+        "size_in_bytes": 1349
+      },
+      {
+        "_path": "Library/share/gdal/pci_datum.txt",
+        "path_type": "hardlink",
+        "sha256": "3a240f847754d7a9c64752975e837f583bf5312f454a61fcc9611c5d63f5390b",
+        "sha256_in_prefix": "3a240f847754d7a9c64752975e837f583bf5312f454a61fcc9611c5d63f5390b",
+        "size_in_bytes": 35105
+      },
+      {
+        "_path": "Library/share/gdal/pci_ellips.txt",
+        "path_type": "hardlink",
+        "sha256": "60d4a950ddc976e28751b691a6680acf1c5c966ca410043220f627b7350925cc",
+        "sha256_in_prefix": "60d4a950ddc976e28751b691a6680acf1c5c966ca410043220f627b7350925cc",
+        "size_in_bytes": 3466
+      },
+      {
+        "_path": "Library/share/gdal/pdfcomposition.xsd",
+        "path_type": "hardlink",
+        "sha256": "7f9c7498108ae31142a0ce224ff50230ce344f2a66e10cb83478c24942fe160e",
+        "sha256_in_prefix": "7f9c7498108ae31142a0ce224ff50230ce344f2a66e10cb83478c24942fe160e",
+        "size_in_bytes": 34334
+      },
+      {
+        "_path": "Library/share/gdal/pds4_template.xml",
+        "path_type": "hardlink",
+        "sha256": "aeaa4dd84b1771e19015f48c7963280ffd8fad4f3c8b34e2636ef9894e56f662",
+        "sha256_in_prefix": "aeaa4dd84b1771e19015f48c7963280ffd8fad4f3c8b34e2636ef9894e56f662",
+        "size_in_bytes": 3433
+      },
+      {
+        "_path": "Library/share/gdal/plscenesconf.json",
+        "path_type": "hardlink",
+        "sha256": "93e3e39a3ad31d8d2aa4372c4d2354e7ba6f74841d759a188295c06351e7855e",
+        "sha256_in_prefix": "93e3e39a3ad31d8d2aa4372c4d2354e7ba6f74841d759a188295c06351e7855e",
+        "size_in_bytes": 35313
+      },
+      {
+        "_path": "Library/share/gdal/ruian_vf_ob_v1.gfs",
+        "path_type": "hardlink",
+        "sha256": "2a85b3ec1f9c440e82e35c1531781c73e4a54cec18b4c76cb107b2c8d99cb133",
+        "sha256_in_prefix": "2a85b3ec1f9c440e82e35c1531781c73e4a54cec18b4c76cb107b2c8d99cb133",
+        "size_in_bytes": 46775
+      },
+      {
+        "_path": "Library/share/gdal/ruian_vf_st_uvoh_v1.gfs",
+        "path_type": "hardlink",
+        "sha256": "8ecd4db08ef5ea9f07b6dce9903c7a74299238700c784b009ccda817dea89038",
+        "sha256_in_prefix": "8ecd4db08ef5ea9f07b6dce9903c7a74299238700c784b009ccda817dea89038",
+        "size_in_bytes": 2600
+      },
+      {
+        "_path": "Library/share/gdal/ruian_vf_st_v1.gfs",
+        "path_type": "hardlink",
+        "sha256": "343787735ee46d2a8cc52519c5950c13a9c3cef1bbbdb3a95d198354435808ad",
+        "sha256_in_prefix": "343787735ee46d2a8cc52519c5950c13a9c3cef1bbbdb3a95d198354435808ad",
+        "size_in_bytes": 45972
+      },
+      {
+        "_path": "Library/share/gdal/ruian_vf_v1.gfs",
+        "path_type": "hardlink",
+        "sha256": "92f7ba9afe41c961a4d195a30d469a0b142cb6e90851b03aab5aa514f609cae4",
+        "sha256_in_prefix": "92f7ba9afe41c961a4d195a30d469a0b142cb6e90851b03aab5aa514f609cae4",
+        "size_in_bytes": 67334
+      },
+      {
+        "_path": "Library/share/gdal/s57agencies.csv",
+        "path_type": "hardlink",
+        "sha256": "212ef7211ed83c4382ba59e2ee4437a7331713b29833bee7645c0731cabc4270",
+        "sha256_in_prefix": "212ef7211ed83c4382ba59e2ee4437a7331713b29833bee7645c0731cabc4270",
+        "size_in_bytes": 13304
+      },
+      {
+        "_path": "Library/share/gdal/s57attributes.csv",
+        "path_type": "hardlink",
+        "sha256": "f4b6dfe2e82fea5e7ee433e13683292a3fa09bb66750428e4b1578f99a46d2de",
+        "sha256_in_prefix": "f4b6dfe2e82fea5e7ee433e13683292a3fa09bb66750428e4b1578f99a46d2de",
+        "size_in_bytes": 20001
+      },
+      {
+        "_path": "Library/share/gdal/s57expectedinput.csv",
+        "path_type": "hardlink",
+        "sha256": "d5b09a5c4248f3eb0906a4e3ac68d7380c86f819d70deae3662e736f0597bc6c",
+        "sha256_in_prefix": "d5b09a5c4248f3eb0906a4e3ac68d7380c86f819d70deae3662e736f0597bc6c",
+        "size_in_bytes": 20885
+      },
+      {
+        "_path": "Library/share/gdal/s57objectclasses.csv",
+        "path_type": "hardlink",
+        "sha256": "e9f5ae4e6da0935d28462f37decb26b668ede1c0bf8c0d0f138136d89d1fd63f",
+        "sha256_in_prefix": "e9f5ae4e6da0935d28462f37decb26b668ede1c0bf8c0d0f138136d89d1fd63f",
+        "size_in_bytes": 53327
+      },
+      {
+        "_path": "Library/share/gdal/seed_2d.dgn",
+        "path_type": "hardlink",
+        "sha256": "dd8465f18569d9289809e9e0962115d365d0a56de021393952a5e7a0a20b527c",
+        "sha256_in_prefix": "dd8465f18569d9289809e9e0962115d365d0a56de021393952a5e7a0a20b527c",
+        "size_in_bytes": 9216
+      },
+      {
+        "_path": "Library/share/gdal/seed_3d.dgn",
+        "path_type": "hardlink",
+        "sha256": "97c2f00ee6ea96873b7d16e5e898b4850e3d35448299d7d9d37e7d1792b56896",
+        "sha256_in_prefix": "97c2f00ee6ea96873b7d16e5e898b4850e3d35448299d7d9d37e7d1792b56896",
+        "size_in_bytes": 2048
+      },
+      {
+        "_path": "Library/share/gdal/stateplane.csv",
+        "path_type": "hardlink",
+        "sha256": "30c6210872b0a4c10d40739a8cb6beda630a7ef3eb4cb07a7128e26e8e83cbe3",
+        "sha256_in_prefix": "30c6210872b0a4c10d40739a8cb6beda630a7ef3eb4cb07a7128e26e8e83cbe3",
+        "size_in_bytes": 10360
+      },
+      {
+        "_path": "Library/share/gdal/template_tiles.mapml",
+        "path_type": "hardlink",
+        "sha256": "b1bd6cc14b5d45c5ae0f146ddbef23d3b8d95abea8250fdd53b129edfb8f32dd",
+        "sha256_in_prefix": "b1bd6cc14b5d45c5ae0f146ddbef23d3b8d95abea8250fdd53b129edfb8f32dd",
+        "size_in_bytes": 1947
+      },
+      {
+        "_path": "Library/share/gdal/tms_LINZAntarticaMapTileGrid.json",
+        "path_type": "hardlink",
+        "sha256": "160880c00718966b300f50ae3bba8027c8f71e89e42ccd50323e2d3f8e60b347",
+        "sha256_in_prefix": "160880c00718966b300f50ae3bba8027c8f71e89e42ccd50323e2d3f8e60b347",
+        "size_in_bytes": 4127
+      },
+      {
+        "_path": "Library/share/gdal/tms_MapML_APSTILE.json",
+        "path_type": "hardlink",
+        "sha256": "0a8d75f5f4689775e5be9e93bfc3b27ce3ebf282f277e84240e5ef2bb297e4a3",
+        "sha256_in_prefix": "0a8d75f5f4689775e5be9e93bfc3b27ce3ebf282f277e84240e5ef2bb297e4a3",
+        "size_in_bytes": 6273
+      },
+      {
+        "_path": "Library/share/gdal/tms_MapML_CBMTILE.json",
+        "path_type": "hardlink",
+        "sha256": "7a8790b8d714522834688ef1e60590005909dd3a8f3c2e53a0bea05da069a8a4",
+        "sha256_in_prefix": "7a8790b8d714522834688ef1e60590005909dd3a8f3c2e53a0bea05da069a8a4",
+        "size_in_bytes": 7797
+      },
+      {
+        "_path": "Library/share/gdal/tms_NZTM2000.json",
+        "path_type": "hardlink",
+        "sha256": "7ac221e563ea1fddcfccab49b9b9099618a92a89861fed773b0e903c5fc38d75",
+        "sha256_in_prefix": "7ac221e563ea1fddcfccab49b9b9099618a92a89861fed773b0e903c5fc38d75",
+        "size_in_bytes": 5217
+      },
+      {
+        "_path": "Library/share/gdal/trailer.dxf",
+        "path_type": "hardlink",
+        "sha256": "506baf0c593d7a8ff24fbcd783887292bd6d3c8d5054729e3bf38b9465d119fc",
+        "sha256_in_prefix": "506baf0c593d7a8ff24fbcd783887292bd6d3c8d5054729e3bf38b9465d119fc",
+        "size_in_bytes": 2275
+      },
+      {
+        "_path": "Library/share/gdal/vdv452.xml",
+        "path_type": "hardlink",
+        "sha256": "ab5285d0147e743108a26c2444b85392c4787ff99a32e99acb1e21436c23bbc9",
+        "sha256_in_prefix": "ab5285d0147e743108a26c2444b85392c4787ff99a32e99acb1e21436c23bbc9",
+        "size_in_bytes": 25816
+      },
+      {
+        "_path": "Library/share/gdal/vdv452.xsd",
+        "path_type": "hardlink",
+        "sha256": "ac264bbfac1138bfb715d07f3a28a647a979270dfb715e79dd43a2484e4ad4f8",
+        "sha256_in_prefix": "ac264bbfac1138bfb715d07f3a28a647a979270dfb715e79dd43a2484e4ad4f8",
+        "size_in_bytes": 2854
+      },
+      {
+        "_path": "Library/share/gdal/vicar.json",
+        "path_type": "hardlink",
+        "sha256": "d6e9d4a87d6846fa88633f3149e63cb5e6d41446ab87406fbebda67a7199dec5",
+        "sha256_in_prefix": "d6e9d4a87d6846fa88633f3149e63cb5e6d41446ab87406fbebda67a7199dec5",
+        "size_in_bytes": 2407
+      },
+      {
+        "_path": "Library/share/man/man1/gdal-config.1",
+        "path_type": "hardlink",
+        "sha256": "600a6da79ebe79cf9406f0f7311a460a575094a57db4eb0a712321c01c1d19d8",
+        "sha256_in_prefix": "600a6da79ebe79cf9406f0f7311a460a575094a57db4eb0a712321c01c1d19d8",
+        "size_in_bytes": 2085
+      },
+      {
+        "_path": "Library/share/man/man1/gdal2tiles.1",
+        "path_type": "hardlink",
+        "sha256": "ba33ecc8d9c10d6ff049101fa38ff3662c486208147307b57774fe2f3c02a2ce",
+        "sha256_in_prefix": "ba33ecc8d9c10d6ff049101fa38ff3662c486208147307b57774fe2f3c02a2ce",
+        "size_in_bytes": 9000
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_calc.1",
+        "path_type": "hardlink",
+        "sha256": "a3922d66ae8a834d40fc4097acb5f16b25367fffb61d33f09e5a8178876ed048",
+        "sha256_in_prefix": "a3922d66ae8a834d40fc4097acb5f16b25367fffb61d33f09e5a8178876ed048",
+        "size_in_bytes": 10295
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_contour.1",
+        "path_type": "hardlink",
+        "sha256": "bca1a84ca73628776adac517ab86951b4916d91ec62863913d0cb1cc147e115b",
+        "sha256_in_prefix": "bca1a84ca73628776adac517ab86951b4916d91ec62863913d0cb1cc147e115b",
+        "size_in_bytes": 4371
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_create.1",
+        "path_type": "hardlink",
+        "sha256": "55be0583ddf856746670bb5c6265af109e04e8f39a80d936e507986e080da346",
+        "sha256_in_prefix": "55be0583ddf856746670bb5c6265af109e04e8f39a80d936e507986e080da346",
+        "size_in_bytes": 5110
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_edit.1",
+        "path_type": "hardlink",
+        "sha256": "c5a83b5499090190263e39957b604bafc99614a5197124db2c1df4be49f1542b",
+        "sha256_in_prefix": "c5a83b5499090190263e39957b604bafc99614a5197124db2c1df4be49f1542b",
+        "size_in_bytes": 7060
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_fillnodata.1",
+        "path_type": "hardlink",
+        "sha256": "33938c5b33d40204b3c121fda6a31d6c1ef47286742802fcc313f4822cdf8a3e",
+        "sha256_in_prefix": "33938c5b33d40204b3c121fda6a31d6c1ef47286742802fcc313f4822cdf8a3e",
+        "size_in_bytes": 2737
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_grid.1",
+        "path_type": "hardlink",
+        "sha256": "43f45c2dd2b86ad35c8a1f7433448cb63642fcc01a27fdc5cfa1b4aa9d70a5b0",
+        "sha256_in_prefix": "43f45c2dd2b86ad35c8a1f7433448cb63642fcc01a27fdc5cfa1b4aa9d70a5b0",
+        "size_in_bytes": 21857
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_merge.1",
+        "path_type": "hardlink",
+        "sha256": "2992e8009f898e14663083342da91ab85f97b5b4fe795bdf0eefb84c2bebe2b1",
+        "sha256_in_prefix": "2992e8009f898e14663083342da91ab85f97b5b4fe795bdf0eefb84c2bebe2b1",
+        "size_in_bytes": 5578
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_pansharpen.1",
+        "path_type": "hardlink",
+        "sha256": "c7205c8e1be21c2ea0bc407f011dcc3884d9cc55684b1d229b22a1c5493fe863",
+        "sha256_in_prefix": "c7205c8e1be21c2ea0bc407f011dcc3884d9cc55684b1d229b22a1c5493fe863",
+        "size_in_bytes": 5770
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_polygonize.1",
+        "path_type": "hardlink",
+        "sha256": "900574a0bd0b3eabd62aac8206d07c151d3fa48d2d282d8d86bb8f1d654ab212",
+        "sha256_in_prefix": "900574a0bd0b3eabd62aac8206d07c151d3fa48d2d282d8d86bb8f1d654ab212",
+        "size_in_bytes": 3207
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_proximity.1",
+        "path_type": "hardlink",
+        "sha256": "0824e775bad31f5731d15a02cd5def1a977edcd937d231c61bb965a67f908033",
+        "sha256_in_prefix": "0824e775bad31f5731d15a02cd5def1a977edcd937d231c61bb965a67f908033",
+        "size_in_bytes": 4540
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_rasterize.1",
+        "path_type": "hardlink",
+        "sha256": "36adfa2b7479beeeed0e13962a2dd19a86d189faf4c64f4ce1c3f53d81f177e8",
+        "sha256_in_prefix": "36adfa2b7479beeeed0e13962a2dd19a86d189faf4c64f4ce1c3f53d81f177e8",
+        "size_in_bytes": 9724
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_retile.1",
+        "path_type": "hardlink",
+        "sha256": "de944fa5aba05086e743d1e6d4f95ec64c48f7614c1ba9ca34addf6f5bc2fe43",
+        "sha256_in_prefix": "de944fa5aba05086e743d1e6d4f95ec64c48f7614c1ba9ca34addf6f5bc2fe43",
+        "size_in_bytes": 6403
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_sieve.1",
+        "path_type": "hardlink",
+        "sha256": "1865ea30b1a5869d44d5831383b43f4bc2eb049e607a9e5cbd0cbdf72b872da1",
+        "sha256_in_prefix": "1865ea30b1a5869d44d5831383b43f4bc2eb049e607a9e5cbd0cbdf72b872da1",
+        "size_in_bytes": 1709
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_translate.1",
+        "path_type": "hardlink",
+        "sha256": "34b712b14fcf074573cc1d7ce1847afd2d3909b43016e433731483481bc2e288",
+        "sha256_in_prefix": "34b712b14fcf074573cc1d7ce1847afd2d3909b43016e433731483481bc2e288",
+        "size_in_bytes": 16079
+      },
+      {
+        "_path": "Library/share/man/man1/gdal_viewshed.1",
+        "path_type": "hardlink",
+        "sha256": "a21d68e5054f687457401502b26f1be5da3ccdf39cf38b2bf7801ac84f672c12",
+        "sha256_in_prefix": "a21d68e5054f687457401502b26f1be5da3ccdf39cf38b2bf7801ac84f672c12",
+        "size_in_bytes": 7383
+      },
+      {
+        "_path": "Library/share/man/man1/gdaladdo.1",
+        "path_type": "hardlink",
+        "sha256": "ac45d3603e058e4c22cc3a5c65694e33275a9dda539046713293d13c335b66fe",
+        "sha256_in_prefix": "ac45d3603e058e4c22cc3a5c65694e33275a9dda539046713293d13c335b66fe",
+        "size_in_bytes": 10990
+      },
+      {
+        "_path": "Library/share/man/man1/gdalbuildvrt.1",
+        "path_type": "hardlink",
+        "sha256": "43cec78dd4d83324d2c9147247e50b1b060f07791dbe246041cd19a32e2a7806",
+        "sha256_in_prefix": "43cec78dd4d83324d2c9147247e50b1b060f07791dbe246041cd19a32e2a7806",
+        "size_in_bytes": 10539
+      },
+      {
+        "_path": "Library/share/man/man1/gdalcompare.1",
+        "path_type": "hardlink",
+        "sha256": "d2eef8875d4c8a3e96b2875e13966c8ecde33b4a3a541b6d72e5fec1b94b01e4",
+        "sha256_in_prefix": "d2eef8875d4c8a3e96b2875e13966c8ecde33b4a3a541b6d72e5fec1b94b01e4",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "Library/share/man/man1/gdaldem.1",
+        "path_type": "hardlink",
+        "sha256": "48c2781dd0dc6e8dc469855f4b53361f8e53306e069ca480a383948471adfa5e",
+        "sha256_in_prefix": "48c2781dd0dc6e8dc469855f4b53361f8e53306e069ca480a383948471adfa5e",
+        "size_in_bytes": 17688
+      },
+      {
+        "_path": "Library/share/man/man1/gdalinfo.1",
+        "path_type": "hardlink",
+        "sha256": "e6940b452948009b1fb77f92cc90cbb0bebed1c10aedbea113810da5abcb5cfa",
+        "sha256_in_prefix": "e6940b452948009b1fb77f92cc90cbb0bebed1c10aedbea113810da5abcb5cfa",
+        "size_in_bytes": 6631
+      },
+      {
+        "_path": "Library/share/man/man1/gdallocationinfo.1",
+        "path_type": "hardlink",
+        "sha256": "42e77d6cfc91e2c3ee282620c42638d10729981fda911c88938e709594ba5c5c",
+        "sha256_in_prefix": "42e77d6cfc91e2c3ee282620c42638d10729981fda911c88938e709594ba5c5c",
+        "size_in_bytes": 5426
+      },
+      {
+        "_path": "Library/share/man/man1/gdalmanage.1",
+        "path_type": "hardlink",
+        "sha256": "554ff7b545baf24859849eb987486b3afc86b4b2848a172e81930947ae79fd5d",
+        "sha256_in_prefix": "554ff7b545baf24859849eb987486b3afc86b4b2848a172e81930947ae79fd5d",
+        "size_in_bytes": 3562
+      },
+      {
+        "_path": "Library/share/man/man1/gdalmdiminfo.1",
+        "path_type": "hardlink",
+        "sha256": "5a9485cb6a6f4f92fa6e914b217ae25ec178f476eac9bd30312a6389bae2be63",
+        "sha256_in_prefix": "5a9485cb6a6f4f92fa6e914b217ae25ec178f476eac9bd30312a6389bae2be63",
+        "size_in_bytes": 5415
+      },
+      {
+        "_path": "Library/share/man/man1/gdalmdimtranslate.1",
+        "path_type": "hardlink",
+        "sha256": "92bf8bbfecc49deec8b852598cb44a3bb71c9142e1d6c33b139c5abbdaacb2fe",
+        "sha256_in_prefix": "92bf8bbfecc49deec8b852598cb44a3bb71c9142e1d6c33b139c5abbdaacb2fe",
+        "size_in_bytes": 7501
+      },
+      {
+        "_path": "Library/share/man/man1/gdalmove.1",
+        "path_type": "hardlink",
+        "sha256": "612e47311701d828a41c54238f6cd335dcab8cec408ba7efcd22d74f1b2f8b58",
+        "sha256_in_prefix": "612e47311701d828a41c54238f6cd335dcab8cec408ba7efcd22d74f1b2f8b58",
+        "size_in_bytes": 2880
+      },
+      {
+        "_path": "Library/share/man/man1/gdalsrsinfo.1",
+        "path_type": "hardlink",
+        "sha256": "9859accff6afc90128c7415ae5eab5b11a2972cedfcd03f782a5204899f0076d",
+        "sha256_in_prefix": "9859accff6afc90128c7415ae5eab5b11a2972cedfcd03f782a5204899f0076d",
+        "size_in_bytes": 10600
+      },
+      {
+        "_path": "Library/share/man/man1/gdaltindex.1",
+        "path_type": "hardlink",
+        "sha256": "2e29d9aeba21307e3819453177e09ef320d9827d4d3ec8c84dde7f402d9a7602",
+        "sha256_in_prefix": "2e29d9aeba21307e3819453177e09ef320d9827d4d3ec8c84dde7f402d9a7602",
+        "size_in_bytes": 4884
+      },
+      {
+        "_path": "Library/share/man/man1/gdaltransform.1",
+        "path_type": "hardlink",
+        "sha256": "129e51e5718cbc81295ea8bb9eccdecaf557628e8b21b2bc781cbf800fccf10d",
+        "sha256_in_prefix": "129e51e5718cbc81295ea8bb9eccdecaf557628e8b21b2bc781cbf800fccf10d",
+        "size_in_bytes": 6164
+      },
+      {
+        "_path": "Library/share/man/man1/gdalwarp.1",
+        "path_type": "hardlink",
+        "sha256": "e05a4ce546ab705d34a4d0a19f61ad5c94ffa7fc35f92a29e7036edb9ed07a54",
+        "sha256_in_prefix": "e05a4ce546ab705d34a4d0a19f61ad5c94ffa7fc35f92a29e7036edb9ed07a54",
+        "size_in_bytes": 20160
+      },
+      {
+        "_path": "Library/share/man/man1/gnmanalyse.1",
+        "path_type": "hardlink",
+        "sha256": "942394ebbda07857785e952aa27f7f31217afa7a768e2da86dc576c60441af48",
+        "sha256_in_prefix": "942394ebbda07857785e952aa27f7f31217afa7a768e2da86dc576c60441af48",
+        "size_in_bytes": 3035
+      },
+      {
+        "_path": "Library/share/man/man1/gnmmanage.1",
+        "path_type": "hardlink",
+        "sha256": "8ca9d258c1dfb9fa61cdb98bed142368d6ae5e527eac15db684c77927b30b23e",
+        "sha256_in_prefix": "8ca9d258c1dfb9fa61cdb98bed142368d6ae5e527eac15db684c77927b30b23e",
+        "size_in_bytes": 3851
+      },
+      {
+        "_path": "Library/share/man/man1/nearblack.1",
+        "path_type": "hardlink",
+        "sha256": "1f0e38b0f03366f2954f47d17c938628ec3dd0a0f8ef733d1a75d43f819a857c",
+        "sha256_in_prefix": "1f0e38b0f03366f2954f47d17c938628ec3dd0a0f8ef733d1a75d43f819a857c",
+        "size_in_bytes": 4491
+      },
+      {
+        "_path": "Library/share/man/man1/ogr2ogr.1",
+        "path_type": "hardlink",
+        "sha256": "14af624c46e1a6a982fce9e079d1d2f57218efe77d6d980d789c8886abcd05dd",
+        "sha256_in_prefix": "14af624c46e1a6a982fce9e079d1d2f57218efe77d6d980d789c8886abcd05dd",
+        "size_in_bytes": 24484
+      },
+      {
+        "_path": "Library/share/man/man1/ogr_layer_algebra.1",
+        "path_type": "hardlink",
+        "sha256": "c7cec1bc4d642231645a8e94217a6baf69ef55fda26948a72806ef0364596ede",
+        "sha256_in_prefix": "c7cec1bc4d642231645a8e94217a6baf69ef55fda26948a72806ef0364596ede",
+        "size_in_bytes": 6292
+      },
+      {
+        "_path": "Library/share/man/man1/ogrinfo.1",
+        "path_type": "hardlink",
+        "sha256": "24d10e0f1f613e27e41d7ad1be21299e62d547d1235446908225d5997cd9d882",
+        "sha256_in_prefix": "24d10e0f1f613e27e41d7ad1be21299e62d547d1235446908225d5997cd9d882",
+        "size_in_bytes": 11068
+      },
+      {
+        "_path": "Library/share/man/man1/ogrlineref.1",
+        "path_type": "hardlink",
+        "sha256": "eb6877695789f4caf5f295b2af2deb7a9d718c63b310bb5575b39ef5be6c33b4",
+        "sha256_in_prefix": "eb6877695789f4caf5f295b2af2deb7a9d718c63b310bb5575b39ef5be6c33b4",
+        "size_in_bytes": 5283
+      },
+      {
+        "_path": "Library/share/man/man1/ogrmerge.1",
+        "path_type": "hardlink",
+        "sha256": "e198d9149bf41b9b8d90e9f8a7d8bf0bdafb1a22da5c73420159ff5da2fb572c",
+        "sha256_in_prefix": "e198d9149bf41b9b8d90e9f8a7d8bf0bdafb1a22da5c73420159ff5da2fb572c",
+        "size_in_bytes": 7304
+      },
+      {
+        "_path": "Library/share/man/man1/ogrtindex.1",
+        "path_type": "hardlink",
+        "sha256": "3913af769dd537a33c8c980f935fcbc85f0d1bdbf0f6269f4b5b80f135176860",
+        "sha256_in_prefix": "3913af769dd537a33c8c980f935fcbc85f0d1bdbf0f6269f4b5b80f135176860",
+        "size_in_bytes": 4353
+      },
+      {
+        "_path": "Library/share/man/man1/pct2rgb.1",
+        "path_type": "hardlink",
+        "sha256": "d665c4d10ffd3fd86d19e9d55412bbacdacff2509bf11b7ce195b2ad7a08424a",
+        "sha256_in_prefix": "d665c4d10ffd3fd86d19e9d55412bbacdacff2509bf11b7ce195b2ad7a08424a",
+        "size_in_bytes": 2294
+      },
+      {
+        "_path": "Library/share/man/man1/rgb2pct.1",
+        "path_type": "hardlink",
+        "sha256": "8c2b8dd7d94640e18fdba4ce0b9fc6ca8cdece22b1611fbb86342695d051f4c0",
+        "sha256_in_prefix": "8c2b8dd7d94640e18fdba4ce0b9fc6ca8cdece22b1611fbb86342695d051f4c0",
+        "size_in_bytes": 3293
+      },
+      {
+        "_path": "etc/conda/activate.d/gdal-activate.bat",
+        "path_type": "hardlink",
+        "sha256": "deaf21f068ee4c3d0f02661fb2158c7f1cde8737ef690e39d0ae7ca93c7998f1",
+        "sha256_in_prefix": "deaf21f068ee4c3d0f02661fb2158c7f1cde8737ef690e39d0ae7ca93c7998f1",
+        "size_in_bytes": 585
+      },
+      {
+        "_path": "etc/conda/activate.d/gdal-activate.ps1",
+        "path_type": "hardlink",
+        "sha256": "3787a6cbbcd0ebc56c2335b5b6c0099bd7a6cd561c952b8a5ea47946464b3c22",
+        "sha256_in_prefix": "3787a6cbbcd0ebc56c2335b5b6c0099bd7a6cd561c952b8a5ea47946464b3c22",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "etc/conda/activate.d/gdal-activate.sh",
+        "path_type": "hardlink",
+        "sha256": "10dd5e05d0cea3514e0c8b1ef979054f3fb9f681c9af6baece5f4e6ecb0bf408",
+        "sha256_in_prefix": "10dd5e05d0cea3514e0c8b1ef979054f3fb9f681c9af6baece5f4e6ecb0bf408",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "etc/conda/deactivate.d/gdal-deactivate.bat",
+        "path_type": "hardlink",
+        "sha256": "e65ca7342dd1f3d9e0579f5bc1f0118f72f9aca1bae36e5fc59893e29b55d00f",
+        "sha256_in_prefix": "e65ca7342dd1f3d9e0579f5bc1f0118f72f9aca1bae36e5fc59893e29b55d00f",
+        "size_in_bytes": 355
+      },
+      {
+        "_path": "etc/conda/deactivate.d/gdal-deactivate.ps1",
+        "path_type": "hardlink",
+        "sha256": "c338f190dddb8b6b93ca0c77143a5a86bd6c6330cccbb77d4d3b01fda425469e",
+        "sha256_in_prefix": "c338f190dddb8b6b93ca0c77143a5a86bd6c6330cccbb77d4d3b01fda425469e",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "etc/conda/deactivate.d/gdal-deactivate.sh",
+        "path_type": "hardlink",
+        "sha256": "4b67e6bf7d9e8813e5b327adf528db6a600f62448f72f919d07eb969ce6980ab",
+        "sha256_in_prefix": "4b67e6bf7d9e8813e5b327adf528db6a600f62448f72f919d07eb969ce6980ab",
+        "size_in_bytes": 451
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "904942f8f14f3ab35304bed9aeb96ac8baa41b0b8245c7657863ed0cf3a01c83",
+  "size": 9791242,
+  "subdir": "win-64",
+  "timestamp": 1668647363900,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libgdal-3.6.0-h7fe4343_2.tar.bz2",
+  "version": "3.6.0"
+}

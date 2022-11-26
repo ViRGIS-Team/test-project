@@ -1,0 +1,1159 @@
+{
+  "build": "h91493d7_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "dotnet-runtime 7.0.0.*",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vs2015_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\runes\\anaconda3\\pkgs\\dotnet-aspnetcore-7.0.0-h91493d7_0",
+  "features": "",
+  "files": [
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/.version",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Antiforgery.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.App.deps.json",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.App.runtimeconfig.json",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.Cookies.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.Core.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.OAuth.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authorization.Policy.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authorization.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.Authorization.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.Forms.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.Server.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.Web.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.CookiePolicy.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Cors.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.DataProtection.Extensions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.DataProtection.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Diagnostics.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.HostFiltering.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Hosting.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Html.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Connections.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Extensions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Features.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Results.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.HttpLogging.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.HttpOverrides.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.HttpsPolicy.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Identity.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Localization.Routing.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Localization.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Metadata.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Core.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Cors.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.DataAnnotations.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Localization.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Razor.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.RazorPages.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.TagHelpers.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.ViewFeatures.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.OutputCaching.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.RateLimiting.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Razor.Runtime.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Razor.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.RequestDecompression.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.ResponseCaching.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.ResponseCompression.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Rewrite.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Routing.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Routing.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.HttpSys.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.IIS.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.IISIntegration.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.Kestrel.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Session.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.SignalR.Common.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.SignalR.Core.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.SignalR.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.StaticFiles.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.WebSockets.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.WebUtilities.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Caching.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Caching.Memory.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Binder.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Ini.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Json.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.KeyPerFile.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Xml.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.DependencyInjection.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Features.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileProviders.Composite.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileProviders.Physical.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Hosting.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Http.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Identity.Core.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Identity.Stores.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Localization.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Localization.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.Abstractions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.Configuration.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.Console.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.Debug.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.EventLog.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.EventSource.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.TraceSource.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.ObjectPool.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Options.DataAnnotations.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Options.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Primitives.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.WebEncoders.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.JSInterop.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Net.Http.Headers.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Diagnostics.EventLog.Messages.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Diagnostics.EventLog.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.IO.Pipelines.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Security.Cryptography.Pkcs.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Security.Cryptography.Xml.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Threading.RateLimiting.dll",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/THIRD-PARTY-NOTICES.txt",
+    "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/aspnetcorev2_inprocess.dll"
+  ],
+  "fn": "dotnet-aspnetcore-7.0.0-h91493d7_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\runes\\anaconda3\\pkgs\\dotnet-aspnetcore-7.0.0-h91493d7_0",
+    "type": 3
+  },
+  "md5": "ebbdd2e02312ca341ad7c425afd8dc0a",
+  "name": "dotnet-aspnetcore",
+  "package_tarball_full_path": "C:\\Users\\runes\\anaconda3\\pkgs\\dotnet-aspnetcore-7.0.0-h91493d7_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/.version",
+        "path_type": "hardlink",
+        "sha256": "dec1183155caaa8bb09ba953100063c214dd07413c4636cfe43c0f7189de44c7",
+        "sha256_in_prefix": "dec1183155caaa8bb09ba953100063c214dd07413c4636cfe43c0f7189de44c7",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Antiforgery.dll",
+        "path_type": "hardlink",
+        "sha256": "b1b86a45b59d1c2b022e963b401f9cca8e5327cd6dfd64556064b14b31376fe4",
+        "sha256_in_prefix": "b1b86a45b59d1c2b022e963b401f9cca8e5327cd6dfd64556064b14b31376fe4",
+        "size_in_bytes": 112760
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.App.deps.json",
+        "path_type": "hardlink",
+        "sha256": "73ce76f5ce24dd420579c59e018f85c71ea7d32feeb9bcf028f54136f7fb8b7d",
+        "sha256_in_prefix": "73ce76f5ce24dd420579c59e018f85c71ea7d32feeb9bcf028f54136f7fb8b7d",
+        "size_in_bytes": 22019
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.App.runtimeconfig.json",
+        "path_type": "hardlink",
+        "sha256": "a3902585c3ce7808190442e7b1c6f7682c8da4f62084e0e0cb5368d21bcf10f7",
+        "sha256_in_prefix": "a3902585c3ce7808190442e7b1c6f7682c8da4f62084e0e0cb5368d21bcf10f7",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "4eb025505a30a31d156379faadd29813b3580b62f2c6915eaa7a1899b59eef6b",
+        "sha256_in_prefix": "4eb025505a30a31d156379faadd29813b3580b62f2c6915eaa7a1899b59eef6b",
+        "size_in_bytes": 67704
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.Cookies.dll",
+        "path_type": "hardlink",
+        "sha256": "3f0b2a38b76dfaef668f330511b873d4b6d6ee71fbf32dcc71e23be757c86792",
+        "sha256_in_prefix": "3f0b2a38b76dfaef668f330511b873d4b6d6ee71fbf32dcc71e23be757c86792",
+        "size_in_bytes": 116856
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.Core.dll",
+        "path_type": "hardlink",
+        "sha256": "488b32c3288e62815d8a58883313d75e526f425539cc062abc77054f7fdb6299",
+        "sha256_in_prefix": "488b32c3288e62815d8a58883313d75e526f425539cc062abc77054f7fdb6299",
+        "size_in_bytes": 92288
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.OAuth.dll",
+        "path_type": "hardlink",
+        "sha256": "f291fe810d3de58bbba48d3e93536b5cad223ea90965efeec7e340a83c949e92",
+        "sha256_in_prefix": "f291fe810d3de58bbba48d3e93536b5cad223ea90965efeec7e340a83c949e92",
+        "size_in_bytes": 104576
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authentication.dll",
+        "path_type": "hardlink",
+        "sha256": "4845521e3577a11d80892679f22a3337ae8fefaee93eeae7dac338d59d7729e7",
+        "sha256_in_prefix": "4845521e3577a11d80892679f22a3337ae8fefaee93eeae7dac338d59d7729e7",
+        "size_in_bytes": 157824
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authorization.Policy.dll",
+        "path_type": "hardlink",
+        "sha256": "bbc4e0ae07a710a22b3e7332bfa3828f55bedf6df22d4e696d51c592d94714c6",
+        "sha256_in_prefix": "bbc4e0ae07a710a22b3e7332bfa3828f55bedf6df22d4e696d51c592d94714c6",
+        "size_in_bytes": 80000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Authorization.dll",
+        "path_type": "hardlink",
+        "sha256": "35e0961e4d7d283b54f6f4657e663b4b4da766e42b564674cb08b2cd14b9f89b",
+        "sha256_in_prefix": "35e0961e4d7d283b54f6f4657e663b4b4da766e42b564674cb08b2cd14b9f89b",
+        "size_in_bytes": 104576
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.Authorization.dll",
+        "path_type": "hardlink",
+        "sha256": "93039dfeab9c4c42a339dbd66a5705d1414ced6cd5aa49896bfb3b2c5cc56e9b",
+        "sha256_in_prefix": "93039dfeab9c4c42a339dbd66a5705d1414ced6cd5aa49896bfb3b2c5cc56e9b",
+        "size_in_bytes": 55424
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "path_type": "hardlink",
+        "sha256": "3c2c34162405124332245ab45fa74e172e4767ff48bf7dda2cafdc28fbdbfcd7",
+        "sha256_in_prefix": "3c2c34162405124332245ab45fa74e172e4767ff48bf7dda2cafdc28fbdbfcd7",
+        "size_in_bytes": 75920
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.Server.dll",
+        "path_type": "hardlink",
+        "sha256": "01da7983ddd63ef1eea544aef1cd34b6ba83232113b2b3e9e4644f17a5e58553",
+        "sha256_in_prefix": "01da7983ddd63ef1eea544aef1cd34b6ba83232113b2b3e9e4644f17a5e58553",
+        "size_in_bytes": 768128
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.Web.dll",
+        "path_type": "hardlink",
+        "sha256": "d135b569bcbec748121df067746996a5521be3b7af4d4eb9010b279090487efe",
+        "sha256_in_prefix": "d135b569bcbec748121df067746996a5521be3b7af4d4eb9010b279090487efe",
+        "size_in_bytes": 305296
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Components.dll",
+        "path_type": "hardlink",
+        "sha256": "8903f315ac8e159c370dce3976a587ff513988ab9b7071ce63976f260b65d296",
+        "sha256_in_prefix": "8903f315ac8e159c370dce3976a587ff513988ab9b7071ce63976f260b65d296",
+        "size_in_bytes": 616576
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "767a3084834e0eda43b32fdf3c5569705e9586756c956a783a30a1ca86ba05cb",
+        "sha256_in_prefix": "767a3084834e0eda43b32fdf3c5569705e9586756c956a783a30a1ca86ba05cb",
+        "size_in_bytes": 67712
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.CookiePolicy.dll",
+        "path_type": "hardlink",
+        "sha256": "4949c992f26b7731233eacb0d9b3554cfab72810b04ae9a25250c595d4f4c4fc",
+        "sha256_in_prefix": "4949c992f26b7731233eacb0d9b3554cfab72810b04ae9a25250c595d4f4c4fc",
+        "size_in_bytes": 59520
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Cors.dll",
+        "path_type": "hardlink",
+        "sha256": "3e137a58c92f78e4e7d4579216dd8bd6da4ece17a0681da8a087449fc00cb052",
+        "sha256_in_prefix": "3e137a58c92f78e4e7d4579216dd8bd6da4ece17a0681da8a087449fc00cb052",
+        "size_in_bytes": 88192
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "path_type": "hardlink",
+        "sha256": "b33ae5829949f712bc6e894a34c61112c0fd515e3efb54ad67cf84b05ab7ebb3",
+        "sha256_in_prefix": "b33ae5829949f712bc6e894a34c61112c0fd515e3efb54ad67cf84b05ab7ebb3",
+        "size_in_bytes": 108672
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "path_type": "hardlink",
+        "sha256": "9135ec7b4de0e35fb584502304e9be4c3a016ca9d75d424ea57b53643c6c9ac1",
+        "sha256_in_prefix": "9135ec7b4de0e35fb584502304e9be4c3a016ca9d75d424ea57b53643c6c9ac1",
+        "size_in_bytes": 47232
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "f6039d63e32a325f3d27c0832e860e2c781280055987b57def2da9f373f52017",
+        "sha256_in_prefix": "f6039d63e32a325f3d27c0832e860e2c781280055987b57def2da9f373f52017",
+        "size_in_bytes": 51328
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.DataProtection.Extensions.dll",
+        "path_type": "hardlink",
+        "sha256": "86b323f4686f0c815014f28ca3836a0fb5c4a22c39e794ad79fabcd51b65674c",
+        "sha256_in_prefix": "86b323f4686f0c815014f28ca3836a0fb5c4a22c39e794ad79fabcd51b65674c",
+        "size_in_bytes": 47232
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.DataProtection.dll",
+        "path_type": "hardlink",
+        "sha256": "046df6a7fdf9731e56b8990fd5139a709d91c27106cef23590091b2e718f1b26",
+        "sha256_in_prefix": "046df6a7fdf9731e56b8990fd5139a709d91c27106cef23590091b2e718f1b26",
+        "size_in_bytes": 432264
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "380597b3c7ffa83ef7d1009e15ed2d247b5934f0361fb7ff5b4d486c1ea2022b",
+        "sha256_in_prefix": "380597b3c7ffa83ef7d1009e15ed2d247b5934f0361fb7ff5b4d486c1ea2022b",
+        "size_in_bytes": 34944
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll",
+        "path_type": "hardlink",
+        "sha256": "021c18e7c92f374777b4efc2bd4a3a7595d33bafdcb9a32587b8c2219704a958",
+        "sha256_in_prefix": "021c18e7c92f374777b4efc2bd4a3a7595d33bafdcb9a32587b8c2219704a958",
+        "size_in_bytes": 55432
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Diagnostics.dll",
+        "path_type": "hardlink",
+        "sha256": "20fcd480660aa58d7442645d8459386b41082b618c3ca3d9b4d94e897460d1b1",
+        "sha256_in_prefix": "20fcd480660aa58d7442645d8459386b41082b618c3ca3d9b4d94e897460d1b1",
+        "size_in_bytes": 424072
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.HostFiltering.dll",
+        "path_type": "hardlink",
+        "sha256": "e23d378a10659134b3c1a971aff9fb55f66a5a57bcb807885336da78f5bbc63e",
+        "sha256_in_prefix": "e23d378a10659134b3c1a971aff9fb55f66a5a57bcb807885336da78f5bbc63e",
+        "size_in_bytes": 47232
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "0ea6d62442e56908456f9c7699a00ac9f6a47a347c4af1c54fdcbc1d37bbc1cd",
+        "sha256_in_prefix": "0ea6d62442e56908456f9c7699a00ac9f6a47a347c4af1c54fdcbc1d37bbc1cd",
+        "size_in_bytes": 43128
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "aa5f17bc72af6ae38e41e8ad2f01dcaec40c184f829a4845b1f25fdbc803d67e",
+        "sha256_in_prefix": "aa5f17bc72af6ae38e41e8ad2f01dcaec40c184f829a4845b1f25fdbc803d67e",
+        "size_in_bytes": 30840
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Hosting.dll",
+        "path_type": "hardlink",
+        "sha256": "854fc8715bd15f0bcb7ef4c4bcb6ad21c48d93babacab57cdfd4a462254ee301",
+        "sha256_in_prefix": "854fc8715bd15f0bcb7ef4c4bcb6ad21c48d93babacab57cdfd4a462254ee301",
+        "size_in_bytes": 432256
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Html.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "0a7a5b67996714adc15a9f71f515f6ef1512da56a5dfa1ad20a53a1280ecc3ba",
+        "sha256_in_prefix": "0a7a5b67996714adc15a9f71f515f6ef1512da56a5dfa1ad20a53a1280ecc3ba",
+        "size_in_bytes": 43120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "8712f01ddabb21641aa428aed33ede42e5dcd21b16a00fc8ab97078260532e10",
+        "sha256_in_prefix": "8712f01ddabb21641aa428aed33ede42e5dcd21b16a00fc8ab97078260532e10",
+        "size_in_bytes": 309392
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "path_type": "hardlink",
+        "sha256": "702b5634b55160fca2ae7d6d8dfb6fc5bd4dea766408c867996192efcbb46647",
+        "sha256_in_prefix": "702b5634b55160fca2ae7d6d8dfb6fc5bd4dea766408c867996192efcbb46647",
+        "size_in_bytes": 55416
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Connections.dll",
+        "path_type": "hardlink",
+        "sha256": "d71db4a08e34a1aa36f24c38876be1fbadbda311f19858361b1ed45df3048fe4",
+        "sha256_in_prefix": "d71db4a08e34a1aa36f24c38876be1fbadbda311f19858361b1ed45df3048fe4",
+        "size_in_bytes": 305280
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Extensions.dll",
+        "path_type": "hardlink",
+        "sha256": "ab3bc47d025750083012ab821030326ca08a779dcfc1e0f1cc060b0c2ea83fd8",
+        "sha256_in_prefix": "ab3bc47d025750083012ab821030326ca08a779dcfc1e0f1cc060b0c2ea83fd8",
+        "size_in_bytes": 428160
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Features.dll",
+        "path_type": "hardlink",
+        "sha256": "ebed8b491275f1a96c115c675e650606089480c6ed268060b4fbdb2fe89c9c9b",
+        "sha256_in_prefix": "ebed8b491275f1a96c115c675e650606089480c6ed268060b4fbdb2fe89c9c9b",
+        "size_in_bytes": 71808
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.Results.dll",
+        "path_type": "hardlink",
+        "sha256": "2b949b011203a7ba9f31dbcf037c6f415d6e196d33caa9e77181d9231b3311d0",
+        "sha256_in_prefix": "2b949b011203a7ba9f31dbcf037c6f415d6e196d33caa9e77181d9231b3311d0",
+        "size_in_bytes": 239736
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Http.dll",
+        "path_type": "hardlink",
+        "sha256": "79258d3e858b1f7affc6844a34f5744275f8bbf6a8284abfeadad5b91307fd12",
+        "sha256_in_prefix": "79258d3e858b1f7affc6844a34f5744275f8bbf6a8284abfeadad5b91307fd12",
+        "size_in_bytes": 264336
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.HttpLogging.dll",
+        "path_type": "hardlink",
+        "sha256": "c43539916381d344087da32c88d6dc728a1028003b38efe11eaea36492fada27",
+        "sha256_in_prefix": "c43539916381d344087da32c88d6dc728a1028003b38efe11eaea36492fada27",
+        "size_in_bytes": 182400
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.HttpOverrides.dll",
+        "path_type": "hardlink",
+        "sha256": "d6897a51d3d482be8999686dd052ea5dcdb48f252f22ce81f6478914bc46a83e",
+        "sha256_in_prefix": "d6897a51d3d482be8999686dd052ea5dcdb48f252f22ce81f6478914bc46a83e",
+        "size_in_bytes": 75904
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.HttpsPolicy.dll",
+        "path_type": "hardlink",
+        "sha256": "0f41b71bf4ca7ea4b73160b26bc81b127a2fbc5a95160a4314923e76cf8e42f6",
+        "sha256_in_prefix": "0f41b71bf4ca7ea4b73160b26bc81b127a2fbc5a95160a4314923e76cf8e42f6",
+        "size_in_bytes": 51328
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Identity.dll",
+        "path_type": "hardlink",
+        "sha256": "8d2277e65535e6e3b979e2bc19604377c236674c62ab04382f1ea4fcfa1fd893",
+        "sha256_in_prefix": "8d2277e65535e6e3b979e2bc19604377c236674c62ab04382f1ea4fcfa1fd893",
+        "size_in_bytes": 206976
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Localization.Routing.dll",
+        "path_type": "hardlink",
+        "sha256": "9d4ccdc3463e7248346e07a4ea52eb87eeba7c00039bfc0e1e9ce9f3debfa011",
+        "sha256_in_prefix": "9d4ccdc3463e7248346e07a4ea52eb87eeba7c00039bfc0e1e9ce9f3debfa011",
+        "size_in_bytes": 34952
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Localization.dll",
+        "path_type": "hardlink",
+        "sha256": "b689bc09f400dbe61ae9ec0a21f4ed971c06a6c524a52e824b63b8c404271b13",
+        "sha256_in_prefix": "b689bc09f400dbe61ae9ec0a21f4ed971c06a6c524a52e824b63b8c404271b13",
+        "size_in_bytes": 67704
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Metadata.dll",
+        "path_type": "hardlink",
+        "sha256": "19fc31741489cd2bfc32ec94874fc2fb9d1a9b92bae59195b1768bcd92cec60d",
+        "sha256_in_prefix": "19fc31741489cd2bfc32ec94874fc2fb9d1a9b92bae59195b1768bcd92cec60d",
+        "size_in_bytes": 30848
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "d3c285ddc78f603889bf7ca9e93821fa4c9974e943a417708a0ff00a867b2544",
+        "sha256_in_prefix": "d3c285ddc78f603889bf7ca9e93821fa4c9974e943a417708a0ff00a867b2544",
+        "size_in_bytes": 268416
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll",
+        "path_type": "hardlink",
+        "sha256": "149ce94c9c11e6b456b8fc3f08827133b12be4b204d7c1e76f4b0859c935ccae",
+        "sha256_in_prefix": "149ce94c9c11e6b456b8fc3f08827133b12be4b204d7c1e76f4b0859c935ccae",
+        "size_in_bytes": 133248
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Core.dll",
+        "path_type": "hardlink",
+        "sha256": "f1fff4bef89211a6107bedf80f7a993905236263e76e538afdac01bd38021bca",
+        "sha256_in_prefix": "f1fff4bef89211a6107bedf80f7a993905236263e76e538afdac01bd38021bca",
+        "size_in_bytes": 1980560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Cors.dll",
+        "path_type": "hardlink",
+        "sha256": "09bca1414a3956161a1ec5f9a4199942483d291573619e7efb7d146b4f12ea77",
+        "sha256_in_prefix": "09bca1414a3956161a1ec5f9a4199942483d291573619e7efb7d146b4f12ea77",
+        "size_in_bytes": 51328
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.DataAnnotations.dll",
+        "path_type": "hardlink",
+        "sha256": "f4d65ddf746e6ae89cd625cd635f0768394815e502d7b66c5165d35b7f96e541",
+        "sha256_in_prefix": "f4d65ddf746e6ae89cd625cd635f0768394815e502d7b66c5165d35b7f96e541",
+        "size_in_bytes": 108672
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
+        "path_type": "hardlink",
+        "sha256": "34dcaef1a3a11b6f7367e0fcbd38814ac398d987fc5cf8af2c0fc07d3d05d13f",
+        "sha256_in_prefix": "34dcaef1a3a11b6f7367e0fcbd38814ac398d987fc5cf8af2c0fc07d3d05d13f",
+        "size_in_bytes": 30848
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll",
+        "path_type": "hardlink",
+        "sha256": "b8283409cf108ee31767367c5c1fa3a6764974af1e5a9e75f048925c70e5b383",
+        "sha256_in_prefix": "b8283409cf108ee31767367c5c1fa3a6764974af1e5a9e75f048925c70e5b383",
+        "size_in_bytes": 120960
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Localization.dll",
+        "path_type": "hardlink",
+        "sha256": "2680e56c34d6affd379e7a48bf478d28e07c573948cf39e253ec4a33fa19d549",
+        "sha256_in_prefix": "2680e56c34d6affd379e7a48bf478d28e07c573948cf39e253ec4a33fa19d549",
+        "size_in_bytes": 51328
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.Razor.dll",
+        "path_type": "hardlink",
+        "sha256": "1d45beeb5649c141731a5fcb057eece1c2e04b7ee7aaf6a85f7539b8121989a6",
+        "sha256_in_prefix": "1d45beeb5649c141731a5fcb057eece1c2e04b7ee7aaf6a85f7539b8121989a6",
+        "size_in_bytes": 247936
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.RazorPages.dll",
+        "path_type": "hardlink",
+        "sha256": "090beb0061b9f84baf1c2e96a9bdcd514d1f44d39107e383962d98580ae0e1a6",
+        "sha256_in_prefix": "090beb0061b9f84baf1c2e96a9bdcd514d1f44d39107e383962d98580ae0e1a6",
+        "size_in_bytes": 460920
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.TagHelpers.dll",
+        "path_type": "hardlink",
+        "sha256": "02fb201608a063eae1842761eb53035364a094b1461e859bd8616877b794a28f",
+        "sha256_in_prefix": "02fb201608a063eae1842761eb53035364a094b1461e859bd8616877b794a28f",
+        "size_in_bytes": 284792
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.ViewFeatures.dll",
+        "path_type": "hardlink",
+        "sha256": "bd14ef8ba1c6929b52e64fc538c708f9bb67d727fd93e4896ea107679fa24cfa",
+        "sha256_in_prefix": "bd14ef8ba1c6929b52e64fc538c708f9bb67d727fd93e4896ea107679fa24cfa",
+        "size_in_bytes": 792704
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Mvc.dll",
+        "path_type": "hardlink",
+        "sha256": "c847912e48ce7595947fc7ffa9ed36e41a9a298a9b8bd49d312b7c56ca1d415d",
+        "sha256_in_prefix": "c847912e48ce7595947fc7ffa9ed36e41a9a298a9b8bd49d312b7c56ca1d415d",
+        "size_in_bytes": 43136
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.OutputCaching.dll",
+        "path_type": "hardlink",
+        "sha256": "437a8275c5f9b6d86885e9ddd84e02beb40465eeba85fc4e722df8fe663ecb03",
+        "sha256_in_prefix": "437a8275c5f9b6d86885e9ddd84e02beb40465eeba85fc4e722df8fe663ecb03",
+        "size_in_bytes": 227456
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.RateLimiting.dll",
+        "path_type": "hardlink",
+        "sha256": "a3d0ae27a486e8c7b40c2c288837d85f1a3bc704a2de638ee097f55be4c22d1c",
+        "sha256_in_prefix": "a3d0ae27a486e8c7b40c2c288837d85f1a3bc704a2de638ee097f55be4c22d1c",
+        "size_in_bytes": 80000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Razor.Runtime.dll",
+        "path_type": "hardlink",
+        "sha256": "4ef2cd3799a847dfe6e04a0e245bc2f91cbcefeab9c490b73e9d7e0235c7da3f",
+        "sha256_in_prefix": "4ef2cd3799a847dfe6e04a0e245bc2f91cbcefeab9c490b73e9d7e0235c7da3f",
+        "size_in_bytes": 75904
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Razor.dll",
+        "path_type": "hardlink",
+        "sha256": "4e3e5a9bba12d414f74906bc6fb5fec1619931e4009d7098c87f971088e22d47",
+        "sha256_in_prefix": "4e3e5a9bba12d414f74906bc6fb5fec1619931e4009d7098c87f971088e22d47",
+        "size_in_bytes": 71800
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.RequestDecompression.dll",
+        "path_type": "hardlink",
+        "sha256": "54193ccc40844a8308b27c040047abeb450f6e78a56011a6fd4c08952fdd0c7e",
+        "sha256_in_prefix": "54193ccc40844a8308b27c040047abeb450f6e78a56011a6fd4c08952fdd0c7e",
+        "size_in_bytes": 55424
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "bb56e16946960a67c4929107f9f676dafcf44545cd237f2f30e8769b27c6e333",
+        "sha256_in_prefix": "bb56e16946960a67c4929107f9f676dafcf44545cd237f2f30e8769b27c6e333",
+        "size_in_bytes": 30848
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.ResponseCaching.dll",
+        "path_type": "hardlink",
+        "sha256": "74f5d51e79ff2719236c9b30e03c99ec5ed8c142e7bdbf33a56650a657e271ba",
+        "sha256_in_prefix": "74f5d51e79ff2719236c9b30e03c99ec5ed8c142e7bdbf33a56650a657e271ba",
+        "size_in_bytes": 153744
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.ResponseCompression.dll",
+        "path_type": "hardlink",
+        "sha256": "4f3c7f774ac2861db44a6772d8e7840ae6123a787db5627f51cd446e6d536dad",
+        "sha256_in_prefix": "4f3c7f774ac2861db44a6772d8e7840ae6123a787db5627f51cd446e6d536dad",
+        "size_in_bytes": 84088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Rewrite.dll",
+        "path_type": "hardlink",
+        "sha256": "2f9e8b85f94ba6d52d1774812f4ee7b0309d2ae532814f073ccab589de5d0f18",
+        "sha256_in_prefix": "2f9e8b85f94ba6d52d1774812f4ee7b0309d2ae532814f073ccab589de5d0f18",
+        "size_in_bytes": 223352
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Routing.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "ddf1d67151d0f40e10b10404d749fac35263a9d47396960f19af45ac208f29aa",
+        "sha256_in_prefix": "ddf1d67151d0f40e10b10404d749fac35263a9d47396960f19af45ac208f29aa",
+        "size_in_bytes": 59520
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Routing.dll",
+        "path_type": "hardlink",
+        "sha256": "af5d09b571c8d53d3e04ba2a37b93401237acd16dc689b4a36b689f5147ae78b",
+        "sha256_in_prefix": "af5d09b571c8d53d3e04ba2a37b93401237acd16dc689b4a36b689f5147ae78b",
+        "size_in_bytes": 788608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.HttpSys.dll",
+        "path_type": "hardlink",
+        "sha256": "12781442b001b2ad1b36c41dc25861ae27183e440e5f67a290b3557f64bb08a7",
+        "sha256_in_prefix": "12781442b001b2ad1b36c41dc25861ae27183e440e5f67a290b3557f64bb08a7",
+        "size_in_bytes": 592000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.IIS.dll",
+        "path_type": "hardlink",
+        "sha256": "95cad0a8bfe4878793eb4c303418f3016ad732036fa7d57a038fc236a25e384c",
+        "sha256_in_prefix": "95cad0a8bfe4878793eb4c303418f3016ad732036fa7d57a038fc236a25e384c",
+        "size_in_bytes": 645240
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.IISIntegration.dll",
+        "path_type": "hardlink",
+        "sha256": "1d63a799ba4bd203de3dcf148e891198c9b4dc68778f8a152e230d395591d3fc",
+        "sha256_in_prefix": "1d63a799ba4bd203de3dcf148e891198c9b4dc68778f8a152e230d395591d3fc",
+        "size_in_bytes": 55424
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
+        "path_type": "hardlink",
+        "sha256": "17093c85f86e0507d4ee46db6ebbc33bd662ff8778f5f7145c905fe7c606a00b",
+        "sha256_in_prefix": "17093c85f86e0507d4ee46db6ebbc33bd662ff8778f5f7145c905fe7c606a00b",
+        "size_in_bytes": 2193528
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll",
+        "path_type": "hardlink",
+        "sha256": "c2a6b41d28f90e8b00ec69c82688472f5fd4d87ad39a592efe0e89031614150a",
+        "sha256_in_prefix": "c2a6b41d28f90e8b00ec69c82688472f5fd4d87ad39a592efe0e89031614150a",
+        "size_in_bytes": 243856
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
+        "path_type": "hardlink",
+        "sha256": "687fc2c2f213f9c325ab5e440cca4def4fcae246b53c3e4d3fcb52073b2fc7c7",
+        "sha256_in_prefix": "687fc2c2f213f9c325ab5e440cca4def4fcae246b53c3e4d3fcb52073b2fc7c7",
+        "size_in_bytes": 161912
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Server.Kestrel.dll",
+        "path_type": "hardlink",
+        "sha256": "3c25a887c40dc0ad323c51f51d9724ca0fc9af9acd054aab42915ab2a972df9c",
+        "sha256_in_prefix": "3c25a887c40dc0ad323c51f51d9724ca0fc9af9acd054aab42915ab2a972df9c",
+        "size_in_bytes": 34944
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.Session.dll",
+        "path_type": "hardlink",
+        "sha256": "1ccb365f5362bb3638566606c6037f0e12a063cd20fc41fa233d02e9979fc9ba",
+        "sha256_in_prefix": "1ccb365f5362bb3638566606c6037f0e12a063cd20fc41fa233d02e9979fc9ba",
+        "size_in_bytes": 92288
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "path_type": "hardlink",
+        "sha256": "dd4a1c7c105231dbefee70e60837bc62fdf5069a59f9760d7c37e6648fbd93ce",
+        "sha256_in_prefix": "dd4a1c7c105231dbefee70e60837bc62fdf5069a59f9760d7c37e6648fbd93ce",
+        "size_in_bytes": 88184
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.SignalR.Core.dll",
+        "path_type": "hardlink",
+        "sha256": "5523e492d18733fe1479d02317b6deb6adaf1d7fd44e18a86599509bf6e2bfe6",
+        "sha256_in_prefix": "5523e492d18733fe1479d02317b6deb6adaf1d7fd44e18a86599509bf6e2bfe6",
+        "size_in_bytes": 460928
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "path_type": "hardlink",
+        "sha256": "5f10c0b6c9d28c15eef8faa36cf05910eed090e33ed4e1e37b95cfef9cbe8b37",
+        "sha256_in_prefix": "5f10c0b6c9d28c15eef8faa36cf05910eed090e33ed4e1e37b95cfef9cbe8b37",
+        "size_in_bytes": 84088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.SignalR.dll",
+        "path_type": "hardlink",
+        "sha256": "dd1a1a77b207bcfc920912128295dff4e50069b18ddbcdcea163250f1725cf39",
+        "sha256_in_prefix": "dd1a1a77b207bcfc920912128295dff4e50069b18ddbcdcea163250f1725cf39",
+        "size_in_bytes": 39040
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.StaticFiles.dll",
+        "path_type": "hardlink",
+        "sha256": "e1455c531a7f26b7b099d8c205e106761489d91a13f2973ac0c89c079b058150",
+        "sha256_in_prefix": "e1455c531a7f26b7b099d8c205e106761489d91a13f2973ac0c89c079b058150",
+        "size_in_bytes": 166008
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.WebSockets.dll",
+        "path_type": "hardlink",
+        "sha256": "b016258da7acc5f0125c6f692e1810863a91a884145097cae987563d0a517720",
+        "sha256_in_prefix": "b016258da7acc5f0125c6f692e1810863a91a884145097cae987563d0a517720",
+        "size_in_bytes": 75904
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.WebUtilities.dll",
+        "path_type": "hardlink",
+        "sha256": "7af0bbac6f72289571fadba956d507829fb6a9f577cf26d4133d7a650640e19d",
+        "sha256_in_prefix": "7af0bbac6f72289571fadba956d507829fb6a9f577cf26d4133d7a650640e19d",
+        "size_in_bytes": 264320
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.AspNetCore.dll",
+        "path_type": "hardlink",
+        "sha256": "93b5d4f4fbbf2764ce4e8527b5b842ed1b1ae00be5c8b56fcfeaa73f67802e72",
+        "sha256_in_prefix": "93b5d4f4fbbf2764ce4e8527b5b842ed1b1ae00be5c8b56fcfeaa73f67802e72",
+        "size_in_bytes": 100488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "dfa928bf3e89821f7248b11ad7e6c6e1a302e7a5b7c683f0c7d627edfb33ef7d",
+        "sha256_in_prefix": "dfa928bf3e89821f7248b11ad7e6c6e1a302e7a5b7c683f0c7d627edfb33ef7d",
+        "size_in_bytes": 59512
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Caching.Memory.dll",
+        "path_type": "hardlink",
+        "sha256": "971bef7bd52a9ceed19bae13f4947e0225476731322801eb667f5ae0101da23a",
+        "sha256_in_prefix": "971bef7bd52a9ceed19bae13f4947e0225476731322801eb667f5ae0101da23a",
+        "size_in_bytes": 92288
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "8837021c2fc78d4de6a11a8a852209e7c5d9942afd31a1bbb28b4ca012d4d32f",
+        "sha256_in_prefix": "8837021c2fc78d4de6a11a8a852209e7c5d9942afd31a1bbb28b4ca012d4d32f",
+        "size_in_bytes": 51312
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "path_type": "hardlink",
+        "sha256": "7eea003ef1625f296cd9ef3e5a3e08eb4d614204c98631a33cb9a27172290ef3",
+        "sha256_in_prefix": "7eea003ef1625f296cd9ef3e5a3e08eb4d614204c98631a33cb9a27172290ef3",
+        "size_in_bytes": 88192
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "path_type": "hardlink",
+        "sha256": "03ac299926aa2a41a7dde22274ac41caa2566018ea20aa56b526f7e6f3d9bdd1",
+        "sha256_in_prefix": "03ac299926aa2a41a7dde22274ac41caa2566018ea20aa56b526f7e6f3d9bdd1",
+        "size_in_bytes": 47232
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "path_type": "hardlink",
+        "sha256": "46c8ae38feaef3214c9f4f2eda2d86e71b76eef86550e48769da8acd7a2d33c9",
+        "sha256_in_prefix": "46c8ae38feaef3214c9f4f2eda2d86e71b76eef86550e48769da8acd7a2d33c9",
+        "size_in_bytes": 39048
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "path_type": "hardlink",
+        "sha256": "96505d3352d31a8cb04614705f4bd58d1ec306131b03b0774fe68fc183c449f7",
+        "sha256_in_prefix": "96505d3352d31a8cb04614705f4bd58d1ec306131b03b0774fe68fc183c449f7",
+        "size_in_bytes": 51320
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Ini.dll",
+        "path_type": "hardlink",
+        "sha256": "348fddca45c9e391cce203fedf36683ba5282c724e1a90362c5692b47a5c09d4",
+        "sha256_in_prefix": "348fddca45c9e391cce203fedf36683ba5282c724e1a90362c5692b47a5c09d4",
+        "size_in_bytes": 47224
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Json.dll",
+        "path_type": "hardlink",
+        "sha256": "11782e34f0fb8540c6ca042351b3f723b3546b0bb7c2129678cd6300f37ecbf1",
+        "sha256_in_prefix": "11782e34f0fb8540c6ca042351b3f723b3546b0bb7c2129678cd6300f37ecbf1",
+        "size_in_bytes": 51328
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.KeyPerFile.dll",
+        "path_type": "hardlink",
+        "sha256": "3b26a590ac1f2da275baedf1cba0fa85c5e01302843717d466c44f8f331b659d",
+        "sha256_in_prefix": "3b26a590ac1f2da275baedf1cba0fa85c5e01302843717d466c44f8f331b659d",
+        "size_in_bytes": 43168
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "path_type": "hardlink",
+        "sha256": "faa9a2cd1ec2f3fbf8a3970c676924078b8ac75e4d0293f138ab20d4cc507073",
+        "sha256_in_prefix": "faa9a2cd1ec2f3fbf8a3970c676924078b8ac75e4d0293f138ab20d4cc507073",
+        "size_in_bytes": 47232
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.Xml.dll",
+        "path_type": "hardlink",
+        "sha256": "e2c3b727e2ef5c62c3a300c4c626cad982479aeebd5fbc600bb38cdcb3fc761e",
+        "sha256_in_prefix": "e2c3b727e2ef5c62c3a300c4c626cad982479aeebd5fbc600bb38cdcb3fc761e",
+        "size_in_bytes": 63632
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Configuration.dll",
+        "path_type": "hardlink",
+        "sha256": "7f32ce73c08519d3120f862452cd8fac5dc4c9e98d1fe858bf3a893b5af77fa5",
+        "sha256_in_prefix": "7f32ce73c08519d3120f862452cd8fac5dc4c9e98d1fe858bf3a893b5af77fa5",
+        "size_in_bytes": 88184
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "61724d8247c3887d5f4473a223df2340a1c455c5f751d4c934c5700fb5b1d9e9",
+        "sha256_in_prefix": "61724d8247c3887d5f4473a223df2340a1c455c5f751d4c934c5700fb5b1d9e9",
+        "size_in_bytes": 92280
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.DependencyInjection.dll",
+        "path_type": "hardlink",
+        "sha256": "279e2845909d1f5483273a540cb5852ed3d9f432a312579e947abd3d888601be",
+        "sha256_in_prefix": "279e2845909d1f5483273a540cb5852ed3d9f432a312579e947abd3d888601be",
+        "size_in_bytes": 202880
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "d7410d2e0e9d268b208b8021c3cede92451eb183fac9c1269feaaf0ff249d6fc",
+        "sha256_in_prefix": "d7410d2e0e9d268b208b8021c3cede92451eb183fac9c1269feaaf0ff249d6fc",
+        "size_in_bytes": 43144
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "path_type": "hardlink",
+        "sha256": "2785ec5e86b23f7981d9475b74ff85d3c9bdb470d35fd9dc83a1811c8f409c1e",
+        "sha256_in_prefix": "2785ec5e86b23f7981d9475b74ff85d3c9bdb470d35fd9dc83a1811c8f409c1e",
+        "size_in_bytes": 112800
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Features.dll",
+        "path_type": "hardlink",
+        "sha256": "b447b483326593f2c6aab56fbac9eb6c9e33ba77b64c40d57023409f895b38d3",
+        "sha256_in_prefix": "b447b483326593f2c6aab56fbac9eb6c9e33ba77b64c40d57023409f895b38d3",
+        "size_in_bytes": 43176
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "9feea7751ad698f1138ff6adfbac978bf754a0ab818ec7a0d3941abc94d24294",
+        "sha256_in_prefix": "9feea7751ad698f1138ff6adfbac978bf754a0ab818ec7a0d3941abc94d24294",
+        "size_in_bytes": 43136
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileProviders.Composite.dll",
+        "path_type": "hardlink",
+        "sha256": "d451122315645811a914a32a6333259511bfed0a7de994569189eba1a28d7c73",
+        "sha256_in_prefix": "d451122315645811a914a32a6333259511bfed0a7de994569189eba1a28d7c73",
+        "size_in_bytes": 34944
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "path_type": "hardlink",
+        "sha256": "50d233ef734ae8fd25ac2f326be2af735d8d818f5fc9444552941d9c29975e97",
+        "sha256_in_prefix": "50d233ef734ae8fd25ac2f326be2af735d8d818f5fc9444552941d9c29975e97",
+        "size_in_bytes": 75912
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "path_type": "hardlink",
+        "sha256": "f4d59ca2b9f26b222883c9b49c50401f500bc1d66b0b42f12d02960d8eab896b",
+        "sha256_in_prefix": "f4d59ca2b9f26b222883c9b49c50401f500bc1d66b0b42f12d02960d8eab896b",
+        "size_in_bytes": 92288
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "path_type": "hardlink",
+        "sha256": "ab606a6115ebd9098a67a8b17a4614b8886af6aae3b38f77ca29c293c7d89c48",
+        "sha256_in_prefix": "ab606a6115ebd9098a67a8b17a4614b8886af6aae3b38f77ca29c293c7d89c48",
+        "size_in_bytes": 104568
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "14794456b458cfb6ef19b7cba640c1c81a77d700a1f8b2d3738bb038858c7497",
+        "sha256_in_prefix": "14794456b458cfb6ef19b7cba640c1c81a77d700a1f8b2d3738bb038858c7497",
+        "size_in_bytes": 63616
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Hosting.dll",
+        "path_type": "hardlink",
+        "sha256": "87fbe509351e61c8ae2c38d4bcbef442e01865f1742d331c2ceb9632dd7db37f",
+        "sha256_in_prefix": "87fbe509351e61c8ae2c38d4bcbef442e01865f1742d331c2ceb9632dd7db37f",
+        "size_in_bytes": 141440
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Http.dll",
+        "path_type": "hardlink",
+        "sha256": "197ac896368926322acd6f7bbed266ef5fdc3035d47ab27747f6c74ccef0f387",
+        "sha256_in_prefix": "197ac896368926322acd6f7bbed266ef5fdc3035d47ab27747f6c74ccef0f387",
+        "size_in_bytes": 145552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Identity.Core.dll",
+        "path_type": "hardlink",
+        "sha256": "fd0f02c7d0c1de2528d5bfb32da7de05850f3ad7cc5d81a42ea0d373d5f21afe",
+        "sha256_in_prefix": "fd0f02c7d0c1de2528d5bfb32da7de05850f3ad7cc5d81a42ea0d373d5f21afe",
+        "size_in_bytes": 440488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Identity.Stores.dll",
+        "path_type": "hardlink",
+        "sha256": "de6e8780da58419ff33f43b63603642730ee67ef2a1102b99027e995b80e0930",
+        "sha256_in_prefix": "de6e8780da58419ff33f43b63603642730ee67ef2a1102b99027e995b80e0930",
+        "size_in_bytes": 88192
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "91ca9972da7e2c67e7ab46361beaf0505db2cb3e2f13a46ff636f7fc4629af12",
+        "sha256_in_prefix": "91ca9972da7e2c67e7ab46361beaf0505db2cb3e2f13a46ff636f7fc4629af12",
+        "size_in_bytes": 34944
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Localization.dll",
+        "path_type": "hardlink",
+        "sha256": "fc8f0d0f8afa6720d62e3910ae1eccb949549d9c74e17602927fc7229b13b884",
+        "sha256_in_prefix": "fc8f0d0f8afa6720d62e3910ae1eccb949549d9c74e17602927fc7229b13b884",
+        "size_in_bytes": 59528
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "path_type": "hardlink",
+        "sha256": "8a707579b907371b84a8f080cdf17fc5a9a67d56ee62c7a8b6687694dd143bb6",
+        "sha256_in_prefix": "8a707579b907371b84a8f080cdf17fc5a9a67d56ee62c7a8b6687694dd143bb6",
+        "size_in_bytes": 145528
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "path_type": "hardlink",
+        "sha256": "6eca4c8702c17ddebd2e64eba3201aee12fa5382012915ae4372f610401a1236",
+        "sha256_in_prefix": "6eca4c8702c17ddebd2e64eba3201aee12fa5382012915ae4372f610401a1236",
+        "size_in_bytes": 47224
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.Console.dll",
+        "path_type": "hardlink",
+        "sha256": "fdd48bc03963cdbcf9137f5d5f79013ed8689748b35dcb9cbddd84ef6eb839eb",
+        "sha256_in_prefix": "fdd48bc03963cdbcf9137f5d5f79013ed8689748b35dcb9cbddd84ef6eb839eb",
+        "size_in_bytes": 120960
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.Debug.dll",
+        "path_type": "hardlink",
+        "sha256": "2306dadf7de3504df3f3acf3cc02d2a4e20b4dedfc61cb9f37a5a081d7631379",
+        "sha256_in_prefix": "2306dadf7de3504df3f3acf3cc02d2a4e20b4dedfc61cb9f37a5a081d7631379",
+        "size_in_bytes": 34936
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.EventLog.dll",
+        "path_type": "hardlink",
+        "sha256": "5333563118b3ea5f1bbae3760b4cc5ea2b04a262788dc5ef13356ec18813ce29",
+        "sha256_in_prefix": "5333563118b3ea5f1bbae3760b4cc5ea2b04a262788dc5ef13356ec18813ce29",
+        "size_in_bytes": 47224
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.EventSource.dll",
+        "path_type": "hardlink",
+        "sha256": "31c393989977fd2d61c993285856833eef62f7a71af68800bfec81cd00046920",
+        "sha256_in_prefix": "31c393989977fd2d61c993285856833eef62f7a71af68800bfec81cd00046920",
+        "size_in_bytes": 63608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.TraceSource.dll",
+        "path_type": "hardlink",
+        "sha256": "743b075ed7230c20418471a602dde05d6f1d835b669babb41f85f44b7d446e84",
+        "sha256_in_prefix": "743b075ed7230c20418471a602dde05d6f1d835b669babb41f85f44b7d446e84",
+        "size_in_bytes": 39040
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Logging.dll",
+        "path_type": "hardlink",
+        "sha256": "ca57eb174e77e7c2ace613b17898c2b3ad5a743412969daca0f10d7438fa1be0",
+        "sha256_in_prefix": "ca57eb174e77e7c2ace613b17898c2b3ad5a743412969daca0f10d7438fa1be0",
+        "size_in_bytes": 100480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.ObjectPool.dll",
+        "path_type": "hardlink",
+        "sha256": "ff47274c9f329b774038014ded3f853d69cf2a78ee70f675de67ffc85a1b54e4",
+        "sha256_in_prefix": "ff47274c9f329b774038014ded3f853d69cf2a78ee70f675de67ffc85a1b54e4",
+        "size_in_bytes": 43144
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "path_type": "hardlink",
+        "sha256": "f2c9e2bd1c040a8879f40334ec9365c0d251fefc498549b4b4cc3fe0ed555f53",
+        "sha256_in_prefix": "f2c9e2bd1c040a8879f40334ec9365c0d251fefc498549b4b4cc3fe0ed555f53",
+        "size_in_bytes": 43136
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Options.DataAnnotations.dll",
+        "path_type": "hardlink",
+        "sha256": "274c15237af3e48e7d6a7622359dd8ae7845ec27b390f117cf467258e8d17814",
+        "sha256_in_prefix": "274c15237af3e48e7d6a7622359dd8ae7845ec27b390f117cf467258e8d17814",
+        "size_in_bytes": 34944
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Options.dll",
+        "path_type": "hardlink",
+        "sha256": "c3a19bd2bd4f0d897526d6a634a2d163e8fbb1b6b556e45d48e94faab1679b0d",
+        "sha256_in_prefix": "c3a19bd2bd4f0d897526d6a634a2d163e8fbb1b6b556e45d48e94faab1679b0d",
+        "size_in_bytes": 129152
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.Primitives.dll",
+        "path_type": "hardlink",
+        "sha256": "20b6b3db98e084760e8a2fec36270a2a8d2268a54271f1e05e2ec98a0169d888",
+        "sha256_in_prefix": "20b6b3db98e084760e8a2fec36270a2a8d2268a54271f1e05e2ec98a0169d888",
+        "size_in_bytes": 84112
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Extensions.WebEncoders.dll",
+        "path_type": "hardlink",
+        "sha256": "0617f4fab967e54cbb9abb49ec65b700f43cec430f8b01f4ae685375f88422d3",
+        "sha256_in_prefix": "0617f4fab967e54cbb9abb49ec65b700f43cec430f8b01f4ae685375f88422d3",
+        "size_in_bytes": 43136
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.JSInterop.dll",
+        "path_type": "hardlink",
+        "sha256": "47ef3657b5739dbba322868d1a8100a7212846470da98d520464e599c5662110",
+        "sha256_in_prefix": "47ef3657b5739dbba322868d1a8100a7212846470da98d520464e599c5662110",
+        "size_in_bytes": 145552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/Microsoft.Net.Http.Headers.dll",
+        "path_type": "hardlink",
+        "sha256": "55a8dca20aeeacabab0b78a7d9c14a1cd136683c286ff4a70559cea5151b5b24",
+        "sha256_in_prefix": "55a8dca20aeeacabab0b78a7d9c14a1cd136683c286ff4a70559cea5151b5b24",
+        "size_in_bytes": 227456
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Diagnostics.EventLog.Messages.dll",
+        "path_type": "hardlink",
+        "sha256": "3c57b3bbdd048158db0cc6473a8668cc6f8e445c32b5fd2e7fcdbda6e1197d05",
+        "sha256_in_prefix": "3c57b3bbdd048158db0cc6473a8668cc6f8e445c32b5fd2e7fcdbda6e1197d05",
+        "size_in_bytes": 813184
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Diagnostics.EventLog.dll",
+        "path_type": "hardlink",
+        "sha256": "5224dc93142eb5fd21ce85ebaa896483e551f57caa1c1a87309daccfef209a15",
+        "sha256_in_prefix": "5224dc93142eb5fd21ce85ebaa896483e551f57caa1c1a87309daccfef209a15",
+        "size_in_bytes": 383096
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.IO.Pipelines.dll",
+        "path_type": "hardlink",
+        "sha256": "322f1cd6d3c1249c98b0ac17501adc1b82ab6477f134a44dd215a3863a2aad53",
+        "sha256_in_prefix": "322f1cd6d3c1249c98b0ac17501adc1b82ab6477f134a44dd215a3863a2aad53",
+        "size_in_bytes": 202880
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Security.Cryptography.Pkcs.dll",
+        "path_type": "hardlink",
+        "sha256": "441db678ba0115ea49d2e0dc85fc7d98c350b9638defde4e5f3d1c5f5328948d",
+        "sha256_in_prefix": "441db678ba0115ea49d2e0dc85fc7d98c350b9638defde4e5f3d1c5f5328948d",
+        "size_in_bytes": 870528
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Security.Cryptography.Xml.dll",
+        "path_type": "hardlink",
+        "sha256": "bbc02c854a999fd059c514147dd54a7de4b6ea141d8104974f3733f363dff2d7",
+        "sha256_in_prefix": "bbc02c854a999fd059c514147dd54a7de4b6ea141d8104974f3733f363dff2d7",
+        "size_in_bytes": 444544
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/System.Threading.RateLimiting.dll",
+        "path_type": "hardlink",
+        "sha256": "b2f78ab7ba8091f602e3f3d96815b4d6ae917f09497f58528a7a3f7d854672bd",
+        "sha256_in_prefix": "b2f78ab7ba8091f602e3f3d96815b4d6ae917f09497f58528a7a3f7d854672bd",
+        "size_in_bytes": 178304
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/THIRD-PARTY-NOTICES.txt",
+        "path_type": "hardlink",
+        "sha256": "37c1884c8573813e817908b8249df022dce38ca4a680678e6cf724430a69e4e1",
+        "sha256_in_prefix": "37c1884c8573813e817908b8249df022dce38ca4a680678e6cf724430a69e4e1",
+        "size_in_bytes": 17234
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.AspNetCore.App/7.0.0/aspnetcorev2_inprocess.dll",
+        "path_type": "hardlink",
+        "sha256": "9a28096a5366004f4ac56f0e19a6905119d4753277b9cc2bf839cad1206b875c",
+        "sha256_in_prefix": "9a28096a5366004f4ac56f0e19a6905119d4753277b9cc2bf839cad1206b875c",
+        "size_in_bytes": 380304
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dbff78a388fff7e000605bf2e1fc12216240542045613fad15256680eccac487",
+  "size": 10741673,
+  "subdir": "win-64",
+  "timestamp": 1668226337354,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/dotnet-aspnetcore-7.0.0-h91493d7_0.tar.bz2",
+  "version": "7.0.0"
+}

@@ -1,0 +1,61 @@
+{
+  "build": "h8ffe710_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\runes\\anaconda3\\pkgs\\pixman-0.40.0-h8ffe710_0",
+  "features": "",
+  "files": [
+    "Library/include/pixman/pixman-version.h",
+    "Library/include/pixman/pixman.h",
+    "Library/lib/pixman-1.lib"
+  ],
+  "fn": "pixman-0.40.0-h8ffe710_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\runes\\anaconda3\\pkgs\\pixman-0.40.0-h8ffe710_0",
+    "type": 3
+  },
+  "md5": "32b45d3fcffddc84cc1a014a0b5f0d58",
+  "name": "pixman",
+  "package_tarball_full_path": "C:\\Users\\runes\\anaconda3\\pkgs\\pixman-0.40.0-h8ffe710_0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/include/pixman/pixman-version.h",
+        "path_type": "hardlink",
+        "sha256": "599ec911a0e74f06478b11d285d723c1f52daa96f8a64afa96ab8bb8d95c2c29",
+        "sha256_in_prefix": "599ec911a0e74f06478b11d285d723c1f52daa96f8a64afa96ab8bb8d95c2c29",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "Library/include/pixman/pixman.h",
+        "path_type": "hardlink",
+        "sha256": "6f20da43029984c7ac880adb9302cc52af293f6c864a00d270433701393ca57b",
+        "sha256_in_prefix": "6f20da43029984c7ac880adb9302cc52af293f6c864a00d270433701393ca57b",
+        "size_in_bytes": 47735
+      },
+      {
+        "_path": "Library/lib/pixman-1.lib",
+        "path_type": "hardlink",
+        "sha256": "1b5b42e690854626b8aed3eb7800dd01368bd409d51af8d95dde2caf150f8801",
+        "sha256_in_prefix": "1b5b42e690854626b8aed3eb7800dd01368bd409d51af8d95dde2caf150f8801",
+        "size_in_bytes": 1824692
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7f0ceed590a717ddc7612f67657119df1e6df0d031a822b570d741a89a3ba784",
+  "size": 493231,
+  "subdir": "win-64",
+  "timestamp": 1604342509224,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pixman-0.40.0-h8ffe710_0.tar.bz2",
+  "version": "0.40.0"
+}

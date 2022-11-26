@@ -1,0 +1,151 @@
+{
+  "build": "h8c38e90_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "dotnet",
+    "libgdal >=3.6.0,<3.7.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vs2015_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\runes\\anaconda3\\pkgs\\gdal-csharp-2.0.0-h8c38e90_3",
+  "features": "",
+  "files": [
+    "Library/bin/gdal_wrap.dll",
+    "Library/bin/gdalconst_wrap.dll",
+    "Library/bin/ogr_wrap.dll",
+    "Library/bin/osr_wrap.dll",
+    "Library/share/gdal/OSGeo.GDAL.3.5.0.nupkg",
+    "Library/share/gdal/OSGeo.GDAL.3.5.0.symbols.nupkg",
+    "Library/share/gdal/OSGeo.GDAL.CONST.3.5.0.nupkg",
+    "Library/share/gdal/OSGeo.GDAL.CONST.3.5.0.symbols.nupkg",
+    "Library/share/gdal/OSGeo.OGR.3.5.0.nupkg",
+    "Library/share/gdal/OSGeo.OGR.3.5.0.symbols.nupkg",
+    "Library/share/gdal/OSGeo.OSR.3.5.0.nupkg",
+    "Library/share/gdal/OSGeo.OSR.3.5.0.symbols.nupkg",
+    "Library/share/gdal/osgeo.gdal.core.3.5.0.nupkg",
+    "Library/share/gdal/osgeo.gdal.core.3.5.0.symbols.nupkg"
+  ],
+  "fn": "gdal-csharp-2.0.0-h8c38e90_3.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\runes\\anaconda3\\pkgs\\gdal-csharp-2.0.0-h8c38e90_3",
+    "type": 3
+  },
+  "md5": "8fbac68a5488ac93dd3e78e260cf1b50",
+  "name": "gdal-csharp",
+  "package_tarball_full_path": "C:\\Users\\runes\\anaconda3\\pkgs\\gdal-csharp-2.0.0-h8c38e90_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/gdal_wrap.dll",
+        "path_type": "hardlink",
+        "sha256": "e9e22ed27b63576293c7c5b1ad9f2ff56fd3f43faba2e3640760bd8423b58d82",
+        "sha256_in_prefix": "e9e22ed27b63576293c7c5b1ad9f2ff56fd3f43faba2e3640760bd8423b58d82",
+        "size_in_bytes": 110592
+      },
+      {
+        "_path": "Library/bin/gdalconst_wrap.dll",
+        "path_type": "hardlink",
+        "sha256": "20f68ab77b39240ff141d3c14a345f81f23fd4b03e700e3b652e012bdc66a9b1",
+        "sha256_in_prefix": "20f68ab77b39240ff141d3c14a345f81f23fd4b03e700e3b652e012bdc66a9b1",
+        "size_in_bytes": 25600
+      },
+      {
+        "_path": "Library/bin/ogr_wrap.dll",
+        "path_type": "hardlink",
+        "sha256": "9acc68172fdd5a8d3178502c11437db7d9394a01e477a8ec75c70a5548cd54e7",
+        "sha256_in_prefix": "9acc68172fdd5a8d3178502c11437db7d9394a01e477a8ec75c70a5548cd54e7",
+        "size_in_bytes": 96768
+      },
+      {
+        "_path": "Library/bin/osr_wrap.dll",
+        "path_type": "hardlink",
+        "sha256": "6fb2a325fe3f4ec72650c081aa1baff92451fed7000e9c16026443085eb56127",
+        "sha256_in_prefix": "6fb2a325fe3f4ec72650c081aa1baff92451fed7000e9c16026443085eb56127",
+        "size_in_bytes": 56832
+      },
+      {
+        "_path": "Library/share/gdal/OSGeo.GDAL.3.5.0.nupkg",
+        "path_type": "hardlink",
+        "sha256": "8184e7dc43039c1e5d22325bb280d7500dbce85f9a0df32c4d58167b2bdbb909",
+        "sha256_in_prefix": "8184e7dc43039c1e5d22325bb280d7500dbce85f9a0df32c4d58167b2bdbb909",
+        "size_in_bytes": 74172
+      },
+      {
+        "_path": "Library/share/gdal/OSGeo.GDAL.3.5.0.symbols.nupkg",
+        "path_type": "hardlink",
+        "sha256": "3f8736d51d38b964d61171c74b450c1877e5fbee798fa8613f04bcc1a27e77b2",
+        "sha256_in_prefix": "3f8736d51d38b964d61171c74b450c1877e5fbee798fa8613f04bcc1a27e77b2",
+        "size_in_bytes": 93180
+      },
+      {
+        "_path": "Library/share/gdal/OSGeo.GDAL.CONST.3.5.0.nupkg",
+        "path_type": "hardlink",
+        "sha256": "1f8530cacd1f34c4c2a4c3fdf67b2e482f753d0264c353c9cae737cf64d176b5",
+        "sha256_in_prefix": "1f8530cacd1f34c4c2a4c3fdf67b2e482f753d0264c353c9cae737cf64d176b5",
+        "size_in_bytes": 20262
+      },
+      {
+        "_path": "Library/share/gdal/OSGeo.GDAL.CONST.3.5.0.symbols.nupkg",
+        "path_type": "hardlink",
+        "sha256": "86256147119ba79d5ac4b5da9f8097bf06f3e7fd53fa9ed2d8dda65c3bde284c",
+        "sha256_in_prefix": "86256147119ba79d5ac4b5da9f8097bf06f3e7fd53fa9ed2d8dda65c3bde284c",
+        "size_in_bytes": 27150
+      },
+      {
+        "_path": "Library/share/gdal/OSGeo.OGR.3.5.0.nupkg",
+        "path_type": "hardlink",
+        "sha256": "dc3a53866b0f548595a9b13507e2611bcb5314f5e5247786863f16345346d573",
+        "sha256_in_prefix": "dc3a53866b0f548595a9b13507e2611bcb5314f5e5247786863f16345346d573",
+        "size_in_bytes": 60213
+      },
+      {
+        "_path": "Library/share/gdal/OSGeo.OGR.3.5.0.symbols.nupkg",
+        "path_type": "hardlink",
+        "sha256": "ff126b60044f0d828f497afdbcb51c58423b3b573b57369834131f45cdfd6890",
+        "sha256_in_prefix": "ff126b60044f0d828f497afdbcb51c58423b3b573b57369834131f45cdfd6890",
+        "size_in_bytes": 74512
+      },
+      {
+        "_path": "Library/share/gdal/OSGeo.OSR.3.5.0.nupkg",
+        "path_type": "hardlink",
+        "sha256": "7ed23e2b06e6a7fcb53467dad71621c9a177ddee4081f9f616fb418ecc4cb105",
+        "sha256_in_prefix": "7ed23e2b06e6a7fcb53467dad71621c9a177ddee4081f9f616fb418ecc4cb105",
+        "size_in_bytes": 40961
+      },
+      {
+        "_path": "Library/share/gdal/OSGeo.OSR.3.5.0.symbols.nupkg",
+        "path_type": "hardlink",
+        "sha256": "0819546520f5941272b158bcd8f2f58a21116acda7e5e01b7838c3a2af9ce597",
+        "sha256_in_prefix": "0819546520f5941272b158bcd8f2f58a21116acda7e5e01b7838c3a2af9ce597",
+        "size_in_bytes": 51353
+      },
+      {
+        "_path": "Library/share/gdal/osgeo.gdal.core.3.5.0.nupkg",
+        "path_type": "hardlink",
+        "sha256": "e0f13753933dfaf52cf6f9b8b940c26404a449eaa9c8b997358142e41ff563de",
+        "sha256_in_prefix": "e0f13753933dfaf52cf6f9b8b940c26404a449eaa9c8b997358142e41ff563de",
+        "size_in_bytes": 3274
+      },
+      {
+        "_path": "Library/share/gdal/osgeo.gdal.core.3.5.0.symbols.nupkg",
+        "path_type": "hardlink",
+        "sha256": "e426b0e3565938a825579915a63c1081d94e773e947460fda4c8f049b5d036df",
+        "sha256_in_prefix": "e426b0e3565938a825579915a63c1081d94e773e947460fda4c8f049b5d036df",
+        "size_in_bytes": 9357
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "gdal-csharp=2.0.0",
+  "sha256": "9a76885ba7ab558f52fc96d4eb4833898870ad19d29f0ba3ae06bcd2ce8724b2",
+  "size": 424686,
+  "subdir": "win-64",
+  "timestamp": 1668704515345,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/gdal-csharp-2.0.0-h8c38e90_3.tar.bz2",
+  "version": "2.0.0"
+}

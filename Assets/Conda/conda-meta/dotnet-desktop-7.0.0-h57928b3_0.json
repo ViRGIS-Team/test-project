@@ -1,0 +1,2292 @@
+{
+  "build": "h57928b3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "dotnet-runtime 7.0.0.*"
+  ],
+  "extracted_package_dir": "C:\\Users\\runes\\anaconda3\\pkgs\\dotnet-desktop-7.0.0-h57928b3_0",
+  "features": "",
+  "files": [
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Accessibility.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/D3DCompiler_47_cor3.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/DirectWriteForwarder.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.VisualBasic.Forms.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.VisualBasic.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.Win32.Registry.AccessControl.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.Win32.SystemEvents.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.WindowsDesktop.App.deps.json",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.WindowsDesktop.App.runtimeconfig.json",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PenImc_cor3.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationCore.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemCore.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemData.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemDrawing.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemXml.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemXmlLinq.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Aero.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Aero2.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.AeroLite.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Classic.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Luna.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Royale.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationNative_cor3.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationUI.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ReachFramework.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.CodeDom.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Configuration.ConfigurationManager.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Design.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Diagnostics.EventLog.Messages.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Diagnostics.EventLog.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Diagnostics.PerformanceCounter.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.DirectoryServices.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Drawing.Common.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Drawing.Design.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Drawing.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.IO.Packaging.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Printing.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Resources.Extensions.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Security.Cryptography.Pkcs.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Security.Cryptography.ProtectedData.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Security.Cryptography.Xml.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Security.Permissions.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Threading.AccessControl.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Controls.Ribbon.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Extensions.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Forms.Design.Editors.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Forms.Design.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Forms.Primitives.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Forms.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Input.Manipulations.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Presentation.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Xaml.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/UIAutomationClient.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/UIAutomationClientSideProviders.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/UIAutomationProvider.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/UIAutomationTypes.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/WindowsBase.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/WindowsFormsIntegration.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/vcruntime140_cor3.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/wpfgfx_cor3.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/WindowsFormsIntegration.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/Microsoft.VisualBasic.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/PresentationCore.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/PresentationFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/PresentationUI.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/ReachFramework.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Controls.Ribbon.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Forms.Design.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Forms.Primitives.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Forms.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Input.Manipulations.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Xaml.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/UIAutomationClient.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/UIAutomationClientSideProviders.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/UIAutomationProvider.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/UIAutomationTypes.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/WindowsBase.resources.dll",
+    "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/WindowsFormsIntegration.resources.dll"
+  ],
+  "fn": "dotnet-desktop-7.0.0-h57928b3_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\runes\\anaconda3\\pkgs\\dotnet-desktop-7.0.0-h57928b3_0",
+    "type": 3
+  },
+  "md5": "46c34b0ef6721a0b2c3d8fbc6096ca7a",
+  "name": "dotnet-desktop",
+  "package_tarball_full_path": "C:\\Users\\runes\\anaconda3\\pkgs\\dotnet-desktop-7.0.0-h57928b3_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Accessibility.dll",
+        "path_type": "hardlink",
+        "sha256": "9660d89d0f3abe96f234eb3845132304a1005d8d259d5580ffb4b5f56dad3be5",
+        "sha256_in_prefix": "9660d89d0f3abe96f234eb3845132304a1005d8d259d5580ffb4b5f56dad3be5",
+        "size_in_bytes": 21120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/D3DCompiler_47_cor3.dll",
+        "path_type": "hardlink",
+        "sha256": "ff5dddae92b3798cc00c14a706ecb6329c27aa6d7bb6e82b393cf8b7366458ba",
+        "sha256_in_prefix": "ff5dddae92b3798cc00c14a706ecb6329c27aa6d7bb6e82b393cf8b7366458ba",
+        "size_in_bytes": 4916728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/DirectWriteForwarder.dll",
+        "path_type": "hardlink",
+        "sha256": "f302c8dbf979447733c997e6f3ffa46abc1227490a4ad7374a6a377bdcfd3318",
+        "sha256_in_prefix": "f302c8dbf979447733c997e6f3ffa46abc1227490a4ad7374a6a377bdcfd3318",
+        "size_in_bytes": 522416
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.VisualBasic.Forms.dll",
+        "path_type": "hardlink",
+        "sha256": "220f0538f3fb77afc68e9349726226fc70fe156998141228084484dfa25b6ad8",
+        "sha256_in_prefix": "220f0538f3fb77afc68e9349726226fc70fe156998141228084484dfa25b6ad8",
+        "size_in_bytes": 247968
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.VisualBasic.dll",
+        "path_type": "hardlink",
+        "sha256": "402e1feaf33a3da604db0a137d2a978e2849087ae8b7e48efe14ad1643e8b448",
+        "sha256_in_prefix": "402e1feaf33a3da604db0a137d2a978e2849087ae8b7e48efe14ad1643e8b448",
+        "size_in_bytes": 19072
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.Win32.Registry.AccessControl.dll",
+        "path_type": "hardlink",
+        "sha256": "a04f3589f663ed6c95c62da3a89325dd06765802db11df1ea10e32bc9087a4ff",
+        "sha256_in_prefix": "a04f3589f663ed6c95c62da3a89325dd06765802db11df1ea10e32bc9087a4ff",
+        "size_in_bytes": 39072
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.Win32.SystemEvents.dll",
+        "path_type": "hardlink",
+        "sha256": "01e9d701944426929637f906b962b3a1e249e32c80f8a1a93a3b6f7eb3333449",
+        "sha256_in_prefix": "01e9d701944426929637f906b962b3a1e249e32c80f8a1a93a3b6f7eb3333449",
+        "size_in_bytes": 112800
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.WindowsDesktop.App.deps.json",
+        "path_type": "hardlink",
+        "sha256": "234fc4ab4c7e1010c0f6bff1d6ffcb7c220fdeda5627f4d32b5ea803b63f11e7",
+        "sha256_in_prefix": "234fc4ab4c7e1010c0f6bff1d6ffcb7c220fdeda5627f4d32b5ea803b63f11e7",
+        "size_in_bytes": 31006
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/Microsoft.WindowsDesktop.App.runtimeconfig.json",
+        "path_type": "hardlink",
+        "sha256": "b4c165b270ec7ed05cd30450e0f38baf0f73dd54a45ccdf0f0534c1c60a74f68",
+        "sha256_in_prefix": "b4c165b270ec7ed05cd30450e0f38baf0f73dd54a45ccdf0f0534c1c60a74f68",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PenImc_cor3.dll",
+        "path_type": "hardlink",
+        "sha256": "e69b3fbf8c2b90db86579cea932f2f654df28a4299582be35522c5b0f2e95f66",
+        "sha256_in_prefix": "e69b3fbf8c2b90db86579cea932f2f654df28a4299582be35522c5b0f2e95f66",
+        "size_in_bytes": 158896
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationCore.dll",
+        "path_type": "hardlink",
+        "sha256": "b8c9de0de97f1b17a75adec7d897bcd60cd381f3306b3e0626e068b015bae8d0",
+        "sha256_in_prefix": "b8c9de0de97f1b17a75adec7d897bcd60cd381f3306b3e0626e068b015bae8d0",
+        "size_in_bytes": 8616056
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemCore.dll",
+        "path_type": "hardlink",
+        "sha256": "7dee8153718df6df6351acc6dcae74244a4a4bc15c1baa47793a0f3f2022abe1",
+        "sha256_in_prefix": "7dee8153718df6df6351acc6dcae74244a4a4bc15c1baa47793a0f3f2022abe1",
+        "size_in_bytes": 39088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemData.dll",
+        "path_type": "hardlink",
+        "sha256": "b7cc45503ef73181b3af952fc1217701c6659460fa2cde52ee9acc7357cc2c98",
+        "sha256_in_prefix": "b7cc45503ef73181b3af952fc1217701c6659460fa2cde52ee9acc7357cc2c98",
+        "size_in_bytes": 34952
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemDrawing.dll",
+        "path_type": "hardlink",
+        "sha256": "57e9139739e7ee2221e58de6ba9013966e6b84103edae0e284afaecfef2b8a7d",
+        "sha256_in_prefix": "57e9139739e7ee2221e58de6ba9013966e6b84103edae0e284afaecfef2b8a7d",
+        "size_in_bytes": 34976
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemXml.dll",
+        "path_type": "hardlink",
+        "sha256": "750bbb24e3c77c12ee45acf3b39526ddaa10aefb5aee1ec4be2b7319aecb0306",
+        "sha256_in_prefix": "750bbb24e3c77c12ee45acf3b39526ddaa10aefb5aee1ec4be2b7319aecb0306",
+        "size_in_bytes": 34960
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework-SystemXmlLinq.dll",
+        "path_type": "hardlink",
+        "sha256": "2c49222dffaf05a8cffe60df49091b781dd9cc6a89f4651f0a52226f6cee176e",
+        "sha256_in_prefix": "2c49222dffaf05a8cffe60df49091b781dd9cc6a89f4651f0a52226f6cee176e",
+        "size_in_bytes": 30848
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Aero.dll",
+        "path_type": "hardlink",
+        "sha256": "e405cd5fbd229aa46ab5d375d00dbd357609c1eef011212e8181d7bd3ee31b95",
+        "sha256_in_prefix": "e405cd5fbd229aa46ab5d375d00dbd357609c1eef011212e8181d7bd3ee31b95",
+        "size_in_bytes": 456864
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Aero2.dll",
+        "path_type": "hardlink",
+        "sha256": "3dd1e39efa279bad2a8787d749771f8e012a2e95697e65793ce95196e481e904",
+        "sha256_in_prefix": "3dd1e39efa279bad2a8787d749771f8e012a2e95697e65793ce95196e481e904",
+        "size_in_bytes": 460936
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.AeroLite.dll",
+        "path_type": "hardlink",
+        "sha256": "1568f8a8837bfe1cbfd0faaa6143deb6d2000050b9369498c1a74448be77f2b3",
+        "sha256_in_prefix": "1568f8a8837bfe1cbfd0faaa6143deb6d2000050b9369498c1a74448be77f2b3",
+        "size_in_bytes": 239776
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Classic.dll",
+        "path_type": "hardlink",
+        "sha256": "72723652d97535e5babeae60f3fd5c5f2aa3f4210dbae2aacfc2530cc169118c",
+        "sha256_in_prefix": "72723652d97535e5babeae60f3fd5c5f2aa3f4210dbae2aacfc2530cc169118c",
+        "size_in_bytes": 272544
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Luna.dll",
+        "path_type": "hardlink",
+        "sha256": "a2fcb0a9a6d1065f516a88a11d2da29f3e01b692e594699bef13e9d920e274cb",
+        "sha256_in_prefix": "a2fcb0a9a6d1065f516a88a11d2da29f3e01b692e594699bef13e9d920e274cb",
+        "size_in_bytes": 682120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.Royale.dll",
+        "path_type": "hardlink",
+        "sha256": "042222aff754db9fa014f6d7002b444ba921e2b4e35df2c62623f6691e88c428",
+        "sha256_in_prefix": "042222aff754db9fa014f6d7002b444ba921e2b4e35df2c62623f6691e88c428",
+        "size_in_bytes": 338080
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationFramework.dll",
+        "path_type": "hardlink",
+        "sha256": "d75c51e1bfa7124210023b529be44b88ad0541b5360b92245da6625da1a4d690",
+        "sha256_in_prefix": "d75c51e1bfa7124210023b529be44b88ad0541b5360b92245da6625da1a4d690",
+        "size_in_bytes": 16226464
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationNative_cor3.dll",
+        "path_type": "hardlink",
+        "sha256": "62505d6fede43adb5894d9e6ad8b5e5f761bdec40c7dbed18765366bb879ba56",
+        "sha256_in_prefix": "62505d6fede43adb5894d9e6ad8b5e5f761bdec40c7dbed18765366bb879ba56",
+        "size_in_bytes": 1234088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/PresentationUI.dll",
+        "path_type": "hardlink",
+        "sha256": "9566047d116607ab67507de63989f7996a314043938623a7b6552fefeb040f7f",
+        "sha256_in_prefix": "9566047d116607ab67507de63989f7996a314043938623a7b6552fefeb040f7f",
+        "size_in_bytes": 1288352
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ReachFramework.dll",
+        "path_type": "hardlink",
+        "sha256": "0072cc49b79c2a5561b1c92d5b2ccb3adda9793adc74a8c354ebc082203f402a",
+        "sha256_in_prefix": "0072cc49b79c2a5561b1c92d5b2ccb3adda9793adc74a8c354ebc082203f402a",
+        "size_in_bytes": 1628288
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.CodeDom.dll",
+        "path_type": "hardlink",
+        "sha256": "44e4eeb1e4460eaa3cc87fdd4614286535b85da509ccd2c37e168211174ee8fb",
+        "sha256_in_prefix": "44e4eeb1e4460eaa3cc87fdd4614286535b85da509ccd2c37e168211174ee8fb",
+        "size_in_bytes": 493728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Configuration.ConfigurationManager.dll",
+        "path_type": "hardlink",
+        "sha256": "04ce434f69ef1f2c6dfa2bb30b01fe9987c746569f2ac5b3d3f350c94bb3b091",
+        "sha256_in_prefix": "04ce434f69ef1f2c6dfa2bb30b01fe9987c746569f2ac5b3d3f350c94bb3b091",
+        "size_in_bytes": 1087616
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Design.dll",
+        "path_type": "hardlink",
+        "sha256": "2a937b2ac3d3e5bc8bd09a9c137e81df71e361f71d67e889836d860b96df1f8f",
+        "sha256_in_prefix": "2a937b2ac3d3e5bc8bd09a9c137e81df71e361f71d67e889836d860b96df1f8f",
+        "size_in_bytes": 21648
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Diagnostics.EventLog.Messages.dll",
+        "path_type": "hardlink",
+        "sha256": "3a2ea792755bbe4674f349d7870aeb917494ac39f96a9e5d9625d4ac68dc3ec5",
+        "sha256_in_prefix": "3a2ea792755bbe4674f349d7870aeb917494ac39f96a9e5d9625d4ac68dc3ec5",
+        "size_in_bytes": 800896
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Diagnostics.EventLog.dll",
+        "path_type": "hardlink",
+        "sha256": "d717f8d8d483c5c614536c2fe015f687f3a8cc27c16203d4edf4246e45c1d83c",
+        "sha256_in_prefix": "d717f8d8d483c5c614536c2fe015f687f3a8cc27c16203d4edf4246e45c1d83c",
+        "size_in_bytes": 383104
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Diagnostics.PerformanceCounter.dll",
+        "path_type": "hardlink",
+        "sha256": "e5a0593dcd712f59724272056cd4d4d0697f6875e1bc56f9190ad6a6f3e46b13",
+        "sha256_in_prefix": "e5a0593dcd712f59724272056cd4d4d0697f6875e1bc56f9190ad6a6f3e46b13",
+        "size_in_bytes": 305312
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.DirectoryServices.dll",
+        "path_type": "hardlink",
+        "sha256": "45b3300741846e6146df842ba4511dd9fea0e602afd63e054784d473c69919a9",
+        "sha256_in_prefix": "45b3300741846e6146df842ba4511dd9fea0e602afd63e054784d473c69919a9",
+        "size_in_bytes": 1083536
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Drawing.Common.dll",
+        "path_type": "hardlink",
+        "sha256": "96502314ba173a28729e2e1c2e65c42447acd2e5a90f0f721c56ad8ae9fa38d5",
+        "sha256_in_prefix": "96502314ba173a28729e2e1c2e65c42447acd2e5a90f0f721c56ad8ae9fa38d5",
+        "size_in_bytes": 1493120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Drawing.Design.dll",
+        "path_type": "hardlink",
+        "sha256": "85de7d04f0cd2d5a692a999d5621953a44164cc3f2bc6a40dbb52043001e2365",
+        "sha256_in_prefix": "85de7d04f0cd2d5a692a999d5621953a44164cc3f2bc6a40dbb52043001e2365",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Drawing.dll",
+        "path_type": "hardlink",
+        "sha256": "82423be4cc84caa7a48a0321007113bb5543a4b1126c7c310091e52361192a82",
+        "sha256_in_prefix": "82423be4cc84caa7a48a0321007113bb5543a4b1126c7c310091e52361192a82",
+        "size_in_bytes": 21112
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.IO.Packaging.dll",
+        "path_type": "hardlink",
+        "sha256": "3f591b36fb011f8664d261389385a1c36d9be4ab07776aceb47da27c77908798",
+        "sha256_in_prefix": "3f591b36fb011f8664d261389385a1c36d9be4ab07776aceb47da27c77908798",
+        "size_in_bytes": 284816
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Printing.dll",
+        "path_type": "hardlink",
+        "sha256": "47a7754891e704e2ae6637317e898ecaa6423ab9ab5fa255c3fb2f1ecdf8da39",
+        "sha256_in_prefix": "47a7754891e704e2ae6637317e898ecaa6423ab9ab5fa255c3fb2f1ecdf8da39",
+        "size_in_bytes": 1001632
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Resources.Extensions.dll",
+        "path_type": "hardlink",
+        "sha256": "d5e4f04babd09cabf85ec6e065035c68b46c9b6ac829d18009457e205734c4d3",
+        "sha256_in_prefix": "d5e4f04babd09cabf85ec6e065035c68b46c9b6ac829d18009457e205734c4d3",
+        "size_in_bytes": 129152
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Security.Cryptography.Pkcs.dll",
+        "path_type": "hardlink",
+        "sha256": "83b91e31d52391a5fc6016aecd26a84f250b4f63d47278a151e3f60846b84705",
+        "sha256_in_prefix": "83b91e31d52391a5fc6016aecd26a84f250b4f63d47278a151e3f60846b84705",
+        "size_in_bytes": 870528
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Security.Cryptography.ProtectedData.dll",
+        "path_type": "hardlink",
+        "sha256": "5c28640104735b2c17502cd420f0c258d58411fd086f4eb2fbcdcf2b72235f66",
+        "sha256_in_prefix": "5c28640104735b2c17502cd420f0c258d58411fd086f4eb2fbcdcf2b72235f66",
+        "size_in_bytes": 59528
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Security.Cryptography.Xml.dll",
+        "path_type": "hardlink",
+        "sha256": "b820d66d8fdd06bbb5a95900d61854012da1a029ede080654171055be895a445",
+        "sha256_in_prefix": "b820d66d8fdd06bbb5a95900d61854012da1a029ede080654171055be895a445",
+        "size_in_bytes": 444576
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Security.Permissions.dll",
+        "path_type": "hardlink",
+        "sha256": "b4d817e3e1961b771337300b9841108eb46900aa71642bd921dbde9370bc0f2b",
+        "sha256_in_prefix": "b4d817e3e1961b771337300b9841108eb46900aa71642bd921dbde9370bc0f2b",
+        "size_in_bytes": 186512
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Threading.AccessControl.dll",
+        "path_type": "hardlink",
+        "sha256": "8d35d056317265b20af4e95b86d4784414515451fb7ece20cce0477af658bfc7",
+        "sha256_in_prefix": "8d35d056317265b20af4e95b86d4784414515451fb7ece20cce0477af658bfc7",
+        "size_in_bytes": 96416
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Controls.Ribbon.dll",
+        "path_type": "hardlink",
+        "sha256": "f7fd89e7ad1afe0ca7e42c4562f0180c7bc720f5b1d8da40570400693fcebb47",
+        "sha256_in_prefix": "f7fd89e7ad1afe0ca7e42c4562f0180c7bc720f5b1d8da40570400693fcebb47",
+        "size_in_bytes": 1464456
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Extensions.dll",
+        "path_type": "hardlink",
+        "sha256": "8dd6aca3f90d2fefb06f764951179212144e9a6af9a2dc99712176d22f8eae21",
+        "sha256_in_prefix": "8dd6aca3f90d2fefb06f764951179212144e9a6af9a2dc99712176d22f8eae21",
+        "size_in_bytes": 112784
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Forms.Design.Editors.dll",
+        "path_type": "hardlink",
+        "sha256": "1491878aa8cfc0699abd8aa4f7e0bab6ac6f37e26c90ae60e5b5eaa2b7a88f4d",
+        "sha256_in_prefix": "1491878aa8cfc0699abd8aa4f7e0bab6ac6f37e26c90ae60e5b5eaa2b7a88f4d",
+        "size_in_bytes": 16512
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Forms.Design.dll",
+        "path_type": "hardlink",
+        "sha256": "672a3efeb54999feeb6b792377b63170024fa973d998f8eaea42eef6c6273c5c",
+        "sha256_in_prefix": "672a3efeb54999feeb6b792377b63170024fa973d998f8eaea42eef6c6273c5c",
+        "size_in_bytes": 5335168
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Forms.Primitives.dll",
+        "path_type": "hardlink",
+        "sha256": "2604ba735a95ec5bbb40c229d75add33fddc2e5e5e0d825473404ce90737025c",
+        "sha256_in_prefix": "2604ba735a95ec5bbb40c229d75add33fddc2e5e5e0d825473404ce90737025c",
+        "size_in_bytes": 960672
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Forms.dll",
+        "path_type": "hardlink",
+        "sha256": "c747a587f3998eaec5acdbe2d75c774ad4cb89d2422fab9514ca226ba987c8eb",
+        "sha256_in_prefix": "c747a587f3998eaec5acdbe2d75c774ad4cb89d2422fab9514ca226ba987c8eb",
+        "size_in_bytes": 13342848
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Input.Manipulations.dll",
+        "path_type": "hardlink",
+        "sha256": "ff1135b04a8e3c31e08e093142821d0b4a8afc3ba22bed24ac4dad4d4c030af8",
+        "sha256_in_prefix": "ff1135b04a8e3c31e08e093142821d0b4a8afc3ba22bed24ac4dad4d4c030af8",
+        "size_in_bytes": 137352
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Windows.Presentation.dll",
+        "path_type": "hardlink",
+        "sha256": "a1ac29de1a8f4b107ef36e5cbfd7ba5555a009576cd8dc474cb1616296571813",
+        "sha256_in_prefix": "a1ac29de1a8f4b107ef36e5cbfd7ba5555a009576cd8dc474cb1616296571813",
+        "size_in_bytes": 30880
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/System.Xaml.dll",
+        "path_type": "hardlink",
+        "sha256": "c4955243bba4ef5c37e478da16eac577f456b35dae41b2f1fb59bf7273ea7f6a",
+        "sha256_in_prefix": "c4955243bba4ef5c37e478da16eac577f456b35dae41b2f1fb59bf7273ea7f6a",
+        "size_in_bytes": 1439872
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/UIAutomationClient.dll",
+        "path_type": "hardlink",
+        "sha256": "a93befd824a074a42e161134dbb61b4a55fcd3058ea0526ce7e9f314d5d8ab25",
+        "sha256_in_prefix": "a93befd824a074a42e161134dbb61b4a55fcd3058ea0526ce7e9f314d5d8ab25",
+        "size_in_bytes": 415872
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/UIAutomationClientSideProviders.dll",
+        "path_type": "hardlink",
+        "sha256": "ce8b978f25ee0fb905c8131b30c1d91169c459eff891a48291c3342aee14ddfc",
+        "sha256_in_prefix": "ce8b978f25ee0fb905c8131b30c1d91169c459eff891a48291c3342aee14ddfc",
+        "size_in_bytes": 882848
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/UIAutomationProvider.dll",
+        "path_type": "hardlink",
+        "sha256": "9d98025652bb5639f8037c5f2a91eba3992c68a97dda2fc14af89e0006d20d56",
+        "sha256_in_prefix": "9d98025652bb5639f8037c5f2a91eba3992c68a97dda2fc14af89e0006d20d56",
+        "size_in_bytes": 59520
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/UIAutomationTypes.dll",
+        "path_type": "hardlink",
+        "sha256": "acbd24d159afba7a29ca111a769d604d26b2e0d34ff9d38a4f12e373fff10663",
+        "sha256_in_prefix": "acbd24d159afba7a29ca111a769d604d26b2e0d34ff9d38a4f12e373fff10663",
+        "size_in_bytes": 309424
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/WindowsBase.dll",
+        "path_type": "hardlink",
+        "sha256": "0aed0cf45493edaa3ace41f26b8d7236a58c4e323ca36da939dee37fcd318d9f",
+        "sha256_in_prefix": "0aed0cf45493edaa3ace41f26b8d7236a58c4e323ca36da939dee37fcd318d9f",
+        "size_in_bytes": 2275472
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/WindowsFormsIntegration.dll",
+        "path_type": "hardlink",
+        "sha256": "619359008bfdc1bf4e6bae56654975a95014bc522c60929c5583950c12d0b1b7",
+        "sha256_in_prefix": "619359008bfdc1bf4e6bae56654975a95014bc522c60929c5583950c12d0b1b7",
+        "size_in_bytes": 211072
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "c855d603b6843dafd7a65952d852157f48b734dd7d622ba30e830f6f5f4510a2",
+        "sha256_in_prefix": "c855d603b6843dafd7a65952d852157f48b734dd7d622ba30e830f6f5f4510a2",
+        "size_in_bytes": 25736
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "bca91eb3c0ba3752cb8a5c9ff24e390e59867540418a3274e22d70d093b5a106",
+        "sha256_in_prefix": "bca91eb3c0ba3752cb8a5c9ff24e390e59867540418a3274e22d70d093b5a106",
+        "size_in_bytes": 108704
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "044d6d2a35bc192d307e38922f5e3fd7c07c62185b8bc02130158a4a6895ab0f",
+        "sha256_in_prefix": "044d6d2a35bc192d307e38922f5e3fd7c07c62185b8bc02130158a4a6895ab0f",
+        "size_in_bytes": 197248
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "11917a8b99522f422bdfa77671bb215a0a71141a7c5876914bc606f167eaca5f",
+        "sha256_in_prefix": "11917a8b99522f422bdfa77671bb215a0a71141a7c5876914bc606f167eaca5f",
+        "size_in_bytes": 45736
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "cdc643b2f030dff3f793b15c0f8c03416dedcb41a1812cf194dc36a1ba5f257e",
+        "sha256_in_prefix": "cdc643b2f030dff3f793b15c0f8c03416dedcb41a1812cf194dc36a1ba5f257e",
+        "size_in_bytes": 39032
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "467ecb9ec63637b803407f384c8cd7da9a24609332fcf2608be2624f551f20c3",
+        "sha256_in_prefix": "467ecb9ec63637b803407f384c8cd7da9a24609332fcf2608be2624f551f20c3",
+        "size_in_bytes": 18592
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a9215415a58b4060b9ff4666adfbee426489a476026dbf690a9d1fc90ef14088",
+        "sha256_in_prefix": "a9215415a58b4060b9ff4666adfbee426489a476026dbf690a9d1fc90ef14088",
+        "size_in_bytes": 144000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "6cc58123eeb051094fc907f18ca1e5e36f789d18d93a7050df96598234eb596e",
+        "sha256_in_prefix": "6cc58123eeb051094fc907f18ca1e5e36f789d18d93a7050df96598234eb596e",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "aa721be2313e2042af50c9e3ae50f81031a60d3836b0922179e2d72361f99bce",
+        "sha256_in_prefix": "aa721be2313e2042af50c9e3ae50f81031a60d3836b0922179e2d72361f99bce",
+        "size_in_bytes": 365184
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "eac2c637c0978f92dd24812aa29098aab67edd3361117e3fe3c32161acbc0001",
+        "sha256_in_prefix": "eac2c637c0978f92dd24812aa29098aab67edd3361117e3fe3c32161acbc0001",
+        "size_in_bytes": 16504
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e85b30918bbb96b504f369a3a2072cb790489064605b57857ce51dd52c2e38b3",
+        "sha256_in_prefix": "e85b30918bbb96b504f369a3a2072cb790489064605b57857ce51dd52c2e38b3",
+        "size_in_bytes": 65144
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "5e65048e402740239a841576dbb8315c514488169d30e0ec9b8851276cc13099",
+        "sha256_in_prefix": "5e65048e402740239a841576dbb8315c514488169d30e0ec9b8851276cc13099",
+        "size_in_bytes": 20144
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "40064dd0ad8893936f924d253e34bdd6636f4a309c8321d752bd0a4108772b0d",
+        "sha256_in_prefix": "40064dd0ad8893936f924d253e34bdd6636f4a309c8321d752bd0a4108772b0d",
+        "size_in_bytes": 21152
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "77ca4beb1fe4483371df59beef2df12ff1e0ba39880aa6d2d8954cf49d1525aa",
+        "sha256_in_prefix": "77ca4beb1fe4483371df59beef2df12ff1e0ba39880aa6d2d8954cf49d1525aa",
+        "size_in_bytes": 15480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7042c0b3707a3d618256d78ae164911c844c8e26791cb7f9318c2415c8b0b85f",
+        "sha256_in_prefix": "7042c0b3707a3d618256d78ae164911c844c8e26791cb7f9318c2415c8b0b85f",
+        "size_in_bytes": 18560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "90961f514ce10c7badab38ac3740b30db3e7e963888f07715c579fdaa19ba626",
+        "sha256_in_prefix": "90961f514ce10c7badab38ac3740b30db3e7e963888f07715c579fdaa19ba626",
+        "size_in_bytes": 87160
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/cs/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "09dbe4ce8b321955ca22be97a9193e96ca2b9d46eb22aedb250aaf32020a7666",
+        "sha256_in_prefix": "09dbe4ce8b321955ca22be97a9193e96ca2b9d46eb22aedb250aaf32020a7666",
+        "size_in_bytes": 15992
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a567d95fbf0754f1fb6cb36e8fb0b46d9bd280002f9cfe6892e4de9bdaacc53a",
+        "sha256_in_prefix": "a567d95fbf0754f1fb6cb36e8fb0b46d9bd280002f9cfe6892e4de9bdaacc53a",
+        "size_in_bytes": 25728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "672704e3ac705546b2ebbaee89a125c53f82142c166fb67062e7fe8fd7b101c4",
+        "sha256_in_prefix": "672704e3ac705546b2ebbaee89a125c53f82142c166fb67062e7fe8fd7b101c4",
+        "size_in_bytes": 114296
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "85a9b2bd7f964e597912b950aaefce5b3c4d74a13a2af729e496f6d4ac952b91",
+        "sha256_in_prefix": "85a9b2bd7f964e597912b950aaefce5b3c4d74a13a2af729e496f6d4ac952b91",
+        "size_in_bytes": 214192
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "bcfb82683f61e976632a299058eec9cfcf7bd5c9a7da2b0002ff033fcbe40c45",
+        "sha256_in_prefix": "bcfb82683f61e976632a299058eec9cfcf7bd5c9a7da2b0002ff033fcbe40c45",
+        "size_in_bytes": 47224
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "25196b3a33877d9ed73d380423242743c1ef011102880ddbab46e27d96a9d25f",
+        "sha256_in_prefix": "25196b3a33877d9ed73d380423242743c1ef011102880ddbab46e27d96a9d25f",
+        "size_in_bytes": 39544
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "0a601d64924b2cffd7b47f9486f4f1ffba8c81468528bd95dad8d57df0c3051e",
+        "sha256_in_prefix": "0a601d64924b2cffd7b47f9486f4f1ffba8c81468528bd95dad8d57df0c3051e",
+        "size_in_bytes": 18608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "73b7f4c141e630f128bfae9b2c677bd3b7c24c61971b4250c5d3de5a64db36d8",
+        "sha256_in_prefix": "73b7f4c141e630f128bfae9b2c677bd3b7c24c61971b4250c5d3de5a64db36d8",
+        "size_in_bytes": 144512
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "11ead98be3e66b55b94838518bc215f906a29716ed0a16b0b0dd46ab55027786",
+        "sha256_in_prefix": "11ead98be3e66b55b94838518bc215f906a29716ed0a16b0b0dd46ab55027786",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "51e2381dd28134303feac18bb617f7cea861082d9b954a092ce56ea8f15218f8",
+        "sha256_in_prefix": "51e2381dd28134303feac18bb617f7cea861082d9b954a092ce56ea8f15218f8",
+        "size_in_bytes": 372864
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "dd974c956b32e062434981f15110af73ec9a0bcff2298dfdca258ad2527c6d49",
+        "sha256_in_prefix": "dd974c956b32e062434981f15110af73ec9a0bcff2298dfdca258ad2527c6d49",
+        "size_in_bytes": 16560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "1cef537e52de6676dbfb6e87731011549837c94c8f521144c54ee960d1985d22",
+        "sha256_in_prefix": "1cef537e52de6676dbfb6e87731011549837c94c8f521144c54ee960d1985d22",
+        "size_in_bytes": 68736
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "2a873fa75042fd300c72c4badd1590415178f0ec184ce1ec0be7a8dc538bf228",
+        "sha256_in_prefix": "2a873fa75042fd300c72c4badd1590415178f0ec184ce1ec0be7a8dc538bf228",
+        "size_in_bytes": 20088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "aa76afdf0498c8485c4a162e54fcbccbc4b89ecaeab52206447c3858a60f2806",
+        "sha256_in_prefix": "aa76afdf0498c8485c4a162e54fcbccbc4b89ecaeab52206447c3858a60f2806",
+        "size_in_bytes": 21120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "2296b01d292062c049d9b84b59db750a6297c6ec0aaafe47ea7a142aadb76124",
+        "sha256_in_prefix": "2296b01d292062c049d9b84b59db750a6297c6ec0aaafe47ea7a142aadb76124",
+        "size_in_bytes": 15480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "dd9b87779e496d69ae2ce5bbfd3f40f6ce60c2e6bb461bfafcc07bd1a3869927",
+        "sha256_in_prefix": "dd9b87779e496d69ae2ce5bbfd3f40f6ce60c2e6bb461bfafcc07bd1a3869927",
+        "size_in_bytes": 18608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "de6e8c7840da2e4309603a6269ede21b1a56ca91c4199511e8b7bfa63e97d46d",
+        "sha256_in_prefix": "de6e8c7840da2e4309603a6269ede21b1a56ca91c4199511e8b7bfa63e97d46d",
+        "size_in_bytes": 91256
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/de/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "687549279f989ca4711d956ee157d085b2caebf6ba061a7c430e546a12d08cb8",
+        "sha256_in_prefix": "687549279f989ca4711d956ee157d085b2caebf6ba061a7c430e546a12d08cb8",
+        "size_in_bytes": 15992
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "10c1521c39f59569b40948a7f4df4484cc8e2f0ec573312130a5b3c77f64f8f3",
+        "sha256_in_prefix": "10c1521c39f59569b40948a7f4df4484cc8e2f0ec573312130a5b3c77f64f8f3",
+        "size_in_bytes": 25728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "34b5dd68790f2c80d8dd2cca8a8dfca59fe35cfc73934103d22f3aa902b86fd1",
+        "sha256_in_prefix": "34b5dd68790f2c80d8dd2cca8a8dfca59fe35cfc73934103d22f3aa902b86fd1",
+        "size_in_bytes": 110256
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "b1c100c7ab39be18ef4c9469a55bedb4d6aa8f268f3032ce4f033f0449354a08",
+        "sha256_in_prefix": "b1c100c7ab39be18ef4c9469a55bedb4d6aa8f268f3032ce4f033f0449354a08",
+        "size_in_bytes": 203376
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "0588b14ab50566d0ee55c13a920dab04425071d4f75bb2c5af8cd194ef2a3a35",
+        "sha256_in_prefix": "0588b14ab50566d0ee55c13a920dab04425071d4f75bb2c5af8cd194ef2a3a35",
+        "size_in_bytes": 45744
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8b608d09e1496d35976d498e99b9a4e4fda89087cf9addadf7ae68eb34b32394",
+        "sha256_in_prefix": "8b608d09e1496d35976d498e99b9a4e4fda89087cf9addadf7ae68eb34b32394",
+        "size_in_bytes": 39584
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "19e6be76abe6b82dd43f68f834d844b12c1e595dba32fea032de7570c7e936fd",
+        "sha256_in_prefix": "19e6be76abe6b82dd43f68f834d844b12c1e595dba32fea032de7570c7e936fd",
+        "size_in_bytes": 18552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "57b681f995407345e295ee02bab87ad2229cd15e9a2015562817604a65641fae",
+        "sha256_in_prefix": "57b681f995407345e295ee02bab87ad2229cd15e9a2015562817604a65641fae",
+        "size_in_bytes": 144528
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "5059e33503fcb452f59d766ca639c13cb68cf749072d0e94fff269e434199853",
+        "sha256_in_prefix": "5059e33503fcb452f59d766ca639c13cb68cf749072d0e94fff269e434199853",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "13f411eee395e4bb6bba43141855369d520f1b506b48c142538dcb620dd68d40",
+        "sha256_in_prefix": "13f411eee395e4bb6bba43141855369d520f1b506b48c142538dcb620dd68d40",
+        "size_in_bytes": 365184
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "43baf33321226245d9c9ba37b86831e39953a2e74aaf98cad57b21a7cf099e23",
+        "sha256_in_prefix": "43baf33321226245d9c9ba37b86831e39953a2e74aaf98cad57b21a7cf099e23",
+        "size_in_bytes": 16504
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "269691bd0b372e0f54bfe1d499dc17f9f6890394d8a9520035af5514509bd596",
+        "sha256_in_prefix": "269691bd0b372e0f54bfe1d499dc17f9f6890394d8a9520035af5514509bd596",
+        "size_in_bytes": 66176
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "cc9d3dbcb749f16b6447a1b9419e8d466b2b1fab2cee53043acfd02100a9cdd3",
+        "sha256_in_prefix": "cc9d3dbcb749f16b6447a1b9419e8d466b2b1fab2cee53043acfd02100a9cdd3",
+        "size_in_bytes": 20088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "53de4a067a7a0f026db3e9dab3a57767e78b1e1b83161670611bdbf095c6b35d",
+        "sha256_in_prefix": "53de4a067a7a0f026db3e9dab3a57767e78b1e1b83161670611bdbf095c6b35d",
+        "size_in_bytes": 21120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "bb58fdfa99e85a179e0a12e278b89878ae023ce37b3e2c2979df7e850f8e3632",
+        "sha256_in_prefix": "bb58fdfa99e85a179e0a12e278b89878ae023ce37b3e2c2979df7e850f8e3632",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "70695a88cac89f94ff9313d9e7cd5cd6d78c3359a5d67edf7d23c49a40cd0c32",
+        "sha256_in_prefix": "70695a88cac89f94ff9313d9e7cd5cd6d78c3359a5d67edf7d23c49a40cd0c32",
+        "size_in_bytes": 18600
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7e964370cecb4f39ba2391f122de8f6eca7a90d863997c6a657b920958bee6ca",
+        "sha256_in_prefix": "7e964370cecb4f39ba2391f122de8f6eca7a90d863997c6a657b920958bee6ca",
+        "size_in_bytes": 89768
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/es/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "9f0716da9eaac63acc64e20a7f3817cec83357e93a4b133b8db2efba8f913cec",
+        "sha256_in_prefix": "9f0716da9eaac63acc64e20a7f3817cec83357e93a4b133b8db2efba8f913cec",
+        "size_in_bytes": 15992
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "ccf900fddf8e2f7dc9344b04e257c0887f318e27e7d24e2b519f449128177f8b",
+        "sha256_in_prefix": "ccf900fddf8e2f7dc9344b04e257c0887f318e27e7d24e2b519f449128177f8b",
+        "size_in_bytes": 25744
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "3a5fdebb920a1aea02046140468275340758a6ceba7c4c5268aeb4e8a7d17452",
+        "sha256_in_prefix": "3a5fdebb920a1aea02046140468275340758a6ceba7c4c5268aeb4e8a7d17452",
+        "size_in_bytes": 113280
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "2d7a9c66b62b20c4eb4a31f10ba9a7f5ded54afa02b41c65a0174273bf2b1eba",
+        "sha256_in_prefix": "2d7a9c66b62b20c4eb4a31f10ba9a7f5ded54afa02b41c65a0174273bf2b1eba",
+        "size_in_bytes": 207488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "472a415b7a5645b6c592a6b4c53703ebed2cdd957c9a009a304018e6598a20d2",
+        "sha256_in_prefix": "472a415b7a5645b6c592a6b4c53703ebed2cdd957c9a009a304018e6598a20d2",
+        "size_in_bytes": 46768
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e0e600d1d8e37a5b7f74d5831941ee049d9646444e0550837ea22ff5b161544a",
+        "sha256_in_prefix": "e0e600d1d8e37a5b7f74d5831941ee049d9646444e0550837ea22ff5b161544a",
+        "size_in_bytes": 40048
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4be735a5df0e3aa2fe06c00f0d4a3f18e4f6c1f89a5d13169c2fe0463343d2c5",
+        "sha256_in_prefix": "4be735a5df0e3aa2fe06c00f0d4a3f18e4f6c1f89a5d13169c2fe0463343d2c5",
+        "size_in_bytes": 18608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "bafe75d65cabd2a698f492e8ad542dfbc4a4be7866918bc3b31e0e585ac3abc9",
+        "sha256_in_prefix": "bafe75d65cabd2a698f492e8ad542dfbc4a4be7866918bc3b31e0e585ac3abc9",
+        "size_in_bytes": 145024
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7dae7fb0c557183bcef6793f0bc8a7b01d3428956a3255d42e239ea925014b42",
+        "sha256_in_prefix": "7dae7fb0c557183bcef6793f0bc8a7b01d3428956a3255d42e239ea925014b42",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "ed5bb695f4fcf2182c5b4f3be0cf97894ed3c0e92045aabceac8deed04f883bf",
+        "sha256_in_prefix": "ed5bb695f4fcf2182c5b4f3be0cf97894ed3c0e92045aabceac8deed04f883bf",
+        "size_in_bytes": 371840
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "73d579509b47841b332da3d9c31af7533914db822a94f6ae5e416b4290f34ad5",
+        "sha256_in_prefix": "73d579509b47841b332da3d9c31af7533914db822a94f6ae5e416b4290f34ad5",
+        "size_in_bytes": 16560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e0c467193163980c2a3178f60ad9beb069c9125eb2feb91b74cc88d9a479c648",
+        "sha256_in_prefix": "e0c467193163980c2a3178f60ad9beb069c9125eb2feb91b74cc88d9a479c648",
+        "size_in_bytes": 67760
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "f248d347edcd44f97ca3bfdd81dc84e692452c589139edbedfce087a4fb8cb4e",
+        "sha256_in_prefix": "f248d347edcd44f97ca3bfdd81dc84e692452c589139edbedfce087a4fb8cb4e",
+        "size_in_bytes": 20128
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7ffa47363cbb11ffe3cce51e76ece914be249205ac22d2766d658fdc2ba715ce",
+        "sha256_in_prefix": "7ffa47363cbb11ffe3cce51e76ece914be249205ac22d2766d658fdc2ba715ce",
+        "size_in_bytes": 21120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "59bcccaf104a9f309d400ee2ef381ce267a467857db01d5918cbc4bffbf17f7c",
+        "sha256_in_prefix": "59bcccaf104a9f309d400ee2ef381ce267a467857db01d5918cbc4bffbf17f7c",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "6f6677720aa6d928ef2041c9dd754a41c11cf19bdafe6f697704169687596b60",
+        "sha256_in_prefix": "6f6677720aa6d928ef2041c9dd754a41c11cf19bdafe6f697704169687596b60",
+        "size_in_bytes": 18560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "61dd8536818ac17d008934c9b585e7adfba53a05be7be9ce3c169d7593603272",
+        "sha256_in_prefix": "61dd8536818ac17d008934c9b585e7adfba53a05be7be9ce3c169d7593603272",
+        "size_in_bytes": 90744
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/fr/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "fab2b93a9a5e1c316e86e51bcc2d0ef237e4bdcbfe1a6d8c256dbf39335cea1e",
+        "sha256_in_prefix": "fab2b93a9a5e1c316e86e51bcc2d0ef237e4bdcbfe1a6d8c256dbf39335cea1e",
+        "size_in_bytes": 16000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "fa4667ce174eb2f19e383a8e17c44489f2915d0a8944ddb0173071141dfafbcf",
+        "sha256_in_prefix": "fa4667ce174eb2f19e383a8e17c44489f2915d0a8944ddb0173071141dfafbcf",
+        "size_in_bytes": 25728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "da4efe65a6c7cdacef88f8825f1fcbb6b20b339d5e6f3ea252884dd6147d90bb",
+        "sha256_in_prefix": "da4efe65a6c7cdacef88f8825f1fcbb6b20b339d5e6f3ea252884dd6147d90bb",
+        "size_in_bytes": 111280
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "fc4406ccf39d01587d32a7d8af52af56e91f48c590d5e4d138026ef7c992c9c5",
+        "sha256_in_prefix": "fc4406ccf39d01587d32a7d8af52af56e91f48c590d5e4d138026ef7c992c9c5",
+        "size_in_bytes": 206000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a375f8a849861dbb85d934245b2f9ba6783a4130280b120f5843f6a89228c453",
+        "sha256_in_prefix": "a375f8a849861dbb85d934245b2f9ba6783a4130280b120f5843f6a89228c453",
+        "size_in_bytes": 45688
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "af71171e954012235e623adcfc676151cfc5f876db843b648efa20810c440b92",
+        "sha256_in_prefix": "af71171e954012235e623adcfc676151cfc5f876db843b648efa20810c440b92",
+        "size_in_bytes": 39544
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "350564558d875e6b536f2960170844860b5a36d914f69636503ab22ede4821d3",
+        "sha256_in_prefix": "350564558d875e6b536f2960170844860b5a36d914f69636503ab22ede4821d3",
+        "size_in_bytes": 18608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "86a7042a5b582e7b7609940727fb1cbd2f569d0f1ef2899109e8a1e3fd7ee557",
+        "sha256_in_prefix": "86a7042a5b582e7b7609940727fb1cbd2f569d0f1ef2899109e8a1e3fd7ee557",
+        "size_in_bytes": 145552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8a771b0b56b6ec3acde6453a76aa23a50f0477ff5eee5f84444bfb27a6a45b0b",
+        "sha256_in_prefix": "8a771b0b56b6ec3acde6453a76aa23a50f0477ff5eee5f84444bfb27a6a45b0b",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "622f5dc35588bde05c6a0ae0645359c0fb8e788223feb34835d1cbfd423b92a6",
+        "sha256_in_prefix": "622f5dc35588bde05c6a0ae0645359c0fb8e788223feb34835d1cbfd423b92a6",
+        "size_in_bytes": 367744
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "f3c8a7c80731d5002957f466084d968ca3e283496af6a76b7fcc9405c8252d49",
+        "sha256_in_prefix": "f3c8a7c80731d5002957f466084d968ca3e283496af6a76b7fcc9405c8252d49",
+        "size_in_bytes": 16560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "fd3d543e3f2c68b876ba3a5100ece401be8fa45cf93de7ff314f05def5d390cf",
+        "sha256_in_prefix": "fd3d543e3f2c68b876ba3a5100ece401be8fa45cf93de7ff314f05def5d390cf",
+        "size_in_bytes": 66720
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "5a0de2f28e1e07a0b559f2806beba1526ca1faec605ff05bd12e5ebd13b783ab",
+        "sha256_in_prefix": "5a0de2f28e1e07a0b559f2806beba1526ca1faec605ff05bd12e5ebd13b783ab",
+        "size_in_bytes": 20088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "221834f1b7418dcc04daaafd02e7179859f31d350221ee4240d719ffdefb0cc7",
+        "sha256_in_prefix": "221834f1b7418dcc04daaafd02e7179859f31d350221ee4240d719ffdefb0cc7",
+        "size_in_bytes": 21120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4acd4674235adf872b1e388c21a797ab6cf6ee801a0f64f444deecd6f02800a2",
+        "sha256_in_prefix": "4acd4674235adf872b1e388c21a797ab6cf6ee801a0f64f444deecd6f02800a2",
+        "size_in_bytes": 15480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4f2614edf534061251d2623dd10696c50bcb330fd610179c998d8f0733030545",
+        "sha256_in_prefix": "4f2614edf534061251d2623dd10696c50bcb330fd610179c998d8f0733030545",
+        "size_in_bytes": 18608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "1205ed65f88d685bcf63f8063a3d63787effcb5498eb0eca6c12172178d5b9d1",
+        "sha256_in_prefix": "1205ed65f88d685bcf63f8063a3d63787effcb5498eb0eca6c12172178d5b9d1",
+        "size_in_bytes": 91768
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/it/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "d415488ab0a7d151525638173e292a1bb186e1345bfcf24693a63c7e1cc24123",
+        "sha256_in_prefix": "d415488ab0a7d151525638173e292a1bb186e1345bfcf24693a63c7e1cc24123",
+        "size_in_bytes": 15992
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "044163d3aac5c676a73030bb237504f9d7e09037c93ca406f365b111571db144",
+        "sha256_in_prefix": "044163d3aac5c676a73030bb237504f9d7e09037c93ca406f365b111571db144",
+        "size_in_bytes": 26240
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "370af0bb16c5d853566ba089ef2fc148bfbb5ec6e9644ad9058660683019c266",
+        "sha256_in_prefix": "370af0bb16c5d853566ba089ef2fc148bfbb5ec6e9644ad9058660683019c266",
+        "size_in_bytes": 122496
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "5543101ad10c8b8ddbd2c9e8d4fa558ddf3eca5c89a671c22e2343cb30c305b2",
+        "sha256_in_prefix": "5543101ad10c8b8ddbd2c9e8d4fa558ddf3eca5c89a671c22e2343cb30c305b2",
+        "size_in_bytes": 226936
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7637ccd48e9e5fd5e4ea1aeb6c79531f6c6b5e1b0b299c8ed85059653d27c20d",
+        "sha256_in_prefix": "7637ccd48e9e5fd5e4ea1aeb6c79531f6c6b5e1b0b299c8ed85059653d27c20d",
+        "size_in_bytes": 49272
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "74e75f737defcf98167acd03dac97b7a1cac53a634b7082e7fa0567359616aa9",
+        "sha256_in_prefix": "74e75f737defcf98167acd03dac97b7a1cac53a634b7082e7fa0567359616aa9",
+        "size_in_bytes": 42112
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "80a8e14bc6ca371e53aa9eaf81441b251ea8d3d713c9a486a525c0d150690c60",
+        "sha256_in_prefix": "80a8e14bc6ca371e53aa9eaf81441b251ea8d3d713c9a486a525c0d150690c60",
+        "size_in_bytes": 19072
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7a3b3f22730f00dbba3b72692fc3877b43abbb77f3d48194a66c72a68bfd7593",
+        "sha256_in_prefix": "7a3b3f22730f00dbba3b72692fc3877b43abbb77f3d48194a66c72a68bfd7593",
+        "size_in_bytes": 150152
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "12a6b09606b5b8e67d37ba896cf9a6d07a6e9d4cf719a555640035cded77f56b",
+        "sha256_in_prefix": "12a6b09606b5b8e67d37ba896cf9a6d07a6e9d4cf719a555640035cded77f56b",
+        "size_in_bytes": 16000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a32831738bc55c0764a3b8a4b7e9740cb71d6e4f318df6beceebdb0f12697104",
+        "sha256_in_prefix": "a32831738bc55c0764a3b8a4b7e9740cb71d6e4f318df6beceebdb0f12697104",
+        "size_in_bytes": 408200
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "29a79b799955500e49dd9863d0f855171552bbb13e8bd95310c3db588a0e491e",
+        "sha256_in_prefix": "29a79b799955500e49dd9863d0f855171552bbb13e8bd95310c3db588a0e491e",
+        "size_in_bytes": 16504
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "61c35029ae50080c0d9177316a8fcd721709281e3a07c6c7b578a9115b94ca94",
+        "sha256_in_prefix": "61c35029ae50080c0d9177316a8fcd721709281e3a07c6c7b578a9115b94ca94",
+        "size_in_bytes": 74360
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "382449e1bc34e8471c5d9d79776c39efc31d28a4ed946f65183c17703216d861",
+        "sha256_in_prefix": "382449e1bc34e8471c5d9d79776c39efc31d28a4ed946f65183c17703216d861",
+        "size_in_bytes": 20600
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4583fbf9e85ed968fe900c83cc163a4fcda94a6edc49641a507faac8d9d183b7",
+        "sha256_in_prefix": "4583fbf9e85ed968fe900c83cc163a4fcda94a6edc49641a507faac8d9d183b7",
+        "size_in_bytes": 21664
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7eb7d14fd0083df77d2b1ade58385a902db5add93131b705adf9f465790df273",
+        "sha256_in_prefix": "7eb7d14fd0083df77d2b1ade58385a902db5add93131b705adf9f465790df273",
+        "size_in_bytes": 15480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4e5db8a18a3a51b47da6ea7170da5d00e867f6f421852ad2818de5ba86cc2ac4",
+        "sha256_in_prefix": "4e5db8a18a3a51b47da6ea7170da5d00e867f6f421852ad2818de5ba86cc2ac4",
+        "size_in_bytes": 18560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "f625b3caf8475fcdceefbc0873e94d7f7db92a13f3e46e799998562d8671c178",
+        "sha256_in_prefix": "f625b3caf8475fcdceefbc0873e94d7f7db92a13f3e46e799998562d8671c178",
+        "size_in_bytes": 99448
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ja/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "cca22f9fe4274296c6969802ac340bc3fe8c62e70681c2387477ee6fb20dab0d",
+        "sha256_in_prefix": "cca22f9fe4274296c6969802ac340bc3fe8c62e70681c2387477ee6fb20dab0d",
+        "size_in_bytes": 16504
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "9ee471aef65931e60065c84eec7ff7fb0413417f683b8536b8d626adffd022d9",
+        "sha256_in_prefix": "9ee471aef65931e60065c84eec7ff7fb0413417f683b8536b8d626adffd022d9",
+        "size_in_bytes": 25728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "d80cfa81db8c0757cfda6f822fdfc1ef82fedd6c54fd0baa4f70f8c3ef1864fc",
+        "sha256_in_prefix": "d80cfa81db8c0757cfda6f822fdfc1ef82fedd6c54fd0baa4f70f8c3ef1864fc",
+        "size_in_bytes": 114304
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "94503fc6c956dce9c7dc0db73bd4eb25a21ce0dad495936fe75de6746ce3fc4b",
+        "sha256_in_prefix": "94503fc6c956dce9c7dc0db73bd4eb25a21ce0dad495936fe75de6746ce3fc4b",
+        "size_in_bytes": 211624
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8a39fab684dcedeb8b63a26c40a3836b89ac215859db5bba4f9faf7f9b68b1da",
+        "sha256_in_prefix": "8a39fab684dcedeb8b63a26c40a3836b89ac215859db5bba4f9faf7f9b68b1da",
+        "size_in_bytes": 46200
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "07b54524fa7f4a8cae0282127b5e7273c4dd9c363c87534bee895949bfeb9efd",
+        "sha256_in_prefix": "07b54524fa7f4a8cae0282127b5e7273c4dd9c363c87534bee895949bfeb9efd",
+        "size_in_bytes": 40568
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "d99ffb1a047a08f8746b92ff548bff9e7a90e4b19cea2c9e3b6ae81e064ebdc1",
+        "sha256_in_prefix": "d99ffb1a047a08f8746b92ff548bff9e7a90e4b19cea2c9e3b6ae81e064ebdc1",
+        "size_in_bytes": 18608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "14741ed78f90de3152b4c4050c15384944a3ca12dd16acf16a321e945d69f567",
+        "sha256_in_prefix": "14741ed78f90de3152b4c4050c15384944a3ca12dd16acf16a321e945d69f567",
+        "size_in_bytes": 146560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "c6b1760d898d980599e7dafe23a5bfeffa88d6fd08c2a18b27bbb188ed8e3b44",
+        "sha256_in_prefix": "c6b1760d898d980599e7dafe23a5bfeffa88d6fd08c2a18b27bbb188ed8e3b44",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "069aa875677e97d900db10163e54e46eeb673f2713a1a93cd349029593495c02",
+        "sha256_in_prefix": "069aa875677e97d900db10163e54e46eeb673f2713a1a93cd349029593495c02",
+        "size_in_bytes": 370304
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "cfcf03382d7129ec239fbc0721777f1c425f3e4528120bf4fc0399e90f6aead9",
+        "sha256_in_prefix": "cfcf03382d7129ec239fbc0721777f1c425f3e4528120bf4fc0399e90f6aead9",
+        "size_in_bytes": 16512
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "1bba2ddb2525824e9cabc0ed96c240e420f611bd61d218dd2351b510b409239b",
+        "sha256_in_prefix": "1bba2ddb2525824e9cabc0ed96c240e420f611bd61d218dd2351b510b409239b",
+        "size_in_bytes": 69752
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "c5a5452be8b168fb0da322dbe7e41140d04126ab06608a547529f7eb63e0271a",
+        "sha256_in_prefix": "c5a5452be8b168fb0da322dbe7e41140d04126ab06608a547529f7eb63e0271a",
+        "size_in_bytes": 20144
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "31d9b6fba629ec9cf82ead38117ea0191bac2f10e8a5e3a35028731a110127d5",
+        "sha256_in_prefix": "31d9b6fba629ec9cf82ead38117ea0191bac2f10e8a5e3a35028731a110127d5",
+        "size_in_bytes": 21168
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "cc64d879ab0a9c8a3d2edf8e062b5cf3e3ed62c463e69975ebe3a82abac4924f",
+        "sha256_in_prefix": "cc64d879ab0a9c8a3d2edf8e062b5cf3e3ed62c463e69975ebe3a82abac4924f",
+        "size_in_bytes": 15480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "83bd015a3bf8dcbf5a2a0739a61f9fdacedf875f5efff23b8d8155bb7df89ce2",
+        "sha256_in_prefix": "83bd015a3bf8dcbf5a2a0739a61f9fdacedf875f5efff23b8d8155bb7df89ce2",
+        "size_in_bytes": 18552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "54882231585e281155f92a7d10bbe6ac602e52c5edd8d0b29d96a7d8687c290f",
+        "sha256_in_prefix": "54882231585e281155f92a7d10bbe6ac602e52c5edd8d0b29d96a7d8687c290f",
+        "size_in_bytes": 92288
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ko/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4372a6d08c839d58edfb344fc5b3715b41faeb579739afe960148064a548d3b9",
+        "sha256_in_prefix": "4372a6d08c839d58edfb344fc5b3715b41faeb579739afe960148064a548d3b9",
+        "size_in_bytes": 15992
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "df5d43f2e7ad6196bb0fa09929ee265c7ad0d659aaee90e2ce608c834674f472",
+        "sha256_in_prefix": "df5d43f2e7ad6196bb0fa09929ee265c7ad0d659aaee90e2ce608c834674f472",
+        "size_in_bytes": 25728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "0ceb5ac29d80fbfc74cc91e9228917229341b2297b12c7ca439816d7c12de45e",
+        "sha256_in_prefix": "0ceb5ac29d80fbfc74cc91e9228917229341b2297b12c7ca439816d7c12de45e",
+        "size_in_bytes": 113312
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8c3726850d8be7b20ef539c1e76719f5aed36500cbdff57eb6689d9ce30fb7da",
+        "sha256_in_prefix": "8c3726850d8be7b20ef539c1e76719f5aed36500cbdff57eb6689d9ce30fb7da",
+        "size_in_bytes": 210096
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8c0906b5294f716d59bfb6490b9c5a2beac5449b742b71bde2bfda220ddd38ee",
+        "sha256_in_prefix": "8c0906b5294f716d59bfb6490b9c5a2beac5449b742b71bde2bfda220ddd38ee",
+        "size_in_bytes": 46200
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "29224cb8d980499ba7af96230af81f07ee67f8f9532c328f1ee47e3a283b71ee",
+        "sha256_in_prefix": "29224cb8d980499ba7af96230af81f07ee67f8f9532c328f1ee47e3a283b71ee",
+        "size_in_bytes": 40096
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a23c4e671d145235ef06b64ada009c7c1c0d5260f6f342107036926486f5bc97",
+        "sha256_in_prefix": "a23c4e671d145235ef06b64ada009c7c1c0d5260f6f342107036926486f5bc97",
+        "size_in_bytes": 18560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "dfe0c6c4c403828b38b299b29fb776abd46cc4de8f4547769c0400614cd85d89",
+        "sha256_in_prefix": "dfe0c6c4c403828b38b299b29fb776abd46cc4de8f4547769c0400614cd85d89",
+        "size_in_bytes": 144000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "947bfe4bb45a0571aca1ee931a01f4cc463d232598e53c18f90ff60075405386",
+        "sha256_in_prefix": "947bfe4bb45a0571aca1ee931a01f4cc463d232598e53c18f90ff60075405386",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "58cbd59366e9a124c896071d40fb4852dec1e3b2e54ea9ba2a2a1621ab2e56f1",
+        "sha256_in_prefix": "58cbd59366e9a124c896071d40fb4852dec1e3b2e54ea9ba2a2a1621ab2e56f1",
+        "size_in_bytes": 365696
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4b3291ca5a95d3d9a2f9194b9029f4f722454424d6d31417d9f9a02f6fe785f0",
+        "sha256_in_prefix": "4b3291ca5a95d3d9a2f9194b9029f4f722454424d6d31417d9f9a02f6fe785f0",
+        "size_in_bytes": 16512
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a0edeb624f0ca2f60de71d88d227a2e508a9953e7bb1af944312cde4282fe060",
+        "sha256_in_prefix": "a0edeb624f0ca2f60de71d88d227a2e508a9953e7bb1af944312cde4282fe060",
+        "size_in_bytes": 69752
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "661cbba2369a6bc4421b02db22c691a9075fa59f49fae34f0912dfcfefd8a63d",
+        "sha256_in_prefix": "661cbba2369a6bc4421b02db22c691a9075fa59f49fae34f0912dfcfefd8a63d",
+        "size_in_bytes": 20088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "b3b0c2e41b56bd6dad259850adef40bfe7ebe3c28f32fa5941619e2d6170a338",
+        "sha256_in_prefix": "b3b0c2e41b56bd6dad259850adef40bfe7ebe3c28f32fa5941619e2d6170a338",
+        "size_in_bytes": 21152
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "67cae60404e20182a629465adb18313eabc3735f629d42b3d4a53dee2f107fac",
+        "sha256_in_prefix": "67cae60404e20182a629465adb18313eabc3735f629d42b3d4a53dee2f107fac",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "08595bb2461d506cea28fb02ccedfd5887b6875cdcbec2bd32f5dc1257041a5c",
+        "sha256_in_prefix": "08595bb2461d506cea28fb02ccedfd5887b6875cdcbec2bd32f5dc1257041a5c",
+        "size_in_bytes": 18608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "0bc9f667ed325b37fdc1d46dc84a40a2ce8348449e714ba2f0aed52ca54dc2ee",
+        "sha256_in_prefix": "0bc9f667ed325b37fdc1d46dc84a40a2ce8348449e714ba2f0aed52ca54dc2ee",
+        "size_in_bytes": 90752
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pl/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8f9626d1217ef32566ea9080bdc4f4c1ec0c5619e8dc570c9dfa131d9f216877",
+        "sha256_in_prefix": "8f9626d1217ef32566ea9080bdc4f4c1ec0c5619e8dc570c9dfa131d9f216877",
+        "size_in_bytes": 15992
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "274ba418a31aae7f61141329d16d0e27eda32adedbb48bcf0cd7b40ff8cfbc85",
+        "sha256_in_prefix": "274ba418a31aae7f61141329d16d0e27eda32adedbb48bcf0cd7b40ff8cfbc85",
+        "size_in_bytes": 25728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e1188d2b0d332242842e395aaca726eeead8d5d8cd59df7bd24b4e4c24cd033d",
+        "sha256_in_prefix": "e1188d2b0d332242842e395aaca726eeead8d5d8cd59df7bd24b4e4c24cd033d",
+        "size_in_bytes": 109744
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "657a2696f4c64b177a5621920fbe86191e59b41bd8ab544aad62dd9d7e7eee26",
+        "sha256_in_prefix": "657a2696f4c64b177a5621920fbe86191e59b41bd8ab544aad62dd9d7e7eee26",
+        "size_in_bytes": 202872
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "05b23424ebaeff73de614f2722f924c1f5dd24a8863a63f9f6adeec7d00c1940",
+        "sha256_in_prefix": "05b23424ebaeff73de614f2722f924c1f5dd24a8863a63f9f6adeec7d00c1940",
+        "size_in_bytes": 45728
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "c18bb64b900c13739dc75a3ad533f42a629e67739e83f4d38de30ac7eac18eda",
+        "sha256_in_prefix": "c18bb64b900c13739dc75a3ad533f42a629e67739e83f4d38de30ac7eac18eda",
+        "size_in_bytes": 39032
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "06d034f975867d1fc697c6d1816cf33e21670a7bd307d01361b83fe889761018",
+        "sha256_in_prefix": "06d034f975867d1fc697c6d1816cf33e21670a7bd307d01361b83fe889761018",
+        "size_in_bytes": 18552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e1a3a5cf24adb7e1fa8c44761ed5bf76d0c20ddb5f304f81d90f4ec703461c96",
+        "sha256_in_prefix": "e1a3a5cf24adb7e1fa8c44761ed5bf76d0c20ddb5f304f81d90f4ec703461c96",
+        "size_in_bytes": 144000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "3c3c1f35e6f34f68574cff4cbd87a88bebc79dac18596543d5c36023fe979707",
+        "sha256_in_prefix": "3c3c1f35e6f34f68574cff4cbd87a88bebc79dac18596543d5c36023fe979707",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e4e58fe5309a745ba863c59cc21ba751065915bb26264b1a85165f7caaaa6bb6",
+        "sha256_in_prefix": "e4e58fe5309a745ba863c59cc21ba751065915bb26264b1a85165f7caaaa6bb6",
+        "size_in_bytes": 358520
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "de1ad23ed265f2b6d67090aab69cb082a02887fcb884d63aae98fa0b84673923",
+        "sha256_in_prefix": "de1ad23ed265f2b6d67090aab69cb082a02887fcb884d63aae98fa0b84673923",
+        "size_in_bytes": 16552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "763acb931c9e120e1d002dd0e31c9006a93aa4947e5806afa4eb7b16e0b7f8c5",
+        "sha256_in_prefix": "763acb931c9e120e1d002dd0e31c9006a93aa4947e5806afa4eb7b16e0b7f8c5",
+        "size_in_bytes": 65656
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "960abcc3dfa421deb21f662dc2978899ffee74d066d18f0b34ebe18951eb6f74",
+        "sha256_in_prefix": "960abcc3dfa421deb21f662dc2978899ffee74d066d18f0b34ebe18951eb6f74",
+        "size_in_bytes": 20144
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a84011cb2ae00eedea09981900b7d1ecc0acd0e5e38b365663e8874eb4414b4d",
+        "sha256_in_prefix": "a84011cb2ae00eedea09981900b7d1ecc0acd0e5e38b365663e8874eb4414b4d",
+        "size_in_bytes": 21160
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "20fe2c69364f435f3f428a082ec9574ace97deb3d955209662e2dafd569c691c",
+        "sha256_in_prefix": "20fe2c69364f435f3f428a082ec9574ace97deb3d955209662e2dafd569c691c",
+        "size_in_bytes": 15528
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "47dc0635be9c88a025486d4e29755a2d1c468e575186000a13330476bdb0ef55",
+        "sha256_in_prefix": "47dc0635be9c88a025486d4e29755a2d1c468e575186000a13330476bdb0ef55",
+        "size_in_bytes": 18608
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "93c665d84667b4531cf35eb45eb0cfe52966b617aa43cee08095d29e7fdea365",
+        "sha256_in_prefix": "93c665d84667b4531cf35eb45eb0cfe52966b617aa43cee08095d29e7fdea365",
+        "size_in_bytes": 89248
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/pt-BR/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8ab624e106e25026b9b918e0125c1ca1b3cf46aecb2792ad6ce7e1077383a005",
+        "sha256_in_prefix": "8ab624e106e25026b9b918e0125c1ca1b3cf46aecb2792ad6ce7e1077383a005",
+        "size_in_bytes": 15992
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "c2ee21e5bff0bb1afccf1b90b67026346b246e5b5e341042ccd54d3147655aa0",
+        "sha256_in_prefix": "c2ee21e5bff0bb1afccf1b90b67026346b246e5b5e341042ccd54d3147655aa0",
+        "size_in_bytes": 26752
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "5b9bcd5555501d8c1cb7820e415ed287cb3d4e044f42406463de55843c6a0d4a",
+        "sha256_in_prefix": "5b9bcd5555501d8c1cb7820e415ed287cb3d4e044f42406463de55843c6a0d4a",
+        "size_in_bytes": 138400
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "3910f488854470d18d0490d1bcb0b2c60b9096cb36a5ec84d75e86cdf01eaca0",
+        "sha256_in_prefix": "3910f488854470d18d0490d1bcb0b2c60b9096cb36a5ec84d75e86cdf01eaca0",
+        "size_in_bytes": 258224
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "94656ce34db5b3c36aafaa197192b42f293696b86e73624ddd4e5358afaf6070",
+        "sha256_in_prefix": "94656ce34db5b3c36aafaa197192b42f293696b86e73624ddd4e5358afaf6070",
+        "size_in_bytes": 54448
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e72a03ce352078f288317c4b967721eeb5a4c7dc7885edea0cffdd9f50ba3d83",
+        "sha256_in_prefix": "e72a03ce352078f288317c4b967721eeb5a4c7dc7885edea0cffdd9f50ba3d83",
+        "size_in_bytes": 44192
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "662bbe5626be092250de33052149fd47105f63fedab2faa21657755bfb2aa2db",
+        "sha256_in_prefix": "662bbe5626be092250de33052149fd47105f63fedab2faa21657755bfb2aa2db",
+        "size_in_bytes": 19584
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "482ee7c45549a4039f10bb29db9d08cd8eeae0fce37aff478879c8f82aef6741",
+        "sha256_in_prefix": "482ee7c45549a4039f10bb29db9d08cd8eeae0fce37aff478879c8f82aef6741",
+        "size_in_bytes": 157312
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "9d48a7b0248f9612834b14acb26250287e54df0b4082e81cf6ea30140b6d98a5",
+        "sha256_in_prefix": "9d48a7b0248f9612834b14acb26250287e54df0b4082e81cf6ea30140b6d98a5",
+        "size_in_bytes": 16000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "d559e9c0ea67dcea36a594089b877de469970dc7e148c85e8897e3a2161030c8",
+        "sha256_in_prefix": "d559e9c0ea67dcea36a594089b877de469970dc7e148c85e8897e3a2161030c8",
+        "size_in_bytes": 475776
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "363aa28ae970bfa3f9094272f53ec123dbe02717bbc62d8b9be2ccf7acb91638",
+        "sha256_in_prefix": "363aa28ae970bfa3f9094272f53ec123dbe02717bbc62d8b9be2ccf7acb91638",
+        "size_in_bytes": 17016
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "0caf8d3c920c2f0dff4e4a4fe7047e5cbad2126993ef36e71cce85b5eb35a145",
+        "sha256_in_prefix": "0caf8d3c920c2f0dff4e4a4fe7047e5cbad2126993ef36e71cce85b5eb35a145",
+        "size_in_bytes": 85120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "53a599bc2137ea4b6a4b589b773d6154cc1bed65196e8ad3e8aaa6a46d938a80",
+        "sha256_in_prefix": "53a599bc2137ea4b6a4b589b773d6154cc1bed65196e8ad3e8aaa6a46d938a80",
+        "size_in_bytes": 21632
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4421047462e318896b4a88509979de4f13ae30405a6e562bbf04b50b26cd8495",
+        "sha256_in_prefix": "4421047462e318896b4a88509979de4f13ae30405a6e562bbf04b50b26cd8495",
+        "size_in_bytes": 22136
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "aec861526842f721bde99a2f76f7fb724f997caf26b8c41b893019edfa0fe1ab",
+        "sha256_in_prefix": "aec861526842f721bde99a2f76f7fb724f997caf26b8c41b893019edfa0fe1ab",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "666b8a685ba306387470fc32dfc12b6b85af690d8e5972d562e5e2897ea49b2a",
+        "sha256_in_prefix": "666b8a685ba306387470fc32dfc12b6b85af690d8e5972d562e5e2897ea49b2a",
+        "size_in_bytes": 19072
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "68365d4fd678bdd7de60a63d603b5b4c029ae9c47be5942446bc036cafe63b72",
+        "sha256_in_prefix": "68365d4fd678bdd7de60a63d603b5b4c029ae9c47be5942446bc036cafe63b72",
+        "size_in_bytes": 111736
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/ru/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7f635ca4aa6c04720b03eca8ed7e2c275e730806be7189280b1f674949f01b62",
+        "sha256_in_prefix": "7f635ca4aa6c04720b03eca8ed7e2c275e730806be7189280b1f674949f01b62",
+        "size_in_bytes": 16504
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "b178582f10d9fe5779cc84defcf3ac68bacac7488a06d498722a55d8c6fb0328",
+        "sha256_in_prefix": "b178582f10d9fe5779cc84defcf3ac68bacac7488a06d498722a55d8c6fb0328",
+        "size_in_bytes": 25216
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "2953bf03147ccbe7d6a2f0c71776e2e254ed9fa12729c810b80f945317b5eb7b",
+        "sha256_in_prefix": "2953bf03147ccbe7d6a2f0c71776e2e254ed9fa12729c810b80f945317b5eb7b",
+        "size_in_bytes": 107696
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "14bc31cf94bbde64a08a8c736c4465e3ee8b75b4bdf255e2cbcd5273dd4492e0",
+        "sha256_in_prefix": "14bc31cf94bbde64a08a8c736c4465e3ee8b75b4bdf255e2cbcd5273dd4492e0",
+        "size_in_bytes": 196216
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7de6c70b646a63421f313aad65f8abc26a48f3e22e074990c1b06cf86d1eb911",
+        "sha256_in_prefix": "7de6c70b646a63421f313aad65f8abc26a48f3e22e074990c1b06cf86d1eb911",
+        "size_in_bytes": 44664
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "eb8c025b39feb38424f8a05272db2ec77ea8b0149ed7a419b7090caae34e9a92",
+        "sha256_in_prefix": "eb8c025b39feb38424f8a05272db2ec77ea8b0149ed7a419b7090caae34e9a92",
+        "size_in_bytes": 38576
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "47dd85794a90b77cef959f4769d6283a45b7bb9ebd86689aac9a6ed91d8c0d45",
+        "sha256_in_prefix": "47dd85794a90b77cef959f4769d6283a45b7bb9ebd86689aac9a6ed91d8c0d45",
+        "size_in_bytes": 18552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "0471bf0775e6d5388348cf13a3045d8bd5b50b5945cc83b147fba054c507c624",
+        "sha256_in_prefix": "0471bf0775e6d5388348cf13a3045d8bd5b50b5945cc83b147fba054c507c624",
+        "size_in_bytes": 143488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e513d268d247aff4cc9500afe6b6bf054b41f7601f3e91aea0bbe613ee067f80",
+        "sha256_in_prefix": "e513d268d247aff4cc9500afe6b6bf054b41f7601f3e91aea0bbe613ee067f80",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4604200243223dcbc7c3c99dc90a70553104b843c81ddce21899d718fb27eebf",
+        "sha256_in_prefix": "4604200243223dcbc7c3c99dc90a70553104b843c81ddce21899d718fb27eebf",
+        "size_in_bytes": 360576
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a86d725e3c01fdad07072c572e637249513fbc8981f566011676764c0047b40f",
+        "sha256_in_prefix": "a86d725e3c01fdad07072c572e637249513fbc8981f566011676764c0047b40f",
+        "size_in_bytes": 16552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "9b13be835cc44ad7c9343f0dc8f348fab5e73ac74defabb3729438d643478c2d",
+        "sha256_in_prefix": "9b13be835cc44ad7c9343f0dc8f348fab5e73ac74defabb3729438d643478c2d",
+        "size_in_bytes": 65152
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "21d4ba2b03d89250d6cebf376e994eb978d4347ccd6d29a1ccffe45cf74f12d9",
+        "sha256_in_prefix": "21d4ba2b03d89250d6cebf376e994eb978d4347ccd6d29a1ccffe45cf74f12d9",
+        "size_in_bytes": 20096
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "325f228f28dbfafeff69b9cc4399ffefe425d3e9daba940024edfc63af21735d",
+        "sha256_in_prefix": "325f228f28dbfafeff69b9cc4399ffefe425d3e9daba940024edfc63af21735d",
+        "size_in_bytes": 21120
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "9953972c9600172b6db67f3b22f10caf385aaacfcb5940bdc39c727057f6cba2",
+        "sha256_in_prefix": "9953972c9600172b6db67f3b22f10caf385aaacfcb5940bdc39c727057f6cba2",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "985dd534b195e682154a36f49594c36c2c7a601256fdde16c45ae4c29e3644aa",
+        "sha256_in_prefix": "985dd534b195e682154a36f49594c36c2c7a601256fdde16c45ae4c29e3644aa",
+        "size_in_bytes": 18552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "cdd7b9839e93a32398d2f940101fe9f27ce911ca18bf18542c58c5b49c396b48",
+        "sha256_in_prefix": "cdd7b9839e93a32398d2f940101fe9f27ce911ca18bf18542c58c5b49c396b48",
+        "size_in_bytes": 85664
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/tr/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "1d46761037cd5291efeaf6678624aa273626283c4d711001a3417f36336c4fdd",
+        "sha256_in_prefix": "1d46761037cd5291efeaf6678624aa273626283c4d711001a3417f36336c4fdd",
+        "size_in_bytes": 15992
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/vcruntime140_cor3.dll",
+        "path_type": "hardlink",
+        "sha256": "3f59f73268b647f963b0192c949deea5d6ff8e49ae27e9b9fea0c0a327f54746",
+        "sha256_in_prefix": "3f59f73268b647f963b0192c949deea5d6ff8e49ae27e9b9fea0c0a327f54746",
+        "size_in_bytes": 99216
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/wpfgfx_cor3.dll",
+        "path_type": "hardlink",
+        "sha256": "545d6eafb931b8986e3dc97913aeebf62290aaf358377dfdb4376db6b66872b8",
+        "sha256_in_prefix": "545d6eafb931b8986e3dc97913aeebf62290aaf358377dfdb4376db6b66872b8",
+        "size_in_bytes": 1958000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "c8a54edc96f32835b8f343335801a59386bccd94a23e42f4190e537d3af42c48",
+        "sha256_in_prefix": "c8a54edc96f32835b8f343335801a59386bccd94a23e42f4190e537d3af42c48",
+        "size_in_bytes": 25216
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "ef08c11e6790ac670af2d9d6895f5d2bcc3d0331ea14b04d63efedb4994a442f",
+        "sha256_in_prefix": "ef08c11e6790ac670af2d9d6895f5d2bcc3d0331ea14b04d63efedb4994a442f",
+        "size_in_bytes": 100480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "dbf3b31dd072436e50da780020899adf3c081250056a66bd5f8c62f0e966f450",
+        "sha256_in_prefix": "dbf3b31dd072436e50da780020899adf3c081250056a66bd5f8c62f0e966f450",
+        "size_in_bytes": 183928
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "2a4e5004054fca66dd0286ccb9baffabe1957ab405d8d7524a539625c1038c93",
+        "sha256_in_prefix": "2a4e5004054fca66dd0286ccb9baffabe1957ab405d8d7524a539625c1038c93",
+        "size_in_bytes": 43128
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "498b4130132d870b6acc268fe187fdf8444dbe99d15e925e3927448ad830012c",
+        "sha256_in_prefix": "498b4130132d870b6acc268fe187fdf8444dbe99d15e925e3927448ad830012c",
+        "size_in_bytes": 36984
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "0669ea0e893bf533462bd3d03e52f095e8aa09eb820350f5a137cdfb7bb6e4c9",
+        "sha256_in_prefix": "0669ea0e893bf533462bd3d03e52f095e8aa09eb820350f5a137cdfb7bb6e4c9",
+        "size_in_bytes": 18600
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "1400677356fd883d1c6365760369dc4d999b8601ca7516e2cb36d600621f3fd2",
+        "sha256_in_prefix": "1400677356fd883d1c6365760369dc4d999b8601ca7516e2cb36d600621f3fd2",
+        "size_in_bytes": 139920
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "9783ef989f64b0e182a2ab73f767740eafb81b12e1859baff83e5a00c937a5a9",
+        "sha256_in_prefix": "9783ef989f64b0e182a2ab73f767740eafb81b12e1859baff83e5a00c937a5a9",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "663f3d5e443bdf49fd00321b62c0eb4cebbeb074ebd0ffd7ef960682b01b817c",
+        "sha256_in_prefix": "663f3d5e443bdf49fd00321b62c0eb4cebbeb074ebd0ffd7ef960682b01b817c",
+        "size_in_bytes": 319104
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "c82d0052138273b715afe440960f8a9b374cf31badc47c73d46467caa37951b1",
+        "sha256_in_prefix": "c82d0052138273b715afe440960f8a9b374cf31badc47c73d46467caa37951b1",
+        "size_in_bytes": 16504
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "32e6449bbf1872143ba134467c6df612f7615fa907c7e8b8f018938676b6a49e",
+        "sha256_in_prefix": "32e6449bbf1872143ba134467c6df612f7615fa907c7e8b8f018938676b6a49e",
+        "size_in_bytes": 61048
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "b2f53c94e5067b073adb23965ce5ec9f3aace9b2aa36eae2722a4dd370feac8f",
+        "sha256_in_prefix": "b2f53c94e5067b073adb23965ce5ec9f3aace9b2aa36eae2722a4dd370feac8f",
+        "size_in_bytes": 19632
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4bd8f3d014b79048d2a5e15155046d97d81f33924c08754b117a073b25d4b286",
+        "sha256_in_prefix": "4bd8f3d014b79048d2a5e15155046d97d81f33924c08754b117a073b25d4b286",
+        "size_in_bytes": 20600
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4fe29a01285ada57b42ef8d339ffc83dd13ae33442015d765c9fbf9b9c1fe3ab",
+        "sha256_in_prefix": "4fe29a01285ada57b42ef8d339ffc83dd13ae33442015d765c9fbf9b9c1fe3ab",
+        "size_in_bytes": 15480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "c75aee7d71c311f1c56ddd49a80290907dc739ef7302b8a4724a3e3d18b67f29",
+        "sha256_in_prefix": "c75aee7d71c311f1c56ddd49a80290907dc739ef7302b8a4724a3e3d18b67f29",
+        "size_in_bytes": 18088
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "29b97e10406308b7afcba8c3c40af745535aa1e52c4fccf1958bf4c44c3efabb",
+        "sha256_in_prefix": "29b97e10406308b7afcba8c3c40af745535aa1e52c4fccf1958bf4c44c3efabb",
+        "size_in_bytes": 79480
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hans/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "7bf632393f4aeaf0d26794dfb3cbe9904b436028f231773f770cda04162ce9cf",
+        "sha256_in_prefix": "7bf632393f4aeaf0d26794dfb3cbe9904b436028f231773f770cda04162ce9cf",
+        "size_in_bytes": 16000
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/Microsoft.VisualBasic.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "baf98a0cce380eaa1313295479aa51530514098aa38fa9bcbd502bc0062aad4b",
+        "sha256_in_prefix": "baf98a0cce380eaa1313295479aa51530514098aa38fa9bcbd502bc0062aad4b",
+        "size_in_bytes": 25216
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/PresentationCore.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8a06ce34a8b11f1fa3abc3815082b01b50e632f217b7acb00181d01d97419c04",
+        "sha256_in_prefix": "8a06ce34a8b11f1fa3abc3815082b01b50e632f217b7acb00181d01d97419c04",
+        "size_in_bytes": 101496
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/PresentationFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "0ac3f6659475d557da883b34473ca2f43d76998b1e0c9c0298cecff089f45110",
+        "sha256_in_prefix": "0ac3f6659475d557da883b34473ca2f43d76998b1e0c9c0298cecff089f45110",
+        "size_in_bytes": 184440
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/PresentationUI.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8a09a0c3ee3e1fa2d809de4eccb44a4ac2626c4a650ff929b97fe52a54a903c7",
+        "sha256_in_prefix": "8a09a0c3ee3e1fa2d809de4eccb44a4ac2626c4a650ff929b97fe52a54a903c7",
+        "size_in_bytes": 43128
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/ReachFramework.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "559fc7fc46a48d44e55e1682b54f3e5c1b3d3ea29d0505e9fb272bdca63c85a6",
+        "sha256_in_prefix": "559fc7fc46a48d44e55e1682b54f3e5c1b3d3ea29d0505e9fb272bdca63c85a6",
+        "size_in_bytes": 37504
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Controls.Ribbon.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "fe99a4069943826f98d2fb6629e4433162134f95d1260a6fa28843dbc1165844",
+        "sha256_in_prefix": "fe99a4069943826f98d2fb6629e4433162134f95d1260a6fa28843dbc1165844",
+        "size_in_bytes": 18560
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Forms.Design.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "e795c23c8fb5209060373797ef58b3dbd1574d985ef8a6b6b73a88fa8bbdae2a",
+        "sha256_in_prefix": "e795c23c8fb5209060373797ef58b3dbd1574d985ef8a6b6b73a88fa8bbdae2a",
+        "size_in_bytes": 140416
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Forms.Primitives.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "097fb3888c982ba4ee16a24dad321d047452bce46df542ab80a51b02e4ee8c2f",
+        "sha256_in_prefix": "097fb3888c982ba4ee16a24dad321d047452bce46df542ab80a51b02e4ee8c2f",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Forms.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "8bcc7627a908a3befbe629f7b256f582cb91e6e6373033d8b69e7290d8bd37c0",
+        "sha256_in_prefix": "8bcc7627a908a3befbe629f7b256f582cb91e6e6373033d8b69e7290d8bd37c0",
+        "size_in_bytes": 324224
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Windows.Input.Manipulations.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "16107d7ffdb45361cdae1ba8a90070208280871382c34c01e2fa6560c2dd82b0",
+        "sha256_in_prefix": "16107d7ffdb45361cdae1ba8a90070208280871382c34c01e2fa6560c2dd82b0",
+        "size_in_bytes": 16496
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/System.Xaml.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "6fd3636a7bd5b9f3b8e486bf2373f505ae971a2474d1bb7a2109c0a6eb081653",
+        "sha256_in_prefix": "6fd3636a7bd5b9f3b8e486bf2373f505ae971a2474d1bb7a2109c0a6eb081653",
+        "size_in_bytes": 61104
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/UIAutomationClient.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "a1f18c895fdf4f30e6acfdf0a6986b0de7467a700d84c2deafb8685a43b9796f",
+        "sha256_in_prefix": "a1f18c895fdf4f30e6acfdf0a6986b0de7467a700d84c2deafb8685a43b9796f",
+        "size_in_bytes": 19576
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/UIAutomationClientSideProviders.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "54748a40038b09fef7ec426e4df9b94314708052cdbd5cefa6b18be52a8c679e",
+        "sha256_in_prefix": "54748a40038b09fef7ec426e4df9b94314708052cdbd5cefa6b18be52a8c679e",
+        "size_in_bytes": 20656
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/UIAutomationProvider.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "3a0c008c3c6fe65c70220d49a5887233e31286c9a64a3db262e963579db50a97",
+        "sha256_in_prefix": "3a0c008c3c6fe65c70220d49a5887233e31286c9a64a3db262e963579db50a97",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/UIAutomationTypes.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "30148e64536bac3a2e76294d293eb2b8d25f2bc1b190aebe5b7b00f232718f4c",
+        "sha256_in_prefix": "30148e64536bac3a2e76294d293eb2b8d25f2bc1b190aebe5b7b00f232718f4c",
+        "size_in_bytes": 18552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/WindowsBase.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "03d5b610f0d19a5d475ab3113272e08047135ae3be3e1d082fcdc7228fbed5f9",
+        "sha256_in_prefix": "03d5b610f0d19a5d475ab3113272e08047135ae3be3e1d082fcdc7228fbed5f9",
+        "size_in_bytes": 80552
+      },
+      {
+        "_path": "dotnet/shared/Microsoft.WindowsDesktop.App/7.0.0/zh-Hant/WindowsFormsIntegration.resources.dll",
+        "path_type": "hardlink",
+        "sha256": "4372713be11b0f04d61840d0404deb08e42bb39bfe06543fbbddd2a01d356df3",
+        "sha256_in_prefix": "4372713be11b0f04d61840d0404deb08e42bb39bfe06543fbbddd2a01d356df3",
+        "size_in_bytes": 15992
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "54c877c30867054944c94e893ad034c7985a4e73c5de885336b080856bdeaad7",
+  "size": 33709950,
+  "subdir": "win-64",
+  "timestamp": 1668226506011,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/dotnet-desktop-7.0.0-h57928b3_0.tar.bz2",
+  "version": "7.0.0"
+}

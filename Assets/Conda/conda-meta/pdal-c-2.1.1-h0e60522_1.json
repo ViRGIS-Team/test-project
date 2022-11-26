@@ -1,0 +1,134 @@
+{
+  "build": "h0e60522_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "pdal >=2.4.3,<2.5.0a0",
+    "vc >=14.1,<15",
+    "vs2015_runtime >=14.16.27033"
+  ],
+  "extracted_package_dir": "C:\\Users\\runes\\anaconda3\\pkgs\\pdal-c-2.1.1-h0e60522_1",
+  "features": "",
+  "files": [
+    "Library/bin/pdalc.dll",
+    "Library/bin/test_pdalc.exe",
+    "Library/include/pdal/pdalc.h",
+    "Library/include/pdal/pdalc_config.h",
+    "Library/include/pdal/pdalc_defines.h",
+    "Library/include/pdal/pdalc_dimtype.h",
+    "Library/include/pdal/pdalc_forward.h",
+    "Library/include/pdal/pdalc_pipeline.h",
+    "Library/include/pdal/pdalc_pointlayout.h",
+    "Library/include/pdal/pdalc_pointview.h",
+    "Library/include/pdal/pdalc_pointviewiterator.h",
+    "Library/lib/pdalc.lib"
+  ],
+  "fn": "pdal-c-2.1.1-h0e60522_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\runes\\anaconda3\\pkgs\\pdal-c-2.1.1-h0e60522_1",
+    "type": 3
+  },
+  "md5": "4a581ccc61c44de2e43144e09306b8ba",
+  "name": "pdal-c",
+  "package_tarball_full_path": "C:\\Users\\runes\\anaconda3\\pkgs\\pdal-c-2.1.1-h0e60522_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/pdalc.dll",
+        "path_type": "hardlink",
+        "sha256": "6f49c7f45c68896b274f745f662ba09ff5d83257d44eda85980216bd8f8f24d6",
+        "sha256_in_prefix": "6f49c7f45c68896b274f745f662ba09ff5d83257d44eda85980216bd8f8f24d6",
+        "size_in_bytes": 93184
+      },
+      {
+        "_path": "Library/bin/test_pdalc.exe",
+        "path_type": "hardlink",
+        "sha256": "7d6c21cff09a2208619f40544b7c6bd132a5e5aa740b8fd43da865d106f90c7f",
+        "sha256_in_prefix": "7d6c21cff09a2208619f40544b7c6bd132a5e5aa740b8fd43da865d106f90c7f",
+        "size_in_bytes": 20480
+      },
+      {
+        "_path": "Library/include/pdal/pdalc.h",
+        "path_type": "hardlink",
+        "sha256": "66fde127746f343881f69cec94db1e2ae2e45482f2c39afbe2252714bf83d9c0",
+        "sha256_in_prefix": "66fde127746f343881f69cec94db1e2ae2e45482f2c39afbe2252714bf83d9c0",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "Library/include/pdal/pdalc_config.h",
+        "path_type": "hardlink",
+        "sha256": "c7ff1438be0c7d6a38d14655b544bea4957029b86a65d68f4f52d6f0b89744eb",
+        "sha256_in_prefix": "c7ff1438be0c7d6a38d14655b544bea4957029b86a65d68f4f52d6f0b89744eb",
+        "size_in_bytes": 5701
+      },
+      {
+        "_path": "Library/include/pdal/pdalc_defines.h",
+        "path_type": "hardlink",
+        "sha256": "62e5c4472be916785c8762d374e5a832d5d6ad3357c851d46ba7619bd4975e6a",
+        "sha256_in_prefix": "62e5c4472be916785c8762d374e5a832d5d6ad3357c851d46ba7619bd4975e6a",
+        "size_in_bytes": 2627
+      },
+      {
+        "_path": "Library/include/pdal/pdalc_dimtype.h",
+        "path_type": "hardlink",
+        "sha256": "33f79fcb954ca2dfdb0492c4fe9895a8cd577f329e62eb5f958546d61d007da9",
+        "sha256_in_prefix": "33f79fcb954ca2dfdb0492c4fe9895a8cd577f329e62eb5f958546d61d007da9",
+        "size_in_bytes": 4816
+      },
+      {
+        "_path": "Library/include/pdal/pdalc_forward.h",
+        "path_type": "hardlink",
+        "sha256": "0cbc141afee7f9c892de98a2368f606ffff25ae8dba649e64967a19ee6886c54",
+        "sha256_in_prefix": "0cbc141afee7f9c892de98a2368f606ffff25ae8dba649e64967a19ee6886c54",
+        "size_in_bytes": 3477
+      },
+      {
+        "_path": "Library/include/pdal/pdalc_pipeline.h",
+        "path_type": "hardlink",
+        "sha256": "86046b41c3b403fff5b94e269baadcc39d65398727feb5482d606ee49b1fcd73",
+        "sha256_in_prefix": "86046b41c3b403fff5b94e269baadcc39d65398727feb5482d606ee49b1fcd73",
+        "size_in_bytes": 5578
+      },
+      {
+        "_path": "Library/include/pdal/pdalc_pointlayout.h",
+        "path_type": "hardlink",
+        "sha256": "5c8d42da04f3bd191833313c7589be52d33d4798269c834dd23273389b97171c",
+        "sha256_in_prefix": "5c8d42da04f3bd191833313c7589be52d33d4798269c834dd23273389b97171c",
+        "size_in_bytes": 4033
+      },
+      {
+        "_path": "Library/include/pdal/pdalc_pointview.h",
+        "path_type": "hardlink",
+        "sha256": "ea88b451aa38cf4478e316ca5b36bd5b172236e9d172545016e25aca298670bd",
+        "sha256_in_prefix": "ea88b451aa38cf4478e316ca5b36bd5b172236e9d172545016e25aca298670bd",
+        "size_in_bytes": 7011
+      },
+      {
+        "_path": "Library/include/pdal/pdalc_pointviewiterator.h",
+        "path_type": "hardlink",
+        "sha256": "c4e1508e024906d1b1efe52940f86ae96c02e7f1993b7cc47f8c4964e8564581",
+        "sha256_in_prefix": "c4e1508e024906d1b1efe52940f86ae96c02e7f1993b7cc47f8c4964e8564581",
+        "size_in_bytes": 3558
+      },
+      {
+        "_path": "Library/lib/pdalc.lib",
+        "path_type": "hardlink",
+        "sha256": "a1308fff6c8d64f1e3d15c301b8c25df7bd7e75b3134d22bb98a6ce243cc2045",
+        "sha256_in_prefix": "a1308fff6c8d64f1e3d15c301b8c25df7bd7e75b3134d22bb98a6ce243cc2045",
+        "size_in_bytes": 13410
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pdal-c=2.1.1",
+  "sha256": "8017a3436283992335ae3b3aa7de621b3492cb485ffcbd870d378a50ed8a25b2",
+  "size": 60808,
+  "subdir": "win-64",
+  "timestamp": 1659779642506,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pdal-c-2.1.1-h0e60522_1.tar.bz2",
+  "version": "2.1.1"
+}
