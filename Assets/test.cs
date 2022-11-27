@@ -13,6 +13,7 @@ public class test : MonoBehaviour
         OSGeo.GdalConfiguration.ConfigureGdal();
         OSGeo.GdalConfiguration.ConfigureOgr();
         Pdal.PdalConfiguration.ConfigurePdal();
+        Debug.Log($"MDAL vrersion : {MdalConfiguration.ConfigureMdal()}");
     }
 
     // Update is called once per frame
