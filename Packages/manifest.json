@@ -10,6 +10,7 @@
     "com.unity.timeline": "1.7.2",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.8",
+    "com.virgis.conda-extensions": "https://github.com/ViRGIS-Team/CondaExtensions.git",
     "com.virgis.gdal": "https://github.com/ViRGIS-Team/gdal-upm.git",
     "com.virgis.mdal": "1.0.0",
     "com.virgis.pdal": "2.4.0",
