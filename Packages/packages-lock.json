@@ -169,7 +169,7 @@
       "dependencies": {
         "com.virgis.conda-extensions": "1.0.3"
       },
-      "hash": "202bd7738be48943e56869bf96bc1213f5fcfbc9"
+      "hash": "c59e2c857a6e95e22d58ef24f6c8a4a5465b9b0b"
     },
     "com.virgis.geometry3sharp": {
       "version": "2.0.0",
