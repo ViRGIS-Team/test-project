@@ -9,7 +9,6 @@ public class test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(MdalConfiguration.ConfigureMdal());
         OSGeo.GdalConfiguration.ConfigureGdal();
         OSGeo.GdalConfiguration.ConfigureOgr();
         Pdal.PdalConfiguration.ConfigurePdal();
