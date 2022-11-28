@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "$(ls ~/local/miniconda3)"
-echo "$(ls ~/local/miniconda3/bin)"
-
 echo "$(ls Assets)"
 echo "$(ls Assets/Conda)"
 
