@@ -182,20 +182,20 @@
       "url": "https://packages.unity.com"
     },
     "com.virgis.conda-extensions": {
-      "version": "https://github.com/ViRGIS-Team/CondaExtensions.git#conda-platform",
-      "depth": 0,
-      "source": "git",
+      "version": "1.0.4",
+      "depth": 1,
+      "source": "registry",
       "dependencies": {},
-      "hash": "3fb843ce38857da6ed422e65c992760ab3b11543"
+      "url": "https://package.openupm.com"
     },
     "com.virgis.gdal": {
-      "version": "https://github.com/ViRGIS-Team/gdal-upm.git#3.6.2",
+      "version": "3.6.1",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
         "com.virgis.conda-extensions": "1.0.4"
       },
-      "hash": "b520d5e87d645d361060c5a995571dc7e67f9df5"
+      "url": "https://package.openupm.com"
     },
     "com.virgis.geometry3sharp": {
       "version": "2.0.0",
@@ -212,17 +212,17 @@
         "com.virgis.geometry3sharp": "2.0.0",
         "com.virgis.conda-extensions": "1.0.4"
       },
-      "hash": "b7ce53ae34d8e458a38080fc03b40252eb33abf2"
+      "hash": "166b9b4403ec6691fe6d14d420a18696024cb800"
     },
     "com.virgis.pdal": {
-      "version": "https://github.com/ViRGIS-Team/pdal-upm.git",
+      "version": "2.4.1",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
         "com.virgis.geometry3sharp": "1.0.4",
         "com.virgis.conda-extensions": "1.0.4"
       },
-      "hash": "65e159eb671e7048048d7a60eaddacc5bda55acd"
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
