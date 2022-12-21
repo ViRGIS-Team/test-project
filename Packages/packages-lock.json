@@ -205,14 +205,14 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.mdal": {
-      "version": "https://github.com/ViRGIS-Team/mdal-upm.git",
+      "version": "1.0.100",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
         "com.virgis.geometry3sharp": "2.0.0",
         "com.virgis.conda-extensions": "1.0.4"
       },
-      "hash": "166b9b4403ec6691fe6d14d420a18696024cb800"
+      "url": "https://package.openupm.com"
     },
     "com.virgis.pdal": {
       "version": "2.4.1",
