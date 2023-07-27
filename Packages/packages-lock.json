@@ -9,6 +9,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.burst": {
+      "version": "1.8.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
       "depth": 1,
@@ -58,6 +67,13 @@
     "com.unity.ide.vscode": {
       "version": "1.2.5",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mathematics": {
+      "version": "1.2.6",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -171,13 +187,13 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.gdal": {
-      "version": "https://github.com/ViRGIS-Team/gdal-upm.git",
+      "version": "3.6.3",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
         "com.virgis.conda-extensions": "1.0.4"
       },
-      "hash": "b42d7076512c3d0d7b1ab7cac455fb4efe44b2bd"
+      "url": "https://package.openupm.com"
     },
     "com.virgis.geometry3sharp": {
       "version": "2.0.0",
@@ -187,12 +203,23 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.mdal": {
-      "version": "1.0.102",
+      "version": "1.0.300",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.virgis.geometry3sharp": "2.0.0",
         "com.virgis.conda-extensions": "1.0.4"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.virgis.pdal": {
+      "version": "2.5.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.virgis.geometry3sharp": "1.0.4",
+        "com.virgis.conda-extensions": "1.0.4",
+        "com.unity.burst": "1.7.4"
       },
       "url": "https://package.openupm.com"
     },
