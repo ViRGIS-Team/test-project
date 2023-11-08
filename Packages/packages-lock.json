@@ -187,7 +187,7 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.gdal": {
-      "version": "3.6.3",
+      "version": "3.7.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
