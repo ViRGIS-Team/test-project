@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mdal;
+using Pdal;
 using OSGeo.GDAL;
 using g3;
+using System.IO;
+using Newtonsoft.Json;
+using System.Linq;
 
 public class test : MonoBehaviour
 {
@@ -14,6 +18,29 @@ public class test : MonoBehaviour
         OSGeo.GdalConfiguration.ConfigureOgr();
         Pdal.PdalConfiguration.ConfigurePdal();
         Debug.Log($"MDAL vrersion : {MdalConfiguration.ConfigureMdal()}");
+        string path = Application.streamingAssetsPath;
+        Datasource ds = Datasource.Load(Path.Combine(path, "paraboloid.m.tin"));
+        MdalMesh mesh = ds.GetMesh(0);
+        MeshFilter mf = GetComponent<MeshFilter>();
+        mf.mesh = mesh;
+        PolyLine3d test = new PolyLine3d(((DMesh3)mesh).Vertices());
+        Vector3 t2 = (Vector3)test[0];
+        List<object> pipe = new List<object>();
+        pipe.Add(Path.Combine(path,"autzen-height.tif"));
+        pipe.Add(new
+            {
+                type = "filters.delaunay"
+            }
+        );
+
+        string json = JsonConvert.SerializeObject(pipe.ToArray());
+
+        Pipeline pl = new Pipeline(json);
+
+        long count = pl.Execute();
+
+        Debug.Log($"Point Count is {count}");
+
         g3_test();
     }
 
