@@ -242,7 +242,7 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.pdal": {
-      "version": "2.6.3",
+      "version": "2.7.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
