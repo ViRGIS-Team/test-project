@@ -73,4 +73,7 @@ crashlytics-build.properties
 
 /Assets/Conda*
 /Assets/StreamingAssets/gdal
-/Assets/SteramingAssets/proj
+/Assets/StreamingAssets/proj
+.DS_Store
+Assets/StreamingAssets/gdal.meta
+Assets/StreamingAssets/proj.meta
