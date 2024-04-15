@@ -1,13 +1,13 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mdal;
 using Pdal;
 using OSGeo.GDAL;
+using OSGeo.OSR;
 using g3;
 using System.IO;
 using Newtonsoft.Json;
-using System.Linq;
+
 
 public class test : MonoBehaviour
 {
@@ -16,7 +16,13 @@ public class test : MonoBehaviour
     {
         OSGeo.GdalConfiguration.ConfigureGdal();
         OSGeo.GdalConfiguration.ConfigureOgr();
-        Pdal.PdalConfiguration.ConfigurePdal();
+        Debug.Log($"GDAL Path : {Gdal.GetConfigOption("GDAL_DATA", null)}");
+        SpatialReference sr = new SpatialReference("");
+        int ret = sr.ImportFromPCI( "LONG/LAT    D506", "DEGREE", null);
+        if (ret != 0 ) Debug.LogError("GDAL Configuration incorrect");
+        sr.ExportToPrettyWkt(out string wkt,0);
+        Debug.Log(wkt);
+        PdalConfiguration.ConfigurePdal();
         Debug.Log($"MDAL vrersion : {MdalConfiguration.ConfigureMdal()}");
         string path = Application.streamingAssetsPath;
         Datasource ds = Datasource.Load(Path.Combine(path, "paraboloid.m.tin"));

@@ -119,18 +119,18 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot": {
-      "version": "2.0.6",
+      "version": "2.0.7",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot.linux-x86_64": {
-      "version": "2.0.5",
+      "version": "2.0.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "2.0.6"
+        "com.unity.sysroot": "2.0.7"
       },
       "url": "https://packages.unity.com"
     },
@@ -156,7 +156,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -177,12 +177,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.toolchain.macos-x86_64-linux-x86_64": {
-      "version": "2.0.5",
+      "version": "2.0.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "2.0.6",
-        "com.unity.sysroot.linux-x86_64": "2.0.5"
+        "com.unity.sysroot": "2.0.7",
+        "com.unity.sysroot.linux-x86_64": "2.0.6"
       },
       "url": "https://packages.unity.com"
     },
@@ -196,7 +196,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.1",
+      "version": "1.9.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -213,7 +213,7 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.gdal": {
-      "version": "3.8.0",
+      "version": "3.8.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -242,7 +242,7 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.pdal": {
-      "version": "2.7.0",
+      "version": "2.7.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
