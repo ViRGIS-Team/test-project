@@ -204,7 +204,7 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.gdal": {
-      "version": "3.8.1",
+      "version": "3.8.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -223,7 +223,7 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.mdal": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -233,7 +233,7 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.pdal": {
-      "version": "2.7.1",
+      "version": "2.7.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
