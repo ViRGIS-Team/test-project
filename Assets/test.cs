@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Mdal;
-//using Pdal;
+using Pdal;
 using OSGeo.GDAL;
 using OSGeo.OSR;
 using g3;
@@ -22,7 +22,7 @@ public class test : MonoBehaviour
         if (ret != 0 ) Debug.LogError("GDAL Configuration incorrect");
         sr.ExportToPrettyWkt(out string wkt,0);
         Debug.Log(wkt);
-        //PdalConfiguration.ConfigurePdal();
+        PdalConfiguration.ConfigurePdal();
         Debug.Log($"MDAL vrersion : {MdalConfiguration.ConfigureMdal()}");
         string path = Application.streamingAssetsPath;
         Datasource ds = Datasource.Load(Path.Combine(path, "paraboloid.m.tin"));
@@ -41,11 +41,11 @@ public class test : MonoBehaviour
 
         string json = JsonConvert.SerializeObject(pipe.ToArray());
 
-        //Pipeline pl = new Pipeline(json);
+        Pipeline pl = new Pipeline(json);
 
-        //long count = pl.Execute();
+        long count = pl.Execute();
 
-        //Debug.Log($"Point Count is {count}");
+        Debug.Log($"Point Count is {count}");
 
         g3_test();
     }
