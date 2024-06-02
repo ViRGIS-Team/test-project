@@ -12,5 +12,5 @@ The project tests that the package loads the plugin correctly and the plugin can
 
 Current Cloud Build binaries of this test project can be downloaded from here:
 
-- Windows :
+- Windows : https://cloud.unity.com/public/build-automation/share?shareId=pdCS11OW8KI0AKmlb1Y0Cav4CH1xo6W7PDsbow1O4nw
 - MacOS : https://cloud.unity.com/public/build-automation/share?shareId=umw3s9yUB1RhtDvqMybX8Kv4CH1xo6W7PDsbow1O4nw
