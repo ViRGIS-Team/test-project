@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.andywiecko.burst.triangulator": {
-      "version": "2.3.0",
+      "version": "2.5.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -22,7 +22,7 @@
     },
     "com.unity.collections": {
       "version": "2.4.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.12",
@@ -77,13 +77,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.ide.vscode": {
-      "version": "1.2.5",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.mathematics": {
       "version": "1.3.1",
       "depth": 2,
@@ -93,7 +86,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -120,18 +113,18 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot": {
-      "version": "2.0.7",
+      "version": "2.0.10",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot.linux-x86_64": {
-      "version": "2.0.6",
+      "version": "2.0.9",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "2.0.7"
+        "com.unity.sysroot": "2.0.10"
       },
       "url": "https://packages.unity.com"
     },
@@ -148,7 +141,7 @@
     },
     "com.unity.test-framework.performance": {
       "version": "3.0.3",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.31",
@@ -167,7 +160,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.8.6",
+      "version": "1.8.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -179,12 +172,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.toolchain.macos-x86_64-linux-x86_64": {
-      "version": "2.0.6",
+      "version": "2.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "2.0.7",
-        "com.unity.sysroot.linux-x86_64": "2.0.6"
+        "com.unity.sysroot": "2.0.10",
+        "com.unity.sysroot.linux-x86_64": "2.0.9"
       },
       "url": "https://packages.unity.com"
     },
@@ -215,42 +208,44 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.gdal": {
-      "version": "3.9.0",
+      "version": "3.9.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.virgis.conda-extensions": "1.0.4"
+        "com.virgis.conda-extensions": "1.0.4",
+        "com.virgis.geometry": "4.0.0"
       },
       "url": "https://package.openupm.com"
     },
     "com.virgis.geometry": {
-      "version": "3.1.0",
+      "version": "4.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.3.1",
-        "com.andywiecko.burst.triangulator": "2.3.0"
+        "com.andywiecko.burst.triangulator": "2.5.0",
+        "com.unity.collections": "2.4.0"
       },
       "url": "https://package.openupm.com"
     },
     "com.virgis.mdal": {
-      "version": "1.1.1",
+      "version": "1.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.virgis.geometry": "3.1.0",
+        "com.virgis.geometry": "4.0.0",
         "com.virgis.conda-extensions": "1.0.4"
       },
       "url": "https://package.openupm.com"
     },
     "com.virgis.pdal": {
-      "version": "2.7.2",
+      "version": "2.7.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.virgis.geometry": "3.1.0",
+        "com.virgis.geometry": "4.0.0",
         "com.virgis.conda-extensions": "1.0.4",
-        "com.unity.burst": "1.8.7"
+        "com.unity.burst": "1.8.13"
       },
       "url": "https://package.openupm.com"
     },

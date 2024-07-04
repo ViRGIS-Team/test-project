@@ -1,16 +1,24 @@
 using System.Collections.Generic;
+using Unity.Collections;
+using System;
+using System.Diagnostics;
 using UnityEngine;
 using Mdal;
 using Pdal;
 using OSGeo.GDAL;
+using OSGeo.OGR;
 using OSGeo.OSR;
-using g3;
+using VirgisGeometry;
 using System.IO;
 using Newtonsoft.Json;
-
+using Debug = UnityEngine.Debug;
 
 public class test : MonoBehaviour
 {
+
+    public GameObject OgrGameObject;
+    public GameObject Ogr2;
+    public GameObject GdalGameObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +33,122 @@ public class test : MonoBehaviour
         PdalConfiguration.ConfigurePdal();
         Debug.Log($"MDAL vrersion : {MdalConfiguration.ConfigureMdal()}");
         string path = Application.streamingAssetsPath;
+        MeshFilter mf = OgrGameObject.GetComponent<MeshFilter>();
+
+        try
+        {
+            /* -------------------------------------------------------------------- */
+            /*      Open dataset.                                                   */
+            /* -------------------------------------------------------------------- */
+            Dataset dataset = Gdal.Open(Path.Combine(path, "bug4468.tif"), Access.GA_ReadOnly);
+
+            if (dataset == null)
+            {
+                throw new Exception("Can't open GDAL");
+            }
+
+            Debug.Log("Raster dataset parameters:");
+            Debug.Log("  Projection: " + dataset.GetProjectionRef());
+            Debug.Log("  RasterCount: " + dataset.RasterCount);
+            Debug.Log("  RasterSize (" + dataset.RasterXSize + "," + dataset.RasterYSize + ")");
+
+            /* -------------------------------------------------------------------- */
+            /*      Get driver                                                      */
+            /* -------------------------------------------------------------------- */
+            OSGeo.GDAL.Driver drv = dataset.GetDriver();
+
+            if (drv == null)
+            {
+                throw new Exception("Can't get driver.");
+            }
+
+            Console.WriteLine("Using driver " + drv.LongName);
+
+            /* -------------------------------------------------------------------- */
+            /*      Get raster band                                                 */
+            /* -------------------------------------------------------------------- */
+            for (int iBand = 1; iBand <= dataset.RasterCount; iBand++)
+            {
+                Band band = dataset.GetRasterBand(iBand);
+                Debug.Log("Band " + iBand + " :");
+                Debug.Log("   DataType: " + band.DataType);
+                Debug.Log("   Size (" + band.XSize + "," + band.YSize + ")");
+                Debug.Log("   PaletteInterp: " + band.GetRasterColorInterpretation().ToString());
+
+                for (int iOver = 0; iOver < band.GetOverviewCount(); iOver++)
+                {
+                    Band over = band.GetOverview(iOver);
+                    Debug.Log("      OverView " + iOver + " :");
+                    Debug.Log("         DataType: " + over.DataType);
+                    Debug.Log("         Size (" + over.XSize + "," + over.YSize + ")");
+                    Debug.Log("         PaletteInterp: " + over.GetRasterColorInterpretation().ToString());
+                }
+            }
+
+            /* -------------------------------------------------------------------- */
+            /*      Processing the raster                                           */
+            /* -------------------------------------------------------------------- */
+
+
+            Stopwatch timer = new Stopwatch();
+            timer.Start();
+            Texture2D tex = dataset.ToRGB();
+
+            // OGR Section
+
+
+            DataSource datasource = Ogr.Open(Path.Combine(path, "polygon.geojson"), 1);
+            if (datasource == null)
+                throw (new FileNotFoundException());
+
+            Debug.Log($"Number of OGR Layers : {datasource.GetLayerCount()}");
+            Layer layer = datasource.GetLayerByIndex(0);
+            layer.ResetReading();
+            Feature f = null;
+            do
+            {
+                f = layer.GetNextFeature();
+                if (f != null)
+                {
+                    Debug.Log($"Found Feature {f.DumpReadableAsString(new string[0])}");
+                    Geometry geom = f.GetGeometryRef();
+                    Matrix4x4 trans = OgrGameObject.transform.worldToLocalMatrix;
+                    trans *= Ogr2.transform.localToWorldMatrix;
+                    foreach (DMesh3 pmesh in geom.ToMeshList())
+                    {
+                        pmesh.Transform(trans, default, true);
+                        pmesh.CalculateMapUVs(dataset);
+                        mf.mesh = (Mesh)pmesh;
+                    }
+                }
+            } while (f != null);
+
+
+
+            if (tex is not null)
+            {
+                MeshRenderer mr = GdalGameObject.GetComponent<MeshRenderer>();
+                Material mat = mr.material;
+                mat.SetTexture("_MainTex", tex);
+                mat.mainTexture = tex;
+            }
+            Debug.Log($"GDAL Raster Load took { timer.ElapsedMilliseconds} ms");
+        }
+        catch (Exception e)
+        {
+            throw new Exception("Application error: " + e.Message);
+        }
+
+        // MDAL Section
+
         Datasource ds = Datasource.Load(Path.Combine(path, "paraboloid.m.tin"));
         MdalMesh mesh = ds.GetMesh(0);
-        MeshFilter mf = GetComponent<MeshFilter>();
+        mf = GetComponent<MeshFilter>();
         mf.mesh = mesh;
         PolyLine3d test = new PolyLine3d(((DMesh3)mesh).Vertices());
         Vector3 t2 = (Vector3)test[0];
+
+        //PDAL Section
         List<object> pipe = new List<object>();
         pipe.Add(Path.Combine(path,"autzen-height.tif"));
         pipe.Add(new
@@ -73,5 +191,7 @@ public class test : MonoBehaviour
         Vector2d g3Vecd2 = new();
         g3Vecd2 = unityVec2;
         unityVec2 = (Vector2)g3Vecd2;
+        TransformSequence ts = transform.localToWorldMatrix;
+        Debug.Log(ts);
     }
 }
