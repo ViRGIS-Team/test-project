@@ -2,6 +2,7 @@
 
 echo "$(ls Assets)"
 echo "$(ls Assets/Conda)"
+echo "$(ls Assets/Conda/lib)"
 
 
 select fname in Assets/Conda/*.txt;
