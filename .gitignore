@@ -77,3 +77,4 @@ crashlytics-build.properties
 .DS_Store
 Assets/StreamingAssets/gdal.meta
 Assets/StreamingAssets/proj.meta
+/dist
