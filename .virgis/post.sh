@@ -5,8 +5,9 @@ echo "$(ls Assets/Conda)"
 echo "$(ls Assets/Conda/lib)"
 
 
-for fname in Assets/Conda/*.txt; do
-echo $fname
+#for fname in Assets/Conda/*.txt; do
+#echo $fname
 # Don't forget the "" around the second part, else newlines won't be printed
 printf "%s" "$(<Assets/Conda/pdal_log.txt)"
+
 #done
