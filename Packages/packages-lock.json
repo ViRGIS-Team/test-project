@@ -11,7 +11,7 @@
       "url": "https://package.openupm.com"
     },
     "com.unity.burst": {
-      "version": "1.8.18",
+      "version": "1.8.24",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -42,25 +42,24 @@
     "com.unity.ext.nunit": {
       "version": "2.0.5",
       "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.feature.development": {
       "version": "1.0.2",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.22",
-        "com.unity.ide.rider": "3.0.31",
+        "com.unity.ide.visualstudio": "2.0.23",
+        "com.unity.ide.rider": "3.0.36",
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.performance.profile-analyzer": "1.2.2",
-        "com.unity.test-framework": "1.4.5",
+        "com.unity.performance.profile-analyzer": "1.2.3",
+        "com.unity.test-framework": "1.5.1",
         "com.unity.testtools.codecoverage": "1.2.6"
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.31",
+      "version": "3.0.36",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -69,7 +68,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.22",
+      "version": "2.0.23",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -107,14 +106,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
-      "version": "2.0.1",
+      "version": "2.1.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -137,22 +136,21 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.4.5",
+      "version": "1.5.1",
       "depth": 0,
-      "source": "registry",
+      "source": "builtin",
       "dependencies": {
         "com.unity.ext.nunit": "2.0.3",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.test-framework.performance": {
-      "version": "3.0.3",
+      "version": "3.1.0",
       "depth": 3,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.31",
+        "com.unity.test-framework": "1.1.33",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -168,7 +166,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.8.7",
+      "version": "1.8.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -199,7 +197,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.4",
+      "version": "1.9.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -209,21 +207,21 @@
       "url": "https://packages.unity.com"
     },
     "com.virgis.conda-extensions": {
-      "version": "1.0.4",
-      "depth": 1,
-      "source": "registry",
+      "version": "https://github.com/ViRGIS-Team/CondaExtensions.git",
+      "depth": 0,
+      "source": "git",
       "dependencies": {},
-      "url": "https://package.openupm.com"
+      "hash": "8335338926574458025c713fb0ba5ac692366d5b"
     },
     "com.virgis.gdal": {
-      "version": "3.10.0",
+      "version": "https://github.com/ViRGIS-Team/gdal-upm.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
         "com.virgis.conda-extensions": "1.0.4",
         "com.virgis.geometry": "4.0.1"
       },
-      "url": "https://package.openupm.com"
+      "hash": "aa3b9e8344986791420badcc87205e0dc9daeec3"
     },
     "com.virgis.geometry": {
       "version": "4.0.1",
@@ -237,25 +235,27 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.mdal": {
-      "version": "1.3.0",
+      "version": "https://github.com/ViRGIS-Team/mdal-upm.git",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.virgis.geometry": "4.0.0",
-        "com.virgis.conda-extensions": "1.0.4"
-      },
-      "url": "https://package.openupm.com"
-    },
-    "com.virgis.pdal": {
-      "version": "2.8.0",
-      "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
         "com.virgis.geometry": "4.0.0",
         "com.virgis.conda-extensions": "1.0.4",
-        "com.unity.burst": "1.8.13"
+        "com.virgis.gdal": "3.11.1"
       },
-      "url": "https://package.openupm.com"
+      "hash": "ca6c5d2720c8c2b84608c2157490e5aaeda9bf59"
+    },
+    "com.virgis.pdal": {
+      "version": "https://github.com/ViRGIS-Team/pdal-upm.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.virgis.geometry": "4.0.0",
+        "com.virgis.conda-extensions": "1.0.4",
+        "com.unity.burst": "1.8.13",
+        "com.virgis.gdal": "3.11.1"
+      },
+      "hash": "d973ed98a51051cf030e38bb7770945c29855f0a"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
