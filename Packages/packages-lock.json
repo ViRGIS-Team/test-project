@@ -197,7 +197,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.7",
+      "version": "1.9.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -207,21 +207,21 @@
       "url": "https://packages.unity.com"
     },
     "com.virgis.conda-extensions": {
-      "version": "https://github.com/ViRGIS-Team/CondaExtensions.git",
-      "depth": 0,
-      "source": "git",
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
       "dependencies": {},
-      "hash": "c5b97a914e8ea2b96719ed3ba3b3b9cca0a1d5ef"
+      "url": "https://package.openupm.com"
     },
     "com.virgis.gdal": {
-      "version": "https://github.com/ViRGIS-Team/gdal-upm.git",
+      "version": "3.11.1",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
-        "com.virgis.conda-extensions": "1.0.4",
+        "com.virgis.conda-extensions": "2.0.0",
         "com.virgis.geometry": "4.0.1"
       },
-      "hash": "aa3b9e8344986791420badcc87205e0dc9daeec3"
+      "url": "https://package.openupm.com"
     },
     "com.virgis.geometry": {
       "version": "4.0.1",
@@ -235,27 +235,25 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.mdal": {
-      "version": "https://github.com/ViRGIS-Team/mdal-upm.git",
+      "version": "1.3.2",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
-        "com.virgis.geometry": "4.0.0",
-        "com.virgis.conda-extensions": "1.0.4",
-        "com.virgis.gdal": "3.11.1"
+        "com.virgis.geometry": "4.0.1",
+        "com.virgis.conda-extensions": "1.0.4"
       },
-      "hash": "ca6c5d2720c8c2b84608c2157490e5aaeda9bf59"
+      "url": "https://package.openupm.com"
     },
     "com.virgis.pdal": {
-      "version": "https://github.com/ViRGIS-Team/pdal-upm.git",
+      "version": "2.9.1",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
-        "com.virgis.geometry": "4.0.0",
-        "com.virgis.conda-extensions": "1.0.4",
-        "com.unity.burst": "1.8.13",
-        "com.virgis.gdal": "3.11.1"
+        "com.virgis.geometry": "4.0.1",
+        "com.virgis.conda-extensions": "2.0.0",
+        "com.unity.burst": "1.8.13"
       },
-      "hash": "d973ed98a51051cf030e38bb7770945c29855f0a"
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
