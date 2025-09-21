@@ -197,7 +197,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.8",
+      "version": "1.9.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -207,21 +207,21 @@
       "url": "https://packages.unity.com"
     },
     "com.virgis.conda-extensions": {
-      "version": "2.0.0",
-      "depth": 1,
-      "source": "registry",
+      "version": "https://github.com/ViRGIS-Team/CondaExtensions.git",
+      "depth": 0,
+      "source": "git",
       "dependencies": {},
-      "url": "https://package.openupm.com"
+      "hash": "eee247e62baa82a89f6a15830bb467554967636b"
     },
     "com.virgis.gdal": {
-      "version": "3.11.1",
+      "version": "https://github.com/ViRGIS-Team/gdal-upm.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
-        "com.virgis.conda-extensions": "2.0.0",
+        "com.virgis.conda-extensions": "2.0.1",
         "com.virgis.geometry": "4.0.1"
       },
-      "url": "https://package.openupm.com"
+      "hash": "88f19269b3eb3d6779a9f8fef59d2169b03d8df8"
     },
     "com.virgis.geometry": {
       "version": "4.0.1",
@@ -235,25 +235,25 @@
       "url": "https://package.openupm.com"
     },
     "com.virgis.mdal": {
-      "version": "1.3.2",
+      "version": "https://github.com/ViRGIS-Team/mdal-upm.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
         "com.virgis.geometry": "4.0.1",
-        "com.virgis.conda-extensions": "1.0.4"
+        "com.virgis.conda-extensions": "2.0.1"
       },
-      "url": "https://package.openupm.com"
+      "hash": "c0517b9d38503f8efc869ebe82f19c46e095c449"
     },
     "com.virgis.pdal": {
-      "version": "2.9.1",
+      "version": "https://github.com/ViRGIS-Team/pdal-upm.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
         "com.virgis.geometry": "4.0.1",
-        "com.virgis.conda-extensions": "2.0.0",
+        "com.virgis.conda-extensions": "2.0.1",
         "com.unity.burst": "1.8.13"
       },
-      "url": "https://package.openupm.com"
+      "hash": "a56de239621a3990d4eb88dcabcf424782de1211"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
