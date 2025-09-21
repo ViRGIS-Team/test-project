@@ -1,0 +1,9 @@
+version: 2.1
+
+orbs:
+  unity: gameci/unity@1.6.0
+
+workflows:
+ create-unity-activation-file:
+    jobs:
+      - unity/create-activation-file 
