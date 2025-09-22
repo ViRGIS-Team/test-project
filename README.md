@@ -14,11 +14,15 @@ The project tests that the package loads the plugin correctly and the plugin can
 
 ### Windows
 
-[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=a0ikqz77hQottb0cuwA_gqv4CH1xo6W7PDsbow1O4nw)
+[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=nNd-gKZkQSwa2g0E5Ozraav4CH1xo6W7PDsbow1O4nw)
 
 ### OSX-64
 
 [Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=5l8CTqa-xpLZea81Dn6JLav4CH1xo6W7PDsbow1O4nw)
+
+### OSX-ARM
+
+[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=Bl6BBT5SLOPe_OY1uEUp2Kv4CH1xo6W7PDsbow1O4nw)
 
 ## (maybe) Working Locally but not in Cloud Build
 
@@ -32,8 +36,6 @@ Not currently tested
 
 ## Not Working
 
-### OSX-ARM
 
-Problem being investigated
 
 
