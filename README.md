@@ -18,7 +18,7 @@ The project tests that the package loads the plugin correctly and the plugin can
 
 ### OSX-64
 
-[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=5l8CTqa-xpLZea81Dn6JLav4CH1xo6W7PDsbow1O4nw)
+[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=UidgSTBHBgwRz-qBAbzyTav4CH1xo6W7PDsbow1O4nw)
 
 ### OSX-ARM
 
