@@ -232,7 +232,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "841966628e767f41424336c8c4eb4b7156fccc3c"
+      "hash": "104b150f234425aa913b028c83cb9cc2dcff0330"
     },
     "com.virgis.gdal": {
       "version": "https://github.com/ViRGIS-Team/gdal-upm.git",
