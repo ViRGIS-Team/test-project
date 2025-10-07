@@ -1,0 +1,52 @@
+{
+  "Packages": [
+    {
+      "Name": "mdal",
+      "Cleans": [],
+      "Shared_Datas": [
+        "gdal",
+        "proj"
+      ]
+    },
+    {
+      "Name": "gdal",
+      "Cleans": [
+        {
+          "path": [
+            "conda_bin"
+          ],
+          "includes": [
+            "^GDAL."
+          ],
+          "excludes": [
+            "."
+          ]
+        },
+        {
+          "path": [
+            "conda_shared",
+            "gdal"
+          ],
+          "includes": [
+            "./.nupkg$"
+          ],
+          "excludes": [
+            "."
+          ]
+        }
+      ],
+      "Shared_Datas": [
+        "gdal",
+        "proj"
+      ]
+    },
+    {
+      "Name": "pdal",
+      "Cleans": [],
+      "Shared_Datas": [
+        "gdal",
+        "proj"
+      ]
+    }
+  ]
+}

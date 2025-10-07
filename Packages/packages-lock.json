@@ -34,7 +34,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.editorcoroutines": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -52,15 +52,15 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.ide.visualstudio": "2.0.23",
-        "com.unity.ide.rider": "3.0.37",
-        "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.performance.profile-analyzer": "1.2.3",
+        "com.unity.ide.rider": "3.0.38",
+        "com.unity.editorcoroutines": "1.0.1",
+        "com.unity.performance.profile-analyzer": "1.2.4",
         "com.unity.test-framework": "1.6.0",
-        "com.unity.testtools.codecoverage": "1.2.6"
+        "com.unity.testtools.codecoverage": "1.2.7"
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.37",
+      "version": "3.0.38",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -107,7 +107,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -157,7 +157,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.2.6",
+      "version": "1.2.7",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -232,7 +232,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "104b150f234425aa913b028c83cb9cc2dcff0330"
+      "hash": "5c1f7ffbffd8dc5194d60d45d13f4d72688dd221"
     },
     "com.virgis.gdal": {
       "version": "https://github.com/ViRGIS-Team/gdal-upm.git",
@@ -242,7 +242,7 @@
         "com.virgis.conda-extensions": "3.0.0",
         "com.virgis.geometry": "4.0.1"
       },
-      "hash": "e1c382320a2c4e08b82a0a42a6991b29a7a248ab"
+      "hash": "02a11eee8aa29e7b13ddefb7b823f5051ede22ef"
     },
     "com.virgis.geometry": {
       "version": "4.0.1",
@@ -263,7 +263,7 @@
         "com.virgis.geometry": "4.0.1",
         "com.virgis.conda-extensions": "3.0.0"
       },
-      "hash": "62a60b6a1ec1c2b6d58971509bc2a02cef2e39b1"
+      "hash": "3775e216f3bfdfe5cda1107b476ceb6a3ba9fd7c"
     },
     "com.virgis.pdal": {
       "version": "https://github.com/ViRGIS-Team/pdal-upm.git",
@@ -274,7 +274,7 @@
         "com.virgis.conda-extensions": "3.0.0",
         "com.unity.burst": "1.8.13"
       },
-      "hash": "95244bf9cb96226d20e8215a136720049626055c"
+      "hash": "d8cf466ffdfafe77deb35d03e57ac4b0067cdae5"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

@@ -71,11 +71,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-/Assets/Conda*
 /Assets/StreamingAssets/gdal
 /Assets/StreamingAssets/proj
 .DS_Store
 Assets/StreamingAssets/gdal.meta
 Assets/StreamingAssets/proj.meta
 /dist
-.utmp
