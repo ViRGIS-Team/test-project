@@ -1,5 +1,6 @@
 ﻿<Solution>
   <Project Path="Unity.Timeline.csproj" />
+  <Project Path="Unity.MemoryProfiler.Editor.csproj" />
   <Project Path="Unity.VisualScripting.Flow.csproj" />
   <Project Path="Gdal for Unity.csproj" />
   <Project Path="Unity.Timeline.Editor.csproj" />
@@ -35,13 +36,16 @@
   <Project Path="Pdal for Unity.csproj" />
   <Project Path="Unity.Settings.Editor.csproj" />
   <Project Path="CondaExt.csproj" />
+  <Project Path="Unity.MemoryProfiler.Editor.MemoryProfilerModule.csproj" />
   <Project Path="Unity.Multiplayer.Center.Common.csproj" />
+  <Project Path="Unity.MemoryProfiler.csproj" />
   <Project Path="Unity.Collections.CodeGen.csproj" />
   <Project Path="Unity.Mathematics.Editor.csproj" />
   <Project Path="Unity.Toolchain.Macos-x86_64-Linux-x86_64.csproj" />
   <Project Path="Unity.SysrootPackage.Editor.csproj" />
   <Project Path="Unity.Toolchain.Macos-arm64-Linux-x86_64.csproj" />
   <Project Path="Unity.VisualScripting.Shared.Editor.csproj" />
+  <Project Path="Unity.Profiling.Core.csproj" />
   <Project Path="Unity.EditorCoroutines.Editor.csproj" />
   <Project Path="andywiecko.BurstTriangulator.csproj" />
   <Project Path="gdal-Unity.Editor.csproj" />
