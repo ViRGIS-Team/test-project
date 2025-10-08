@@ -1,14 +1,6 @@
 {
   "Packages": [
     {
-      "Name": "mdal",
-      "Cleans": [],
-      "Shared_Datas": [
-        "gdal",
-        "proj"
-      ]
-    },
-    {
       "Name": "gdal",
       "Cleans": [
         {
@@ -42,6 +34,14 @@
     },
     {
       "Name": "pdal",
+      "Cleans": [],
+      "Shared_Datas": [
+        "gdal",
+        "proj"
+      ]
+    },
+    {
+      "Name": "mdal",
       "Cleans": [],
       "Shared_Datas": [
         "gdal",
