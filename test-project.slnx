@@ -21,6 +21,7 @@
   <Project Path="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj" />
   <Project Path="Unity.Rider.Editor.csproj" />
   <Project Path="Unity.VisualScripting.State.Editor.csproj" />
+  <Project Path="Unity.InternalAPIEngineBridge.004.csproj" />
   <Project Path="Unity.TestTools.CodeCoverage.Editor.csproj" />
   <Project Path="Unity.Burst.CodeGen.csproj" />
   <Project Path="Unity.PerformanceTesting.csproj" />
@@ -29,10 +30,8 @@
   <Project Path="UnityEditor.UI.csproj" />
   <Project Path="Unity.TextMeshPro.csproj" />
   <Project Path="Unity.VisualScripting.SettingsProvider.Editor.csproj" />
-  <Project Path="Unity.Toolchain.Linux-x86_64.csproj" />
   <Project Path="Unity.Burst.Editor.csproj" />
   <Project Path="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj" />
-  <Project Path="Unity.Sysroot.Linux_x86_64.csproj" />
   <Project Path="Pdal for Unity.csproj" />
   <Project Path="Unity.Settings.Editor.csproj" />
   <Project Path="CondaExt.csproj" />
@@ -41,9 +40,8 @@
   <Project Path="Unity.MemoryProfiler.csproj" />
   <Project Path="Unity.Collections.CodeGen.csproj" />
   <Project Path="Unity.Mathematics.Editor.csproj" />
-  <Project Path="Unity.Toolchain.Macos-x86_64-Linux-x86_64.csproj" />
-  <Project Path="Unity.SysrootPackage.Editor.csproj" />
-  <Project Path="Unity.Toolchain.Macos-arm64-Linux-x86_64.csproj" />
+  <Project Path="UnityEditor.UI.Analytics.csproj" />
+  <Project Path="Unity.VisualScripting.DocCodeExamples.csproj" />
   <Project Path="Unity.VisualScripting.Shared.Editor.csproj" />
   <Project Path="Unity.Profiling.Core.csproj" />
   <Project Path="Unity.EditorCoroutines.Editor.csproj" />

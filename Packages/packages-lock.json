@@ -18,7 +18,7 @@
       "url": "https://package.openupm.com"
     },
     "com.unity.burst": {
-      "version": "1.8.24",
+      "version": "1.8.29",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -28,17 +28,16 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
-      "version": "2.5.7",
+      "version": "6.4.0",
       "depth": 1,
-      "source": "registry",
+      "source": "builtin",
       "dependencies": {
-        "com.unity.burst": "1.8.19",
+        "com.unity.burst": "1.8.23",
         "com.unity.mathematics": "1.3.2",
-        "com.unity.test-framework": "1.4.6",
         "com.unity.nuget.mono-cecil": "1.11.5",
+        "com.unity.test-framework": "1.4.6",
         "com.unity.test-framework.performance": "3.0.3"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.editorcoroutines": {
       "version": "1.0.1",
@@ -58,16 +57,16 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.25",
-        "com.unity.ide.rider": "3.0.38",
+        "com.unity.ide.visualstudio": "2.0.27",
+        "com.unity.ide.rider": "3.0.39",
         "com.unity.editorcoroutines": "1.0.1",
-        "com.unity.performance.profile-analyzer": "1.2.4",
+        "com.unity.performance.profile-analyzer": "1.3.3",
         "com.unity.test-framework": "1.6.0",
-        "com.unity.testtools.codecoverage": "1.2.7"
+        "com.unity.testtools.codecoverage": "1.3.0"
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.38",
+      "version": "3.0.39",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -76,23 +75,23 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.25",
-      "depth": 1,
+      "version": "2.0.27",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.31"
+        "com.unity.test-framework": "1.1.33"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
-      "version": "1.3.2",
+      "version": "1.3.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.memoryprofiler": {
-      "version": "1.1.9",
+      "version": "1.1.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -105,7 +104,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer.center": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -113,54 +112,38 @@
       }
     },
     "com.unity.nuget.mono-cecil": {
-      "version": "1.11.5",
+      "version": "1.11.6",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "3.2.1",
+      "version": "3.2.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
-      "version": "1.2.4",
+      "version": "1.3.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.profiling.core": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
-      "version": "2.1.0",
+      "version": "2.1.1",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.sysroot": {
-      "version": "2.0.10",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.sysroot.linux-x86_64": {
-      "version": "2.0.9",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.10"
-      },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
@@ -174,7 +157,7 @@
       }
     },
     "com.unity.test-framework.performance": {
-      "version": "3.1.0",
+      "version": "3.4.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -184,17 +167,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.2.7",
+      "version": "1.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.0.16",
-        "com.unity.settings-manager": "1.0.1"
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.settings-manager": "2.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.8.9",
+      "version": "1.8.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -202,36 +185,6 @@
         "com.unity.modules.director": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.toolchain.linux-x86_64": {
-      "version": "2.0.10",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.10",
-        "com.unity.sysroot.linux-x86_64": "2.0.9"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.toolchain.macos-arm64-linux-x86_64": {
-      "version": "2.0.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.10",
-        "com.unity.sysroot.linux-x86_64": "2.0.9"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.toolchain.macos-x86_64-linux-x86_64": {
-      "version": "2.0.10",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.10",
-        "com.unity.sysroot.linux-x86_64": "2.0.9"
       },
       "url": "https://packages.unity.com"
     },
@@ -245,7 +198,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.7",
+      "version": "1.9.11",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -261,17 +214,17 @@
       "dependencies": {
         "com.google.external-dependency-manager": "1.2.186"
       },
-      "hash": "ed6f029877010d801f09762b6d40cb0373fc3f4b"
+      "hash": "e3e435b80bc81147e5a096876b1a15482b37ce52"
     },
     "com.virgis.gdal": {
       "version": "https://github.com/ViRGIS-Team/gdal-upm.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.virgis.conda-extensions": "3.0.0",
+        "com.virgis.conda-extensions": "3.0.1",
         "com.virgis.geometry": "4.0.1"
       },
-      "hash": "02a11eee8aa29e7b13ddefb7b823f5051ede22ef"
+      "hash": "3f45107f2e0e0e7bc18ea202e8e5f623ce4b4131"
     },
     "com.virgis.geometry": {
       "version": "https://github.com/ViRGIS-Team/ViRGiS-Geometry.git",
@@ -290,9 +243,9 @@
       "source": "git",
       "dependencies": {
         "com.virgis.geometry": "4.0.1",
-        "com.virgis.conda-extensions": "3.0.0"
+        "com.virgis.conda-extensions": "3.0.1"
       },
-      "hash": "3775e216f3bfdfe5cda1107b476ceb6a3ba9fd7c"
+      "hash": "1b09ba20d2e755607f89576c63849d557874790f"
     },
     "com.virgis.pdal": {
       "version": "https://github.com/ViRGIS-Team/pdal-upm.git",
@@ -300,16 +253,24 @@
       "source": "git",
       "dependencies": {
         "com.virgis.geometry": "4.0.1",
-        "com.virgis.conda-extensions": "3.0.0",
+        "com.virgis.conda-extensions": "3.0.1",
         "com.unity.burst": "1.8.13"
       },
-      "hash": "d8cf466ffdfafe77deb35d03e57ac4b0067cdae5"
+      "hash": "ac57580d1394867edd70e9e8ab7573512fe638ab"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
+    },
+    "com.unity.modules.adaptiveperformance": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
@@ -516,6 +477,16 @@
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.vectorgraphics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
       }
     },
     "com.unity.modules.vehicles": {
