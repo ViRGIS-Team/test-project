@@ -14,26 +14,25 @@ The project tests that the package loads the plugin correctly and the plugin can
 
 ### Windows
 
-[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=nNd-gKZkQSwa2g0E5Ozraav4CH1xo6W7PDsbow1O4nw)
+[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=UbrCHwvvzJ4fzlSY1iG1VKv4CH1xo6W7PDsbow1O4nw)
 
 ### OSX-64
 
-[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=UidgSTBHBgwRz-qBAbzyTav4CH1xo6W7PDsbow1O4nw)
+[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=UDkfpA9qV1UlgHqr0MKx4qv4CH1xo6W7PDsbow1O4nw)
 
 ### OSX-ARM
 
-[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=Bl6BBT5SLOPe_OY1uEUp2Kv4CH1xo6W7PDsbow1O4nw)
+[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=vcQEiCbHawWObE__53nZR6v4CH1xo6W7PDsbow1O4nw)
 
-## (maybe) Working Locally but not in Cloud Build
+## Building on Cloud using IL2CPP but the client not tested yet
 
 ### Linux
 
-Not tested yet
+[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=GQvqsaHrUaHkUqEP2NGtLKv4CH1xo6W7PDsbow1O4nw)
 
 ### UWP
 
-Not currently tested
-
+[Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=XCGyUH8uPG0GudP4QjOxbav4CH1xo6W7PDsbow1O4nw)
 ## Not Working
 
 
