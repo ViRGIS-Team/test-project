@@ -10,7 +10,7 @@
     "com.unity.timeline": "1.8.12",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.11",
-    "com.virgis.gdal": "file:/Users/paulharwood/Documents/GitHub/gdal-upm",
+    "com.virgis.gdal": "1.13.2",
     "com.virgis.mdal": "1.3.302",
     "com.virgis.pdal": "2.10.1",
     "com.unity.modules.accessibility": "1.0.0",
