@@ -214,7 +214,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "06ca7dedf2a5fd199a3091abcfdb18c4970fd583"
+      "hash": "b712cd4c473a7365ca01c697b200b54675383328"
     },
     "com.virgis.gdal": {
       "version": "3.13.4",
