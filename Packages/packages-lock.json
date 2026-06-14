@@ -210,11 +210,11 @@
       "url": "https://packages.unity.com"
     },
     "com.virgis.conda-extensions": {
-      "version": "3.0.5",
-      "depth": 1,
-      "source": "registry",
+      "version": "https://github.com/ViRGIS-Team/CondaExtensions.git",
+      "depth": 0,
+      "source": "git",
       "dependencies": {},
-      "url": "https://package.openupm.com"
+      "hash": "da30cf5f7b393d49b4bc288ca4cabe36dab6b013"
     },
     "com.virgis.gdal": {
       "version": "3.13.4",
