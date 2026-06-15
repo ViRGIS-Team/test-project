@@ -26,12 +26,10 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.name }}-${{
-            hashFiles(matrix.projectPath) }}
+          path: Library
+          key: Library-${{ matrix.name }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-${{ matrix.name }}-
-            Library-${{ matrix.projectPath }}-
+            Library${{ matrix.name }}
             Library-
 
 
@@ -84,12 +82,10 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.name }}-${{
-            hashFiles(matrix.projectPath) }}
+          path: Library
+          key: Library-${{ matrix.name }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-${{ matrix.name }}-
-            Library-${{ matrix.projectPath }}-
+            Library${{ matrix.name }}
             Library-
 
 
@@ -142,12 +138,10 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.name }}-${{
-            hashFiles(matrix.projectPath) }}
+          path: Library
+          key: Library-${{ matrix.name }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-${{ matrix.name }}-
-            Library-${{ matrix.projectPath }}-
+            Library${{ matrix.name }}
             Library-
 
 
