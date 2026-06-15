@@ -1,4 +1,4 @@
-name: Actions 😎
+name: Build for Linux
 
 on: workflow_dispatch
 
@@ -31,6 +31,24 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: StandaloneLinux64
+
+      # Restore Linux SONAME symlinks
+      - name: Restore native plugin symlinks
+        run: |
+          set -eux
+
+          SRC="Assets/Conda/Plugins/x64"
+          DST=$(find build -type d -path "*/StandaloneLinux64_Data/Plugins/x86_64" | head -1)
+
+          echo "Plugin destination: $DST"
+
+          rm -rf "$DST"
+          mkdir -p "$DST"
+
+          cp -a "$SRC"/. "$DST"/
+
+          echo "Verifying symlinks..."
+          find "$DST" -maxdepth 1 -type l | head
 
       # Output
       - uses: actions/upload-artifact@v4
