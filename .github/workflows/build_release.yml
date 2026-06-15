@@ -60,7 +60,7 @@ jobs:
             ${{ matrix.name }}-${{ github.event.release.tag_name }}.zip
 
   buildForWindowsBasedPlatforms:
-    name: Build for ${{ matrix.targetPlatform }}
+    name: Build for ${{ matrix.architecture }}
     runs-on: windows-latest
     strategy:
       fail-fast: false
