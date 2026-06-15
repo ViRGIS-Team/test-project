@@ -21,7 +21,7 @@ To down dopwnload the binaries for all built platforms - see the latest Github R
 ### OSX-ARM
 
 ### Linux
-
+NOTE : The linux binaries only work if the LD_LIBRARY_PATH is set to point to the `test-project-linux-64_Data/Plugins/x86_64` folder. Otherwise, the native plugins will not be found.
 
 ## Building on Cloud but the client not tested yet
 
