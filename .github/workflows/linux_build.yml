@@ -1,19 +1,18 @@
-name: Build for Linux
+name: Build Linux Release
 
-on: workflow_dispatch
+on:
+  release:
+    types: [published]
 
 jobs:
   build:
-    name: Build my project ✨
     runs-on: ubuntu-latest
+
     steps:
-      # Checkout
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           lfs: true
 
-      # Cache
       - uses: actions/cache@v3
         with:
           path: Library
@@ -21,8 +20,6 @@ jobs:
           restore-keys: |
             Library-
 
-
-      # Build
       - name: Build project
         uses: game-ci/unity-builder@v4
         env:
@@ -31,29 +28,16 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: StandaloneLinux64
+          versioning: Custom
+          version: ${{ github.event.release.tag_name }}
 
-      # Restore Linux SONAME symlinks
-      - name: Restore native plugin symlinks
+      - name: Create release archive
         run: |
-          set -eux
+          cd build
+          zip -r --symlinks ../StandaloneLinux64-${{ github.event.release.tag_name }}.zip .
 
-          SRC="Assets/Conda/Plugins/x64"
-          DST=$(find build -type d -path "*/StandaloneLinux64_Data/Plugins/x86_64" | head -1)
-
-          echo "Plugin destination: $DST"
-
-          sudo chown -R $(id -u):$(id -g) build
-
-          rm -rf "$DST"
-          mkdir -p "$DST"
-
-          cp -a "$SRC"/. "$DST"/
-
-          echo "Verifying symlinks..."
-          find "$DST" -maxdepth 1 -type l | head
-
-      # Output
-      - uses: actions/upload-artifact@v4
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
         with:
-          name: Build
-          path: build
+          files: |
+            StandaloneLinux64-${{ github.event.release.tag_name }}.zip
