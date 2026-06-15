@@ -88,11 +88,10 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
           versioning: Custom
           version: ${{ github.event.release.tag_name }}
-
+          
       - name: Create release archive
-        run: |
-          cd build
-          zip -r --symlinks ../${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip .
+        shell: pwsh
+        run: Compress-Archive -Path . -DestinationPath ./${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip -Force
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v2
