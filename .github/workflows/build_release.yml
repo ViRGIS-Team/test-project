@@ -109,9 +109,11 @@ jobs:
           - targetPlatform: StandaloneOSX # Build a macOS standalone.
             architecture: osx-64
             name: test-project-osx-64
+            build_profile: 'Assets/Settings/Build Profiles/macOS.asset'
           - targetPlatform: StandaloneOSX
             architecture: osx-arm64
             name: test-project-osx-arm64
+            build_profile: 'Assets/Settings/Build Profiles/macOS Silicon.asset'
 
     env:
       CONDA_ARCH_OVERRIDE: ${{ matrix.architecture }}
@@ -143,6 +145,7 @@ jobs:
           versioning: Custom
           version: ${{ github.event.release.tag_name }}
           buildName: ${{ matrix.name }}
+          buildProfile: ${{ matrix.build_profile }}
 
       - name: Create release archive
         run: |
