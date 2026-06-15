@@ -24,11 +24,12 @@ The project tests that the package loads the plugin correctly and the plugin can
 
 [Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=uZSCj3on4LZ5VxiD8qfJBqv4CH1xo6W7PDsbow1O4nw)
 
-## Building on Cloud using IL2CPP but the client not tested yet
 
 ### Linux
 
 [Download the built player](https://cloud.unity.com/public-share/build-automation/share?shareId=hrR2ZMmF40Jo38nW_ItCUqv4CH1xo6W7PDsbow1O4nw)
+
+## Building on Cloud but the client not tested yet
 
 ### UWP
 
