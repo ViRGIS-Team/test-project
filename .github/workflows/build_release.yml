@@ -105,8 +105,17 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        targetPlatform:
-          - StandaloneOSX # Build a macOS standalone.
+        include:
+          - targetPlatform: StandaloneOSX # Build a macOS standalone.
+            architecture: osx-64
+            name: test-project-osx-64
+          - targetPlatform: StandaloneOSX
+            architecture: osx-arm64
+            name: test-project-osx-arm64
+
+    env:
+      CONDA_ARCH_OVERRIDE: ${{ matrix.architecture }}
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -115,10 +124,10 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-${{
+          key: Library-${{ matrix.projectPath }}-${{ matrix.name }}-${{
             hashFiles(matrix.projectPath) }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-
+            Library-${{ matrix.projectPath }}-${{ matrix.name }}-
             Library-${{ matrix.projectPath }}-
             Library-
 
@@ -133,14 +142,15 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
           versioning: Custom
           version: ${{ github.event.release.tag_name }}
+          buildName: ${{ matrix.name }}
 
       - name: Create release archive
         run: |
           cd build
-          zip -r --symlinks ../${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip .
+          zip -r --symlinks ../${{ matrix.name }}-${{ github.event.release.tag_name }}.zip .
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            ${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip
+            ${{ matrix.name }}-${{ github.event.release.tag_name }}.zip
