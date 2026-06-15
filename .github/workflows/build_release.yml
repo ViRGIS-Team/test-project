@@ -71,7 +71,7 @@ jobs:
           - targetPlatform:  WSAPlayer # Build a windows 64-bit standalone.
             architecture: win-64
             name: test-project-win-uwp
-            build_profile: 'Assets\Settings\Build Profiles\Windows.asset'
+            build_profile: 'Assets\Settings\Build Profiles\win-uwp.asset'
     env:
       CONDA_ARCH_OVERRIDE: ${{ matrix.architecture }}
           
