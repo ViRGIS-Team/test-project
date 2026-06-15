@@ -1,4 +1,4 @@
-name: Build Linux Release
+name: Build A full Release
 
 on:
   release:
