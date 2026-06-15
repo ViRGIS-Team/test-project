@@ -42,7 +42,7 @@ jobs:
 
           echo "Plugin destination: $DST"
 
-          chmod -R u+w "$DST" || true
+          sudo chown -R $(id -u):$(id -g) build
 
           rm -rf "$DST"
           mkdir -p "$DST"
