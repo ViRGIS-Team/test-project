@@ -100,7 +100,7 @@ jobs:
             ${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip
 
   buildForMacOSBasedPlatforms:
-    name: Build for ${{ matrix.targetPlatform }}
+    name: Build for ${{ matrix.name }}
     runs-on: macos-latest
     strategy:
       fail-fast: false
