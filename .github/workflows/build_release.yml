@@ -6,7 +6,7 @@ on:
 
 jobs:
   buildAndTestForLinuxBasedPlatforms:
-    name: Build for ${{ matrix.architecture }}
+    name: Build for ${{ matrix.name }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -60,7 +60,7 @@ jobs:
             ${{ matrix.name }}-${{ github.event.release.tag_name }}.zip
 
   buildForWindowsBasedPlatforms:
-    name: Build for ${{ matrix.architecture }}
+    name: Build for ${{ matrix.name }}
     runs-on: windows-latest
     strategy:
       fail-fast: false
@@ -117,7 +117,7 @@ jobs:
             ${{ matrix.name }}-${{ github.event.release.tag_name }}.zip
 
   buildForMacOSBasedPlatforms:
-    name: Build for ${{ matrix.architecture }}
+    name: Build for ${{ matrix.name }}
     runs-on: macos-latest
     strategy:
       fail-fast: false
