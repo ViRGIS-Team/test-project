@@ -6,13 +6,18 @@ on:
 
 jobs:
   buildAndTestForLinuxBasedPlatforms:
-    name: Build for ${{ matrix.targetPlatform }}
+    name: Build for ${{ matrix.name }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        targetPlatform:
-          - StandaloneLinux64 # Build a Linux 64-bit standalone.
+        include:
+          - targetPlatform: StandaloneLinux64 # Build a Linux 64-bit standalone.
+            architecture: linux-64
+            name: test-project-linux-64
+            build_profile: 'Assets/Settings/Build Profiles/Linux.asset'
+    env:
+      CONDA_ARCH_OVERRIDE: ${{ matrix.architecture }} 
 
     steps:
       - uses: actions/checkout@v4
@@ -21,12 +26,10 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-${{
-            hashFiles(matrix.projectPath) }}
+          path: Library
+          key: Library-${{ matrix.name }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-
-            Library-${{ matrix.projectPath }}-
+            Library${{ matrix.name }}
             Library-
 
 
@@ -40,27 +43,37 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
           versioning: Custom
           version: ${{ github.event.release.tag_name }}
+          buildName: ${{ matrix.name }}
+          buildProfile: ${{ matrix.build_profile }}
 
       - name: Create release archive
         run: |
-          cd build
-          zip -r --symlinks ../${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip .
+          cd build/${{ matrix.targetPlatform }}
+          zip -r --symlinks ../${{ matrix.name }}-${{ github.event.release.tag_name }}.zip .
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            ${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip
+            ${{ matrix.name }}-${{ github.event.release.tag_name }}.zip
 
   buildForWindowsBasedPlatforms:
-    name: Build for ${{ matrix.targetPlatform }}
+    name: Build for ${{ matrix.name }}
     runs-on: windows-latest
     strategy:
       fail-fast: false
       matrix:
-        targetPlatform:
-          - StandaloneWindows64 # Build a Windows 64-bit standalone.
-          - WSAPlayer # Build a UWP App.
+        include:
+          - targetPlatform:  StandaloneWindows64 # Build a windows 64-bit standalone.
+            architecture: win-64
+            name: test-project-win-64
+            build_profile: 'Assets\Settings\Build Profiles\Windows.asset'
+          - targetPlatform:  WSAPlayer # Build a windows 64-bit standalone.
+            architecture: win-64
+            name: test-project-win-uwp
+            build_profile: 'Assets\Settings\Build Profiles\Windows.asset'
+    env:
+      CONDA_ARCH_OVERRIDE: ${{ matrix.architecture }}
           
     steps:
       - uses: actions/checkout@v4
@@ -69,12 +82,10 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-${{
-            hashFiles(matrix.projectPath) }}
+          path: Library
+          key: Library-${{ matrix.name }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-
-            Library-${{ matrix.projectPath }}-
+            Library${{ matrix.name }}
             Library-
 
 
@@ -88,16 +99,19 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
           versioning: Custom
           version: ${{ github.event.release.tag_name }}
+          buildName: ${{ matrix.name }}
+          buildProfile: ${{ matrix.build_profile }}
           
       - name: Create release archive
         shell: pwsh
-        run: Compress-Archive -Path . -DestinationPath ./${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip -Force
+        run: |
+          Compress-Archive -Path ./build/${{ matrix.targetPlatform }} -DestinationPath ./${{ matrix.name }}-${{ github.event.release.tag_name }}.zip -Force
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            ${{ matrix.targetPlatform }}-${{ github.event.release.tag_name }}.zip
+            ${{ matrix.name }}-${{ github.event.release.tag_name }}.zip
 
   buildForMacOSBasedPlatforms:
     name: Build for ${{ matrix.name }}
@@ -125,12 +139,10 @@ jobs:
 
       - uses: actions/cache@v3
         with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.name }}-${{
-            hashFiles(matrix.projectPath) }}
+          path: Library
+          key: Library-${{ matrix.name }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-${{ matrix.name }}-
-            Library-${{ matrix.projectPath }}-
+            Library${{ matrix.name }}
             Library-
 
 
@@ -149,7 +161,7 @@ jobs:
 
       - name: Create release archive
         run: |
-          cd build
+          cd build/${{ matrix.targetPlatform }}
           zip -r --symlinks ../${{ matrix.name }}-${{ github.event.release.tag_name }}.zip .
 
       - name: Upload release asset
