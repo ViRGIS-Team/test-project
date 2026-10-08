@@ -8,9 +8,11 @@ This is a small project that is used to test build the following, related UPM pa
 
 The project tests that the package loads the plugin correctly and the plugin can be called successfully. If you can see coloured artifacts on the screen, then the application is working but you really need to check the Player Log to know that it all worked.
 
+Currently working on Unity 6000.6 LTS
+
 # Platform Support
 
-To down dopwnload the binaries for all built platforms - see the latest Github Release
+To down download the binaries for all built platforms - see the latest Github Release
 
 ## Fully Working and Building using IL2CPP
 
@@ -25,9 +27,10 @@ NOTE : The linux binaries only work if the LD_LIBRARY_PATH is set to point to th
 
 ## Building on Cloud but the client not tested yet
 
-### UWP
 
 ## Not Working
+
+### UWP
 
 
 
