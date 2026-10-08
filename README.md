@@ -12,7 +12,7 @@ Currently working on Unity 6000.6 LTS
 
 # Platform Support
 
-To down dopwnload the binaries for all built platforms - see the latest Github Release
+To down download the binaries for all built platforms - see the latest Github Release
 
 ## Fully Working and Building using IL2CPP
 
